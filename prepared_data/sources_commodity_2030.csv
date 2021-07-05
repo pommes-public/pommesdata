@@ -1,0 +1,65 @@
+label,country,to,emission_factors,Unit,source
+DE_source_biomass,DE,DE_bus_biomass,0.0,t CO2/MWh,
+BE_source_biomass,BE,BE_bus_biomass,0.0,t CO2/MWh,
+DK2_source_biomass,DK2,DK2_bus_biomass,0.0,t CO2/MWh,
+DK1_source_biomass,DK1,DK1_bus_biomass,0.0,t CO2/MWh,
+SE4_source_biomass,SE4,SE4_bus_biomass,0.0,t CO2/MWh,
+DE_source_hardcoal,DE,DE_bus_hardcoal,0.335,t CO2/MWh,"UBA (2020), p. 16"
+DK1_source_hardcoal,DK1,DK1_bus_hardcoal,0.335,t CO2/MWh,"UBA (2020), p. 16"
+NL_source_hardcoal,NL,NL_bus_hardcoal,0.335,t CO2/MWh,"UBA (2020), p. 16"
+PL_source_hardcoal,PL,PL_bus_hardcoal,0.335,t CO2/MWh,"UBA (2020), p. 16"
+DE_source_lignite,DE,DE_bus_lignite,0.406,t CO2/MWh,"UBA (2020), p. 16"
+CZ_source_lignite,CZ,CZ_bus_lignite,0.406,t CO2/MWh,"UBA (2020), p. 16"
+PL_source_lignite,PL,PL_bus_lignite,0.406,t CO2/MWh,"UBA (2020), p. 16"
+DE_source_natgas,DE,DE_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+AT_source_natgas,AT,AT_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+BE_source_natgas,BE,BE_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+CZ_source_natgas,CZ,CZ_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+FR_source_natgas,FR,FR_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+NL_source_natgas,NL,NL_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+NO4_source_natgas,NO4,NO4_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+PL_source_natgas,PL,PL_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+NO2_source_natgas,NO2,NO2_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+NO5_source_natgas,NO5,NO5_bus_natgas,0.201,t CO2/MWh,"UBA (2020), p. 16"
+DE_source_oil,DE,DE_bus_oil,0.266,t CO2/MWh,"value for Heizöl, schwer from (UBA 2020), S. 27"
+AT_source_oil,AT,AT_bus_oil,0.266,t CO2/MWh,"value for Heizöl, schwer from (UBA 2020), S. 27"
+BE_source_oil,BE,BE_bus_oil,0.266,t CO2/MWh,"value for Heizöl, schwer from (UBA 2020), S. 27"
+DK2_source_oil,DK2,DK2_bus_oil,0.266,t CO2/MWh,"value for Heizöl, schwer from (UBA 2020), S. 27"
+DK1_source_oil,DK1,DK1_bus_oil,0.266,t CO2/MWh,"value for Heizöl, schwer from (UBA 2020), S. 27"
+FR_source_oil,FR,FR_bus_oil,0.266,t CO2/MWh,"value for Heizöl, schwer from (UBA 2020), S. 27"
+PL_source_oil,PL,PL_bus_oil,0.266,t CO2/MWh,"value for Heizöl, schwer from (UBA 2020), S. 27"
+DE_source_otherfossil,DE,DE_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+AT_source_otherfossil,AT,AT_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+BE_source_otherfossil,BE,BE_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+CH_source_otherfossil,CH,CH_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+CZ_source_otherfossil,CZ,CZ_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+DK2_source_otherfossil,DK2,DK2_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+DK1_source_otherfossil,DK1,DK1_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+NL_source_otherfossil,NL,NL_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+PL_source_otherfossil,PL,PL_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+SE3_source_otherfossil,SE3,SE3_bus_otherfossil,0.2452248,t CO2/MWh,Value for Grubengas based on exploration of powerplants
+DE_source_waste,DE,DE_bus_waste,0.164718,t CO2/MWh,"mean value of Hausmüll/Sidelungsabfall fossil (UBA 2018), S. 28; factor 0,5 in assumption that 50 percent of overall waste is organic waste"
+DE_source_mixedfuels,DE,DE_bus_mixedfuels,0.314,t CO2/MWh,"Mean value of lignite, hard coal and gas"
+CH_source_uranium,CH,CH_bus_uranium,0.0,t CO2/MWh,
+CZ_source_uranium,CZ,CZ_bus_uranium,0.0,t CO2/MWh,
+FR_source_uranium,FR,FR_bus_uranium,0.0,t CO2/MWh,
+NL_source_uranium,NL,NL_bus_uranium,0.0,t CO2/MWh,
+PL_source_uranium,PL,PL_bus_uranium,0.0,t CO2/MWh,
+SE3_source_uranium,SE3,SE3_bus_uranium,0.0,t CO2/MWh,
+AT_source_otherRES,AT,AT_bus_otherRES,0.0,t CO2/MWh,
+BE_source_otherRES,BE,BE_bus_otherRES,0.0,t CO2/MWh,
+CH_source_otherRES,CH,CH_bus_otherRES,0.0,t CO2/MWh,
+CZ_source_otherRES,CZ,CZ_bus_otherRES,0.0,t CO2/MWh,
+DK2_source_otherRES,DK2,DK2_bus_otherRES,0.0,t CO2/MWh,
+DK1_source_otherRES,DK1,DK1_bus_otherRES,0.0,t CO2/MWh,
+FR_source_otherRES,FR,FR_bus_otherRES,0.0,t CO2/MWh,
+NL_source_otherRES,NL,NL_bus_otherRES,0.0,t CO2/MWh,
+NO4_source_otherRES,NO4,NO4_bus_otherRES,0.0,t CO2/MWh,
+PL_source_otherRES,PL,PL_bus_otherRES,0.0,t CO2/MWh,
+SE1_source_otherRES,SE1,SE1_bus_otherRES,0.0,t CO2/MWh,
+SE2_source_otherRES,SE2,SE2_bus_otherRES,0.0,t CO2/MWh,
+SE3_source_otherRES,SE3,SE3_bus_otherRES,0.0,t CO2/MWh,
+SE4_source_otherRES,SE4,SE4_bus_otherRES,0.0,t CO2/MWh,
+NO2_source_otherRES,NO2,NO2_bus_otherRES,0.0,t CO2/MWh,
+NO5_source_otherRES,NO5,NO5_bus_otherRES,0.0,t CO2/MWh,
+FR_source_solarthermal,FR,FR_bus_solarthermal,0.0,t CO2/MWh,

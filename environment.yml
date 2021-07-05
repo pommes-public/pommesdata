@@ -1,0 +1,22 @@
+name: pommes_data
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - openpyxl
+  - pandas
+  - geopandas
+  - matplotlib
+  - jupyterlab
+  - notebook
+  - ipython
+  - nodejs
+  - scikit-learn
+  - statsmodels
+  - pip:
+    - oemof.solph==0.4.4
+

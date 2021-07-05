@@ -1,0 +1,13 @@
+label,costs
+DE_solarPV_cluster_1,-84.13
+DE_solarPV_cluster_2,-202.34
+DE_solarPV_cluster_3,-288.81
+DE_windoffshore_cluster_1,-27.51
+DE_windoffshore_cluster_2,-154.0
+DE_windoffshore_cluster_3,-194.0
+DE_windonshore_cluster_1,-55.18
+DE_windonshore_cluster_2,-84.44
+DE_windonshore_cluster_3,-99.1
+DE_solarPV_cluster_exogenous,-0.0
+DE_windoffshore_cluster_exogenous,-0.0
+DE_windonshore_cluster_exogenous,-0.0
