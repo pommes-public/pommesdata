@@ -36,7 +36,7 @@ NO3_source_ROR,237.0,NO3,NO3_bus_el
 NO4_source_ROR,142.0,NO4,NO4_bus_el
 NO5_source_ROR,112.0,NO5,NO5_bus_el
 DE_source_ROR,3555.9431049999994,DE,DE_bus_el
-DE_source_biomassEEG,,DE,DE_bus_el
+DE_source_biomassEEG,7000.0,DE,DE_bus_el
 DE_source_landfillgas,170.95574,DE,DE_bus_el
 DE_source_geothermal,37.75,DE,DE_bus_el
 DE_source_minegas,234.375,DE,DE_bus_el
@@ -65,4 +65,4 @@ SE1_source_solarPV,388.0,SE1,SE1_bus_el
 SE2_source_solarPV,663.0,SE2,SE2_bus_el
 SE3_source_solarPV,3390.0,SE3,SE3_bus_el
 SE4_source_solarPV,943.0,SE4,SE4_bus_el
-SE4_source_windoffshore,6596.549680817167,SE4,SE4_bus_el
+SE4_source_windoffshore,93.23503351825283,SE4,SE4_bus_el
