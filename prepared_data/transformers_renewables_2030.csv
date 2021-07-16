@@ -1,13 +1,13 @@
 label,from,capacity,fixed,value_applied,grad_pos,grad_neg,min_load_factor,country,to_el,efficiency_el
-DE_solarPV_cluster_1,DE_bus_solarPV,6010.65,0,84.13,100000,100000,0,DE,DE_bus_el,1
+DE_solarPV_cluster_1,DE_bus_solarPV,6008.34,0,84.15,100000,100000,0,DE,DE_bus_el,1
 DE_solarPV_cluster_2,DE_bus_solarPV,4304.66,0,202.34,100000,100000,0,DE,DE_bus_el,1
 DE_solarPV_cluster_3,DE_bus_solarPV,1247.29,0,288.81,100000,100000,0,DE,DE_bus_el,1
 DE_windoffshore_cluster_1,DE_bus_windoffshore,3116.53,0,27.51,100000,100000,0,DE,DE_bus_el,1
 DE_windoffshore_cluster_2,DE_bus_windoffshore,633.86,0,154.0,100000,100000,0,DE,DE_bus_el,1
 DE_windoffshore_cluster_3,DE_bus_windoffshore,4736.07,0,194.0,100000,100000,0,DE,DE_bus_el,1
-DE_windonshore_cluster_1,DE_bus_windonshore,9325.6,0,55.18,100000,100000,0,DE,DE_bus_el,1
+DE_windonshore_cluster_1,DE_bus_windonshore,9323.4,0,55.18,100000,100000,0,DE,DE_bus_el,1
 DE_windonshore_cluster_2,DE_bus_windonshore,13667.7,0,84.44,100000,100000,0,DE,DE_bus_el,1
 DE_windonshore_cluster_3,DE_bus_windonshore,13222.18,0,99.1,100000,100000,0,DE,DE_bus_el,1
-DE_solarPV_cluster_exogenous,DE_bus_solarPV,116061.0,1,0.0,100000,100000,0,DE,DE_bus_el,1
+DE_solarPV_cluster_exogenous,DE_bus_solarPV,111673.0,1,0.0,100000,100000,0,DE,DE_bus_el,1
 DE_windoffshore_cluster_exogenous,DE_bus_windoffshore,0.0,1,0.0,100000,100000,0,DE,DE_bus_el,1
 DE_windonshore_cluster_exogenous,DE_bus_windonshore,184.0,1,0.0,100000,100000,0,DE,DE_bus_el,1
