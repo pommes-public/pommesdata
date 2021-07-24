@@ -617,7 +617,7 @@ def estimate_lcoe_ise21(res_capex_dict, res_costs_dict, energy_carrier,
 
         LCOE_df.loc[year, :] = df.loc[year, LCOE_df.columns]
 
-    # LCOE calculation gives €/MWh while remainder of the data is €/kWh
-    LCOE_df = LCOE_df.astype(float).interpolate('linear').mul(1000)
+    # LCOE calculation gives €/kWh while remainder of the data is ct/kWh
+    LCOE_df = LCOE_df.astype(float).interpolate('linear').mul(100)
 
     return LCOE_df
