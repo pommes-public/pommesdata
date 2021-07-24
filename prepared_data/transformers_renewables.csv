@@ -1,7 +1,7 @@
 label,from,capacity,fixed,value_applied,grad_pos,grad_neg,min_load_factor,country,to_el,efficiency_el
-DE_solarPV_cluster_1,DE_bus_solarPV,6332.1,0,130.46,100000,100000,0,DE,DE_bus_el,1
-DE_solarPV_cluster_2,DE_bus_solarPV,3644.38,0,257.95,100000,100000,0,DE,DE_bus_el,1
-DE_solarPV_cluster_3,DE_bus_solarPV,465.99,0,395.15,100000,100000,0,DE,DE_bus_el,1
+DE_solarPV_cluster_1,DE_bus_solarPV,4004.43,0,99.69,100000,100000,0,DE,DE_bus_el,1
+DE_solarPV_cluster_2,DE_bus_solarPV,5971.59,0,228.89,100000,100000,0,DE,DE_bus_el,1
+DE_solarPV_cluster_3,DE_bus_solarPV,466.46,0,395.1,100000,100000,0,DE,DE_bus_el,1
 DE_windoffshore_cluster_1,DE_bus_windoffshore,668.86,0,154.0,100000,100000,0,DE,DE_bus_el,1
 DE_windoffshore_cluster_2,DE_bus_windoffshore,4736.07,0,194.0,100000,100000,0,DE,DE_bus_el,1
 DE_windonshore_cluster_1,DE_bus_windonshore,5628.21,0,79.63,100000,100000,0,DE,DE_bus_el,1
