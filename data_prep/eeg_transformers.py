@@ -411,7 +411,7 @@ def lcoe_fix_var(capex, opex_fix, opex_var, flh, wacc, lifetime, capacity=1):
     -------
     the calculated lcoe
     """
-    return ((capex + opex_fix * ppv(wacc, lifetime)
+    return (((capex + opex_fix * ppv(wacc, lifetime))
              + flh * capacity * opex_var * ppv(wacc, lifetime))
             / (flh * capacity * ppv(wacc, lifetime)))
 
@@ -580,40 +580,44 @@ def estimate_lcoe_ise21(res_capex_dict, res_costs_dict, energy_carrier,
     res_capex_df = res_capex_dict[energy_carrier]
     res_costs_df = res_costs_dict[energy_carrier]
 
-    df = res_capex_df.copy()
+    df = res_capex_df.T.copy()
 
     LCOE_df = pd.DataFrame(index=range(cost_years[0], cost_years[-1] + 1),
                            columns=['LCOE_low', 'LCOE_middle', 'LCOE_high'])
 
-    cols = ["flh_low", "flh_middle", "flh_low", "opex_fix",
-            "opex_var", "wacc_real"]
+    cols = ["flh_low", "flh_middle", "flh_high", "opex_fix",
+            "opex_var", "wacc_real", "lifetime"]
 
     for year in cost_years:
         for col in cols:
-            df.at[col, year] = res_costs_df.at[col, "2021"]
+            df.at[year, col] = res_costs_df.at[col, "2021"]
 
         df['LCOE_low'] = (
-            np.vectorize(lcoe_fix_var)(df['capex_low'].mul(1000),
+            np.vectorize(lcoe_fix_var)(df['capex_low'],
                                        df['opex_fix'],
                                        df['opex_var'],
-                                       df['flh_high'], df['wacc_real'],
-                                       df['unit_lifetime']))
+                                       df['flh_high'],
+                                       df['wacc_real']/100,
+                                       df['lifetime']))
+
         df['LCOE_middle'] = (
-            np.vectorize(lcoe_fix_var)(df['capex_middle'].mul(1000),
+            np.vectorize(lcoe_fix_var)(df['capex_middle'],
                                        df['opex_fix'],
                                        df['opex_var'],
-                                       df['flh_middle'], df['wacc_real'],
-                                       df['unit_lifetime']))
+                                       df['flh_middle'],
+                                       df['wacc_real']/100,
+                                       df['lifetime']))
         df['LCOE_high'] = (
-            np.vectorize(lcoe_fix_var)(df['capex_high'].mul(1000),
+            np.vectorize(lcoe_fix_var)(df['capex_high'],
                                        df['opex_fix'],
                                        df['opex_var'],
-                                       df['flh_low'], df['wacc_real'],
-                                       df['unit_lifetime']))
+                                       df['flh_low'],
+                                       df['wacc_real']/100,
+                                       df['lifetime']))
 
         LCOE_df.loc[year, :] = df.loc[year, LCOE_df.columns]
 
-    # LCOE calculation gives €/MWh while remainder of the data is ct/kWh
-    LCOE_df = LCOE_df.astype(float).interpolate('linear').div(10)
+    # LCOE calculation gives €/MWh while remainder of the data is €/kWh
+    LCOE_df = LCOE_df.astype(float).interpolate('linear').mul(1000)
 
     return LCOE_df
