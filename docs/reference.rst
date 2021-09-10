@@ -13,7 +13,7 @@ to *POMMES* model input used for ``pommes-dispatch`` as well as ``pommes-invest`
 Since it contains a transparent description itself, please directly `refer
 to it <https://github.com/pommes-public/pommes-data/blob/dev/data_preparation.ipynb>`_
 and jump to the data source or component you are interested in. We recommend
-to use a jupyter notebook or jupyterlac table of content extension to facilitate
+to use a jupyter notebook or jupyterlab table of content extension to facilitate
 navigation. You may find instructions for installing and using them here:
 
 * `jupyter nbextension <https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html>`_
@@ -29,7 +29,7 @@ Modules
 +++++++
 
 * ``eeg_transformers.py`` contains functions for reading in and creating RES units
-  regulated by the German Renewable Energies Act (Erneuerbare-Energien-Gesetz - EEG).
+  under the German Renewable Energies Act (Erneuerbare-Energien-Gesetz - EEG).
   This comprises routines for reading in data, clustering, assigning market values etc.
   Additionally, routines for the projection of levelized costs of electricity (LCOE)
   for RES units are included.

@@ -45,22 +45,22 @@ Using ``pommes-data`` is fairly simple:
 
 1. Open the `jupyter notebook <https://github.com/pommes-public/pommes-data/blob/dev/data_preparation.ipynb>`_.
 
-    * Activate your environment by typing
+* Activate your environment by typing
 
 .. code::
 
     conda activate pommes_data
 
-    * Open jupyterlab by typing
+* Open jupyterlab by typing
 
 .. code::
 
     jupyterlab
 
-2. Configure and run the jupyter notebook.
+3. Configure and run the jupyter notebook.
 
-    * Adjust the notebook workflow settings if you wish so. The respective
-      code cell looks like this
+* Adjust the notebook workflow settings if you wish so. The respective
+  code cell looks like this
 
 .. code:: python
 
