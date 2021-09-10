@@ -1,10 +1,9 @@
 # Ignore (files stored at) a given path
-*/results/*.csv
-*/results/*.png
+/prepared_data
 
 # Ignore files with a special ending (or content)
 *__pycache__*
-*.ipynb_checkpoints/*
+/pommesdata/.ipynb_checkpoints/
 *.idea
 *start_jupyter*
 *.aux
