@@ -4,9 +4,9 @@ Changelog
 v0.0.1 (YYYY-MM-DD)
 -------------------
 
-Initial release of ``pommes-data``
+Initial release of ``pommesdata``
 
-This is ``pommes-data``, **A full-featured transparent data preparation routine from raw data to POMMES model inputs**
+This is ``pommesdata``, **A full-featured transparent data preparation routine from raw data to POMMES model inputs**
 
 Features:
 

@@ -6,21 +6,21 @@ Installation and User's guide
 Installation
 ------------
 
-To set up ``pommes-data``, you have to set up a virtual environment (e.g. using conda)
+To set up ``pommesdata``, you have to set up a virtual environment (e.g. using conda)
 or add the required packages to your python installation.
 
-``pommes-data`` is (to be) hosted on `PyPI <https://pypi.org/>`_
+``pommesdata`` is (to be) hosted on `PyPI <https://pypi.org/>`_
 To install it, please use the following command
 
 .. code::
 
-    pip install pommes-data
+    pip install pommesdata
 
 For now, you still have to clone the environment and copy the files locally by typing
 
 .. code::
 
-    git clone https://github.com/pommes-public/pommes-data.git
+    git clone https://github.com/pommes-public/pommesdata.git
 
 After cloning the repository, you have to install the required dependencies.
 Make sure you have conda installed as a package manager.
@@ -41,9 +41,9 @@ Activate your environment by typing
 User's guide
 ------------
 
-Using ``pommes-data`` is fairly simple:
+Using ``pommesdata`` is fairly simple:
 
-1. Open the `jupyter notebook <https://github.com/pommes-public/pommes-data/blob/dev/data_preparation.ipynb>`_.
+1. Open the `jupyter notebook <https://github.com/pommes-public/pommesdata/blob/dev/data_preparation.ipynb>`_.
 
 * Activate your environment by typing
 
