@@ -84,8 +84,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | BNetzA | threshold for new-built power plants | Freie Nutzung | yes | https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Energie/Unternehmen_Institutionen/Versorgungssicherheit/Berichte_Fallanalysen/BNetzA_Netzstabilitaetsanlagen13k.pdf?__blob=publicationFile&v=3
 | DIW | efficiency estimates for power plants | copyright (?) | yes | https://www.diw.de/documents/publikationen/73/diw_01.c.440963.de/diw_datadoc_2014-072.pdf
 | BNetzA | power plants shutdown | Freie Nutzung | yes | https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/KWSAL/KWSAL
-| - | nuclear power plants shutdown | Freie Nutzung | yes | https://www.gesetze-im-internet.de/atg/
-| - | coal power plants shutdown | Freie Nutzung | yes | https://www.gesetze-im-internet.de/kvbg/index.html
+| juris | nuclear power plants shutdown | Freie Nutzung | yes | https://www.gesetze-im-internet.de/atg/
+| juris | coal power plants shutdown | Freie Nutzung | yes | https://www.gesetze-im-internet.de/kvbg/index.html
 | KWSB | coal power plants shutdown | CC BY-ND 3.0 DE | yes | https://www.bmwi.de/Redaktion/DE/Downloads/A/abschlussbericht-kommission-wachstum-strukturwandel-und-beschaeftigung.pdf?__blob=publicationFile
 | ENTSOE | Actual Generation per Generation Unit | open license, not specific | no | https://transparency.entsoe.eu/generation/r2/actualGenerationPerGenerationUnit/show
 | ENTSOE | Water Reservoirs and Hydro Storage Plants | open license, not specific | no | https://transparency.entsoe.eu/generation/r2/waterReservoirsAndHydroStoragePlants/show
@@ -106,7 +106,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | ÜNB | capacity balance | n.a. | yes | https://www.netztransparenz.de/portals/1/Bericht_zur_Leistungsbilanz_2019.pdf
 | DIW | fuel costs uranium 2017 | copyright (?) | yes | https://www.diw.de/documents/publikationen/73/diw_01.c.440963.de/diw_datadoc_2014-072.pdf
 | DIW | operation costs | copyright (?) | yes | https://www.diw.de/documents/publikationen/73/diw_01.c.440963.de/diw_datadoc_2014-072.pdf
-| Ökoinstitut | fuel costs lignite 2017 | n.a. | yes | https://www.oeko.de/oekodoc/1995/2014-015-de.pdf
+| Öko Institut | fuel costs lignite 2017 | n.a. | yes | https://www.oeko.de/oekodoc/1995/2014-015-de.pdf
 | Destatis | fuel costs hardcoal 2017 | CC BY 2.0 DE | yes | https://www-genesis.destatis.de/genesis/online?&sequenz=tabelleErgebnis&selectionname=43511-0001#abreadcrumb
 | BAFA | fuel costs natural gas 2017 | CC BY-ND 3.0 DE | yes | https://www.bafa.de/SharedDocs/Downloads/DE/Energie/egas_aufkommen_export_1991.html
 | BMWI | fuel costs heating oil 2017 | CC BY-ND 3.0 DE | yes | https://www.bmwi.de/Redaktion/DE/Artikel/Energie/energiedaten-gesamtausgabe.html
