@@ -23,19 +23,29 @@ If you are interested in the actual dispatch or investment model, please find mo
 ## Documentation
 The data preparation is mainly carried out in this **[jupyter notebook](https://github.com/pommes-public/pommesdata/blob/dev/data_preparation.ipynb)**. The data sources used as well as the calculation and transformation steps applied are described in a transparent manner. In addition to that, there is a **[documentation of pommesdata]()** on readthedocs. This in turn contains a documentation of the functions and classes used for data preparation. 
 
-## Installation
-To set up `pommesdata`, you have to set up a virtual environment (e.g. using conda) or add the required packages to your python installation.
+## Installation and usage
+There are **two use cases** for using `pommesdata`:
+1. Using readily prepared output data sets as `pommesdispatch` or `pommesinvest` inputs
+2. Understanding and manipulating the data prep process (inspecting / developing)
 
-`pommesdata` is (to be) hosted on [PyPI](). To install it, please use the following command
-```
-pip install pommesdata
-```
+If you are only interested in the readily prepared data sets (option 1), you can obtain
+them from zenodo and download it here: https://zenodo.org/
 
-For now, you still have to clone the environment and copy the files locally by typing
+If you are interested in understanding the data preparation process itself or
+if you wish to include own additions, changes or assumptions, you can
+you fist have to 
+[fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+ and then clone the repository, in order to copy the files locally by typing
+
 ```
 git clone https://github.com/pommes-public/pommesdata.git
 ```
-After cloning the repository, you have to install the required dependencies. Make sure you have conda installed as a package manager. If not, you can download it [here](https://www.anaconda.com/). Open a command shell and navigate to the folder where you copied the environment to. Use the following command to install dependencies
+
+After cloning the repository, you have to install the required dependencies.
+Make sure you have conda installed as a package manager.
+If not, you can download it [here](https://www.anaconda.com/).
+Open a command shell and navigate to the folder where you copied the environment to. Use the following command to install dependencies
+
 ```
 conda env create -f environment.yml
 ```
