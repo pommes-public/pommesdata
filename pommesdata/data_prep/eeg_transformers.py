@@ -21,9 +21,7 @@ Licensing information and Disclaimer
 ------------------------------------
 This software is provided under MIT License (see licensing file).
 
-@author: Yannick Werner
-
-Contributor: Johannes Kochems
+@author: Yannick Werner, Johannes Kochems
 """
 import numpy as np
 import pandas as pd

@@ -12,15 +12,14 @@ The functions serve to
 - assign gradient values and minimum loads to power plants,
 - assign time-dependent NTC values,
 - convert data into the structure of oemof.solph,
-- load ENTSO-E data and transfer it to the format needed.
+- load ENTSO-E data and transfer it to the format needed,
+- extract capacities from the TYNDP 2018 scenario data set.
 
 Licensing information and Disclaimer
 ------------------------------------
 This software is provided under MIT License (see licensing file).
 
-@author: Yannick Werner
-
-Contributor: Johannes Kochems
+@author: Yannick Werner, Johannes Kochems
 """
 from math import sin, cos, sqrt, atan2
 
@@ -235,7 +234,7 @@ def nodes_to_oemof(df, to="_bus_el", component=None,
 
 
 def load_entsoe_generation_data(country=None,
-                                path="./raw_data_input/hydro/inputs/",
+                                path="../raw_data_input/hydro/inputs/",
                                 filename=None):
     """Loads and preprocesses generation data from ENTSO-E
 
@@ -296,7 +295,7 @@ def load_entsoe_generation_data(country=None,
 
 
 def load_entsoe_transmission_data(country,
-                                  path="./raw_data_input/Interconnectors/"):
+                                  path="../raw_data_input/Interconnectors/"):
     """Loads and preprocesses ENTSO-E data for cross-border physical flows
 
     Parameters
@@ -330,3 +329,105 @@ def load_entsoe_transmission_data(country,
     except ValueError:
         msg = f"Could not process flow data between DE and {country}."
         raise ValueError(msg)
+
+
+def extract_tyndp_capacities(countries, no_dict, scenario="2030_DG",
+                             path="./"):
+    """Process the TYNDP RES projection and return manipulated data.
+
+    Steps:
+    - Read in the data
+    - Aggregate / disaggregate market zones
+    - Do some renaming
+    - Separate fluctuating RES from the data set
+
+    Parameters
+    ----------
+    countries: list
+        List of European countries to be modelled
+
+    no_dict:
+        dict of capacity per Norwegian bidding zones to be considered
+
+    scenario:
+        TYNDP 2018 scenario to be used (options: "2025 BEST", "2030 DG",
+        "2030 EUCO")
+
+    path: str
+        Path to input .xlsx file
+
+    Returns
+    -------
+    pp_eu_target_year: pd.DataFrame
+        A DataFrame containing the RES capacities for the considered target
+        year (2025 or 2030)
+    """
+    pp_eu_tyndp = pd.read_excel(
+        path,
+        sheet_name=scenario,
+        skiprows=2,
+        index_col=0)
+
+    pp_eu_tyndp = pp_eu_tyndp.filter(regex="|".join(list(countries.values())),
+                                     axis=0)
+
+    agg_list = {'DKw': ['DKw', 'DKKF'],
+                'FR': ['FR', 'FR15']}
+
+    if scenario == "2025 BEST":
+        agg_list["DKw"] = ["DKw", "DKkf"]
+
+    for k, v in agg_list.items():
+        pp_eu_tyndp.loc[k] = pp_eu_tyndp.loc[v[0]].add(pp_eu_tyndp.loc[v[1]])
+        pp_eu_tyndp.drop(v[1], inplace=True)
+
+    pp_eu_tyndp.rename(
+        index={'DKe': 'DK2',
+               'DKw': 'DK1',
+               'NOs': 'NO1+NO2+NO5',
+               'NOm': 'NO3',
+               'NOn': 'NO4'},
+        inplace=True)
+
+    pp_eu_tyndp.rename(
+        columns={'Biofuels': 'biomass',
+                 'Gas': 'natgas',
+                 'Hard coal': 'hardcoal',
+                 'Hydro-pump': 'PHES_capacity_pump',
+                 'Hydro-run': 'PHES_capacity',
+                 'Hydro-turbine': 'PHES_capacity_turbine',
+                 'Lignite': 'lignite',
+                 'Nuclear': 'uranium',
+                 'Oil': 'oil',
+                 'Othernon-RES': 'otherfossil',
+                 'Other RES': 'otherRES',
+                 'Solar-thermal': 'solarthermal',
+                 'Solar-\nPV': 'solarPV',
+                 'Wind-\non-shore': 'windonshore',
+                 'Wind-\noff-shore': 'windoffshore'},
+        inplace=True)
+
+    NO_cap_shares_dict = {}
+    for k, v in no_dict.items():
+        NO_cap_shares_dict[k] = float(v / sum(no_dict.values()))
+        try:
+            pp_eu_tyndp.loc[k] = (pp_eu_tyndp.loc[
+                                      '+'.join(list(no_dict.keys()))].copy()
+                                  * NO_cap_shares_dict[k])
+        except KeyError:
+            pass
+
+    pp_eu_tyndp.drop(index=['NO1', '+'.join(list(no_dict.keys()))],
+                     inplace=True)
+    pp_eu_tyndp.reset_index(inplace=True)
+
+    pp_eu_target_year = pd.melt(pp_eu_tyndp,
+                                id_vars=['Country/Installed capacity (MW)'])
+
+    pp_eu_target_year = pp_eu_target_year[
+        pp_eu_target_year['value'] != 0].rename(
+        columns={'Country/Installed capacity (MW)': 'country',
+                 'variable': 'fuel',
+                 'value': 'capacity'})
+
+    return pp_eu_target_year
