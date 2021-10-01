@@ -135,7 +135,7 @@ def create_ee_transformers(eeg_power_plants=None,
 def load_online_extrapolation(energy_carrier, filename):
     """Read data of the online extrapolation (Online Hochrechnung) for RES """
     netztransparenz = pd.read_csv(
-        './raw_data_input/renewables/' + filename + '.csv',
+        '../raw_data_input/renewables/' + filename + '.csv',
         sep=';', encoding='cp1252', decimal=',', usecols=[3, 4, 5, 6])
     netztransparenz.name = 'netztransparenz'
     netztransparenz.index = pd.date_range(start='2017-01-01 00:00:00',
