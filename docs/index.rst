@@ -1,11 +1,11 @@
-.. pommes-data documentation master file
+.. pommesdata documentation master file
 
-Welcome to pommes-data's documentation!
+Welcome to pommesdata's documentation!
 =======================================
 
 **A full-featured transparent data preparation routine from raw data to POMMES model inputs**
 
-This is the documentation of pommes-data, the data preparation routine of the
+This is the documentation of pommesdata, the data preparation routine of the
 fundamental power market model *POMMES* (**PO**\wer
 **M**\arket **M**\odel of **E**\nergy and re **S**\ources).
 

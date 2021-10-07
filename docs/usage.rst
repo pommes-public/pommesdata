@@ -6,27 +6,29 @@ Installation and User's guide
 Installation
 ------------
 
-To set up ``pommes-data``, you have to set up a virtual environment (e.g. using conda)
-or add the required packages to your python installation.
+There are **two use cases** for using ``pommesdata``:
+1. Using readily prepared output data sets as ``pommesdispatch`` or ``pommesinvest`` inputs
+2. Understanding and manipulating the data prep process (inspecting / developing)
 
-``pommes-data`` is (to be) hosted on `PyPI <https://pypi.org/>`_
-To install it, please use the following command
+If you are only interested in the readily prepared data sets (option 1), you can obtain
+them from zenodo and download it here: `https://zenodo.org/ <https://zenodo.org/>`_
+
+If you are interested in understanding the data preparation process itself or
+if you wish to include own additions, changes or assumptions, you can
+you fist have to
+`fork <https://docs.github.com/en/get-started/quickstart/fork-a-repo>`_
+ and then clone the repository, in order to copy the files locally by typing
 
 .. code::
 
-    pip install pommes-data
+    git clone https://github.com/pommes-public/pommesdata.git
 
-For now, you still have to clone the environment and copy the files locally by typing
-
-.. code::
-
-    git clone https://github.com/pommes-public/pommes-data.git
-
-After cloning the repository, you have to install the required dependencies.
-Make sure you have conda installed as a package manager.
-If not, you can download it `here <https://www.anaconda.com/>`_.
-Open a command shell and navigate to the folder where you copied the environment to.
-Use the following command to install dependencies
+| After cloning the repository, you have to install the required dependencies.
+ Make sure you have conda installed as a package manager.
+ If not, you can download it `here <https://www.anaconda.com/>`_.
+| Open a command shell and navigate to the folder
+ where you copied the environment to.
+| Use the following command to install dependencies
 
 .. code::
 
@@ -41,9 +43,9 @@ Activate your environment by typing
 User's guide
 ------------
 
-Using ``pommes-data`` is fairly simple:
+Using ``pommesdata`` is fairly simple:
 
-1. Open the `jupyter notebook <https://github.com/pommes-public/pommes-data/blob/dev/data_preparation.ipynb>`_.
+1. Open the `jupyter notebook <https://github.com/pommes-public/pommesdata/blob/dev/data_preparation.ipynb>`_.
 
 * Activate your environment by typing
 
@@ -56,6 +58,10 @@ Using ``pommes-data`` is fairly simple:
 .. code::
 
     jupyterlab
+
+.. note::
+
+    You may also use jupyter notebook, the predecessor of jupyterlab.
 
 3. Configure and run the jupyter notebook.
 
