@@ -348,16 +348,19 @@ def ppv(wacc, lifetime):
     return ((1 + wacc) ** lifetime - 1) / ((1 + wacc) ** lifetime * wacc)
 
 
-def lcoe(capex, opex, flh, wacc, lifetime, capacity=1):
-    """Returns the LCOE using constant payments and opex as percentage share
+def lcoe_fix_var(capex, opex_fix, opex_var, flh, wacc, lifetime, capacity=1):
+    """Returns the LCOE using constant payments and opex as fixed and variable
 
     Parameters
     ----------
     capex: float
         capital expenditures
 
-    opex: float
-        operational expenditures
+    opex_fix: float
+        fixed operational expenditures
+
+    opex_var: float
+        variable operational expenditures
 
     flh: float
         full load hours of the technology considered
@@ -375,75 +378,60 @@ def lcoe(capex, opex, flh, wacc, lifetime, capacity=1):
     -------
     the calculated lcoe
     """
-    return ((capex + opex * capex * ppv(wacc, lifetime))
+    return (((capex + opex_fix * ppv(wacc, lifetime))
+             + flh * capacity * opex_var * ppv(wacc, lifetime))
             / (flh * capacity * ppv(wacc, lifetime)))
 
 
-def estimate_lcoe_ise(cost_estimates, RES_cost_ISE_dict, energy_carrier,
-                      cost_years=[2020, 2025, 2030]):
-    """ Calculate the LCOE for a given energy carrier
+def estimate_lcoe_ise21(df, energy_carriers):
+    """ Calculate the LCOE for a given energy carrer
 
     Parameters
     ----------
-    cost_estimates: pd.DataFrame
-        DataFrame containing the raw data for the LCOE calculation
-        (filtered for ISE study from 2018)
+    df: dict
+        Dictionary containing the cost data and parameters needed for LCOE calculation
 
-    RES_cost_ISE_dict: dict
-        Dictionary containing the latest ISE 2020 data for LCOE calculation
-
-    energy_carrier: str
-        The energy carrier to be filtered for
-
-    cost_years:
-        The years for which the LCOE projections are given
+    energy_carriers: list of str
+        The energy carriers to be filtered for
 
     Returns
     -------
     LCOE_df: pd.DataFrame
-        A DataFrame indexed by years containing the lower, median
-        and upper estimate for the LCOES, interpolated using a
-        polynomial interpolation of degree 2
-
+        A DataFrame indexed by years containing the lower, middle
+        and upper estimate for the LCOEs
     """
+    cols_to_keep = []
+    for ec in energy_carriers:
+        df[(ec, 'LCOE_low')] = (
+            np.vectorize(lcoe_fix_var)(df[(ec, 'capex_low')],
+                                       df[(ec, 'opex_fix')],
+                                       df[(ec, 'opex_var')],
+                                       df[(ec, 'flh_high')],
+                                       df[(ec, 'wacc_real')] / 100,
+                                       df[(ec, 'lifetime')]))
 
-    cost_estimates_df = cost_estimates[
-        cost_estimates["Parameter"] == "Fraunhofer ISE 2018"]
-    cost_estimates_df.loc[:, 'berechnet\nfür Jahr'] = (
-        cost_estimates_df.loc[:, 'berechnet\nfür Jahr'].astype(int)
-    )
-    cost_estimates_df.set_index(cost_estimates_df['berechnet\nfür Jahr'],
-                                inplace=True)
+        df[(ec, 'LCOE_middle')] = (
+            np.vectorize(lcoe_fix_var)(df[(ec, 'capex_middle')],
+                                       df[(ec, 'opex_fix')],
+                                       df[(ec, 'opex_var')],
+                                       df[(ec, 'flh_middle')],
+                                       df[(ec, 'wacc_real')] / 100,
+                                       df[(ec, 'lifetime')]))
+        df[(ec, 'LCOE_high')] = (
+            np.vectorize(lcoe_fix_var)(df[(ec, 'capex_high')],
+                                       df[(ec, 'opex_fix')],
+                                       df[(ec, 'opex_var')],
+                                       df[(ec, 'flh_low')],
+                                       df[(ec, 'wacc_real')] / 100,
+                                       df[(ec, 'lifetime')]))
 
-    LCOE_df = pd.DataFrame(index=range(cost_years[0], cost_years[-1] + 1),
-                           columns=['LCOE_low', 'LCOE_middle', 'LCOE_high'])
+        cols_to_keep.extend(
+            [(ec, "LCOE_low"), (ec, "LCOE_middle"), (ec, "LCOE_high")])
 
-    df = RES_cost_ISE_dict[energy_carrier]
-    df.index = df.index.astype(int)
-    df.drop([idx for idx in df.index if idx not in cost_years], inplace=True)
+    LCOE_df = df.loc[[str(el) for el in range(2020, 2031)], cols_to_keep]
+    LCOE_df.index = LCOE_df.index.astype(int)
 
-    df[["flh_high", "flh_middle",
-        "flh_low", "wacc"]] = cost_estimates_df[["flh_high", "flh_middle",
-                                                 "flh_low", "wacc"]]
-
-    df.loc[:, 'LCOE_low'] = np.vectorize(lcoe)(df['capex'].mul(1000),
-                                               df['opex_percentage'].div(100),
-                                               df['flh_high'], df['wacc'],
-                                               df['unit_lifetime'])
-    df.loc[:, 'LCOE_middle'] = np.vectorize(lcoe)(df['capex'].mul(1000),
-                                                  df['opex_percentage'].div(
-                                                      100),
-                                                  df['flh_middle'], df['wacc'],
-                                                  df['unit_lifetime'])
-    df.loc[:, 'LCOE_high'] = np.vectorize(lcoe)(df['capex'].mul(1000),
-                                                df['opex_percentage'].div(100),
-                                                df['flh_low'], df['wacc'],
-                                                df['unit_lifetime'])
-
-    for year in cost_years:
-        LCOE_df.loc[year, :] = df.loc[year, LCOE_df.columns]
-
-    # LCOE calculation gives €/MWh while remainder of the data is ct/kWh
-    LCOE_df = LCOE_df.astype(float).interpolate('linear').div(10)
+    # LCOE calculation gives €/kWh while remainder of the data is ct/kWh
+    LCOE_df = LCOE_df.astype(float).interpolate('linear').mul(100)
 
     return LCOE_df
