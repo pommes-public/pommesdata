@@ -11,7 +11,7 @@ that contains the code and markdown description from raw data and assumptions
 to *POMMES* model input used for ``pommes-dispatch`` as well as ``pommes-invest``.
 
 Since it contains a transparent description itself, please directly `refer
-to it <https://github.com/pommes-public/pommes-data/blob/dev/data_preparation.ipynb>`_
+to it <https://github.com/pommes-public/pommesdata/blob/dev/data_preparation.ipynb>`_
 and jump to the data source or component you are interested in. We recommend
 to use a jupyter notebook or jupyterlab table of content extension to facilitate
 navigation. You may find instructions for installing and using them here:
