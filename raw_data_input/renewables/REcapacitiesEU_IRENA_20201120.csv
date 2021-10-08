@@ -1,0 +1,362 @@
+﻿Technology;Country/area;Indicator; 2 016; 2 017; 2 018
+Total renewable energy;Europe;Electricity capacity (MW); 488 496; 513 025; 537 428
+;Austria;Electricity capacity (MW); 19 336; 19 596; 20 358
+;Belgium;Electricity capacity (MW); 6 735; 7 432; 8 242
+;Czechia;Electricity capacity (MW); 4 212; 4 272; 4 265
+;Denmark;Electricity capacity (MW); 7 410; 8 196; 8 925
+;Finland;Electricity capacity (MW); 6 862; 7 628; 7 698
+;France;Electricity capacity (MW); 44 840; 47 814; 50 527
+;Germany;Electricity capacity (MW); 104 436; 112 514; 119 296
+;Hungary;Electricity capacity (MW); 1 048; 1 194; 1 599
+;Luxembourg;Electricity capacity (MW);  301;  318;  324
+;Netherlands;Electricity capacity (MW); 7 114; 7 916; 9 803
+;Norway;Electricity capacity (MW); 32 814; 33 251; 33 893
+;Poland;Electricity capacity (MW); 7 881; 7 982; 8 300
+;Portugal;Electricity capacity (MW); 13 217; 13 555; 13 767
+;Slovakia;Electricity capacity (MW); 2 397; 2 385; 2 330
+;Spain;Electricity capacity (MW); 47 773; 47 921; 48 257
+;Sweden;Electricity capacity (MW); 27 805; 28 337; 29 244
+;Switzerland;Electricity capacity (MW); 16 259; 17 049; 17 468
+;UK;Electricity capacity (MW); 35 451; 40 034; 44 051
+Hydropower;Europe;Electricity capacity (MW); 217 999; 219 672; 221 167
+;Austria;Electricity capacity (MW); 14 116; 14 150; 14 516
+;Belgium;Electricity capacity (MW); 1 425; 1 417; 1 418
+;Czechia;Electricity capacity (MW); 2 262; 2 265; 2 264
+;Denmark;Electricity capacity (MW);  9;  9;  9
+;Finland;Electricity capacity (MW); 3 250; 3 272; 3 287
+;France;Electricity capacity (MW); 25 621; 25 707; 25 793
+;Germany;Electricity capacity (MW); 11 207; 11 120; 10 940
+;Hungary;Electricity capacity (MW);  57;  57;  57
+;Luxembourg;Electricity capacity (MW); 1 330; 1 331; 1 330
+;Netherlands;Electricity capacity (MW);  37;  37;  37
+;Norway;Electricity capacity (MW); 31 817; 31 912; 32 530
+;Poland;Electricity capacity (MW); 2 385; 2 390; 2 391
+;Portugal;Electricity capacity (MW); 6 960; 7 226; 7 236
+;Slovakia;Electricity capacity (MW); 2 524; 2 523; 2 528
+;Spain;Electricity capacity (MW); 20 080; 20 079; 20 080
+;Sweden;Electricity capacity (MW); 16 466; 16 502; 16 431
+;Switzerland;Electricity capacity (MW); 14 806; 15 353; 15 506
+;UK;Electricity capacity (MW); 4 736; 4 773; 4 778
+Renewable hydropower;Europe;Electricity capacity (MW); 189 399; 191 200; 192 833
+;Austria;Electricity capacity (MW); 14 116; 14 150; 14 516
+;Belgium;Electricity capacity (MW);  115;  107;  108
+;Czechia;Electricity capacity (MW); 1 090; 1 093; 1 093
+;Denmark;Electricity capacity (MW);  9;  9;  9
+;Finland;Electricity capacity (MW); 3 250; 3 272; 3 287
+;France;Electricity capacity (MW); 23 893; 23 979; 24 065
+;Germany;Electricity capacity (MW); 5 629; 5 627; 5 585
+;Hungary;Electricity capacity (MW);  57;  57;  57
+;Luxembourg;Electricity capacity (MW);  34;  35;  34
+;Netherlands;Electricity capacity (MW);  37;  37;  37
+;Norway;Electricity capacity (MW); 31 817; 31 912; 32 530
+;Poland;Electricity capacity (MW);  972;  967;  968
+;Portugal;Electricity capacity (MW); 6 960; 7 226; 7 236
+;Slovakia;Electricity capacity (MW); 1 608; 1 607; 1 612
+;Spain;Electricity capacity (MW); 16 743; 16 742; 16 743
+;Sweden;Electricity capacity (MW); 16 367; 16 502; 16 431
+;Switzerland;Electricity capacity (MW); 14 279; 14 826; 14 979
+;UK;Electricity capacity (MW); 2 136; 2 173; 2 178
+Pumped storage;Europe;Electricity capacity (MW); 28 601; 28 473; 28 334
+;Austria;Electricity capacity (MW);  0;  0;  0
+;Belgium;Electricity capacity (MW); 1 310; 1 310; 1 310
+;Czechia;Electricity capacity (MW); 1 172; 1 172; 1 172
+;Denmark;Electricity capacity (MW);;;
+;Finland;Electricity capacity (MW);;;
+;France;Electricity capacity (MW); 1 728; 1 728; 1 728
+;Germany;Electricity capacity (MW); 5 578; 5 493; 5 355
+;Hungary;Electricity capacity (MW);;;
+;Luxembourg;Electricity capacity (MW); 1 296; 1 296; 1 296
+;Netherlands;Electricity capacity (MW);;;
+;Norway;Electricity capacity (MW);  0;  0;  0
+;Poland;Electricity capacity (MW); 1 413; 1 423; 1 423
+;Portugal;Electricity capacity (MW);  0;  0;  0
+;Slovakia;Electricity capacity (MW);  916;  916;  916
+;Spain;Electricity capacity (MW); 3 337; 3 337; 3 337
+;Sweden;Electricity capacity (MW);  99;  0;  0
+;Switzerland;Electricity capacity (MW);  527;  527;  527
+;UK;Electricity capacity (MW); 2 600; 2 600; 2 600
+Marine;Europe;Electricity capacity (MW);  241;  245;  246
+;Austria;Electricity capacity (MW);;;
+;Belgium;Electricity capacity (MW);;;
+;Czechia;Electricity capacity (MW);;;
+;Denmark;Electricity capacity (MW);  0;  0;  0
+;Finland;Electricity capacity (MW);;;
+;France;Electricity capacity (MW);  220;  219;  218
+;Germany;Electricity capacity (MW);;;
+;Hungary;Electricity capacity (MW);;;
+;Luxembourg;Electricity capacity (MW);;;
+;Netherlands;Electricity capacity (MW);  2;  2;  2
+;Norway;Electricity capacity (MW);  0;  0;  0
+;Poland;Electricity capacity (MW);;;
+;Portugal;Electricity capacity (MW);  0;  0;  0
+;Slovakia;Electricity capacity (MW);;;
+;Spain;Electricity capacity (MW);  5;  5;  5
+;Sweden;Electricity capacity (MW);  0;  0;  0
+;Switzerland;Electricity capacity (MW);;;
+;UK;Electricity capacity (MW);  13;  18;  20
+Wind;Europe;Electricity capacity (MW); 155 756; 170 633; 181 385
+;Austria;Electricity capacity (MW); 2 730; 2 887; 3 133
+;Belgium;Electricity capacity (MW); 2 370; 2 797; 3 261
+;Czechia;Electricity capacity (MW);  282;  308;  316
+;Denmark;Electricity capacity (MW); 5 246; 5 490; 6 121
+;Finland;Electricity capacity (MW); 1 565; 2 044; 2 041
+;France;Electricity capacity (MW); 11 567; 13 499; 14 900
+;Germany;Electricity capacity (MW); 49 435; 55 580; 58 843
+;Hungary;Electricity capacity (MW);  329;  329;  329
+;Luxembourg;Electricity capacity (MW);  120;  120;  123
+;Netherlands;Electricity capacity (MW); 4 257; 4 202; 4 393
+;Norway;Electricity capacity (MW);  883; 1 207; 1 207
+;Poland;Electricity capacity (MW); 5 747; 5 759; 5 766
+;Portugal;Electricity capacity (MW); 5 124; 5 124; 5 172
+;Slovakia;Electricity capacity (MW);  3;  4;  3
+;Spain;Electricity capacity (MW); 22 990; 23 124; 23 405
+;Sweden;Electricity capacity (MW); 6 435; 6 611; 7 300
+;Switzerland;Electricity capacity (MW);  75;  75;  75
+;UK;Electricity capacity (MW); 16 126; 19 585; 21 770
+Onshore wind energy;Europe;Electricity capacity (MW); 143 123; 154 831; 162 619
+;Austria;Electricity capacity (MW); 2 730; 2 887; 3 133
+;Belgium;Electricity capacity (MW); 1 658; 1 919; 2 075
+;Czechia;Electricity capacity (MW);  282;  308;  316
+;Denmark;Electricity capacity (MW); 3 975; 4 226; 4 420
+;Finland;Electricity capacity (MW); 1 533; 1 971; 1 968
+;France;Electricity capacity (MW); 11 567; 13 497; 14 898
+;Germany;Electricity capacity (MW); 45 303; 50 174; 52 447
+;Hungary;Electricity capacity (MW);  329;  329;  329
+;Luxembourg;Electricity capacity (MW);  120;  120;  123
+;Netherlands;Electricity capacity (MW); 3 300; 3 245; 3 436
+;Norway;Electricity capacity (MW);  881; 1 205; 1 205
+;Poland;Electricity capacity (MW); 5 747; 5 759; 5 766
+;Portugal;Electricity capacity (MW); 5 124; 5 124; 5 172
+;Slovakia;Electricity capacity (MW);  3;  4;  3
+;Spain;Electricity capacity (MW); 22 985; 23 119; 23 400
+;Sweden;Electricity capacity (MW); 6 232; 6 408; 7 097
+;Switzerland;Electricity capacity (MW);  75;  75;  75
+;UK;Electricity capacity (MW); 10 832; 12 597; 13 554
+Offshore wind energy;Europe;Electricity capacity (MW); 12 633; 15 802; 18 766
+;Austria;Electricity capacity (MW);;;
+;Belgium;Electricity capacity (MW);  712;  877; 1 186
+;Czechia;Electricity capacity (MW);;;
+;Denmark;Electricity capacity (MW); 1 271; 1 264; 1 701
+;Finland;Electricity capacity (MW);  32;  73;  73
+;France;Electricity capacity (MW);  0;  2;  2
+;Germany;Electricity capacity (MW); 4 132; 5 406; 6 396
+;Hungary;Electricity capacity (MW);;;
+;Luxembourg;Electricity capacity (MW);;;
+;Netherlands;Electricity capacity (MW);  957;  957;  957
+;Norway;Electricity capacity (MW);  2;  2;  2
+;Poland;Electricity capacity (MW);;;
+;Portugal;Electricity capacity (MW);  0;  0;  0
+;Slovakia;Electricity capacity (MW);;;
+;Spain;Electricity capacity (MW);  5;  5;  5
+;Sweden;Electricity capacity (MW);  203;  203;  203
+;Switzerland;Electricity capacity (MW);;;
+;UK;Electricity capacity (MW); 5 293; 6 988; 8 217
+Solar;Europe;Electricity capacity (MW); 106 103; 112 538; 121 533
+;Austria;Electricity capacity (MW); 1 096; 1 269; 1 438
+;Belgium;Electricity capacity (MW); 3 327; 3 616; 3 987
+;Czechia;Electricity capacity (MW); 2 068; 2 070; 2 075
+;Denmark;Electricity capacity (MW);  851;  906;  998
+;Finland;Electricity capacity (MW);  39;  82;  140
+;France;Electricity capacity (MW); 7 702; 8 610; 9 617
+;Germany;Electricity capacity (MW); 40 679; 42 293; 45 181
+;Hungary;Electricity capacity (MW);  235;  344;  726
+;Luxembourg;Electricity capacity (MW);  122;  128;  131
+;Netherlands;Electricity capacity (MW); 2 049; 2 903; 4 522
+;Norway;Electricity capacity (MW);  27;  45;  68
+;Poland;Electricity capacity (MW);  187;  287;  562
+;Portugal;Electricity capacity (MW);  522;  593;  681
+;Slovakia;Electricity capacity (MW);  533;  528;  472
+;Spain;Electricity capacity (MW); 7 017; 7 027; 7 068
+;Sweden;Electricity capacity (MW);  153;  402;  492
+;Switzerland;Electricity capacity (MW); 1 664; 1 906; 2 171
+;UK;Electricity capacity (MW); 11 930; 12 782; 13 118
+Solar photovoltaic;Europe;Electricity capacity (MW); 103 782; 110 212; 119 207
+;Austria;Electricity capacity (MW); 1 096; 1 269; 1 438
+;Belgium;Electricity capacity (MW); 3 327; 3 616; 3 987
+;Czechia;Electricity capacity (MW); 2 068; 2 070; 2 075
+;Denmark;Electricity capacity (MW);  851;  906;  998
+;Finland;Electricity capacity (MW);  39;  82;  140
+;France;Electricity capacity (MW); 7 702; 8 610; 9 617
+;Germany;Electricity capacity (MW); 40 677; 42 291; 45 179
+;Hungary;Electricity capacity (MW);  235;  344;  726
+;Luxembourg;Electricity capacity (MW);  122;  128;  131
+;Netherlands;Electricity capacity (MW); 2 049; 2 903; 4 522
+;Norway;Electricity capacity (MW);  27;  45;  68
+;Poland;Electricity capacity (MW);  187;  287;  562
+;Portugal;Electricity capacity (MW);  513;  579;  667
+;Slovakia;Electricity capacity (MW);  533;  528;  472
+;Spain;Electricity capacity (MW); 4 713; 4 723; 4 764
+;Sweden;Electricity capacity (MW);  153;  402;  492
+;Switzerland;Electricity capacity (MW); 1 664; 1 906; 2 171
+;UK;Electricity capacity (MW); 11 930; 12 782; 13 118
+Concentrated solar power;Europe;Electricity capacity (MW); 2 321; 2 326; 2 326
+;Austria;Electricity capacity (MW);;;
+;Belgium;Electricity capacity (MW);;;
+;Czechia;Electricity capacity (MW);;;
+;Denmark;Electricity capacity (MW);;;
+;Finland;Electricity capacity (MW);;;
+;France;Electricity capacity (MW);  0;  0;  0
+;Germany;Electricity capacity (MW);  2;  2;  2
+;Hungary;Electricity capacity (MW);;;
+;Luxembourg;Electricity capacity (MW);;;
+;Netherlands;Electricity capacity (MW);;;
+;Norway;Electricity capacity (MW);;;
+;Poland;Electricity capacity (MW);;;
+;Portugal;Electricity capacity (MW);  9;  14;  14
+;Slovakia;Electricity capacity (MW);;;
+;Spain;Electricity capacity (MW); 2 304; 2 304; 2 304
+;Sweden;Electricity capacity (MW);;;
+;Switzerland;Electricity capacity (MW);;;
+;UK;Electricity capacity (MW);;;
+Bioenergy;Europe;Electricity capacity (MW); 35 491; 36 850; 39 813
+;Austria;Electricity capacity (MW); 1 393; 1 290; 1 271
+;Belgium;Electricity capacity (MW);  923;  912;  887
+;Czechia;Electricity capacity (MW);  773;  802;  782
+;Denmark;Electricity capacity (MW); 1 305; 1 791; 1 797
+;Finland;Electricity capacity (MW); 2 008; 2 230; 2 230
+;France;Electricity capacity (MW); 1 442; 1 490; 1 711
+;Germany;Electricity capacity (MW); 8 660; 8 982; 9 651
+;Hungary;Electricity capacity (MW);  427;  461;  484
+;Luxembourg;Electricity capacity (MW);  25;  36;  36
+;Netherlands;Electricity capacity (MW);  769;  772;  849
+;Norway;Electricity capacity (MW);  87;  87;  87
+;Poland;Electricity capacity (MW);  974;  968; 1 004
+;Portugal;Electricity capacity (MW);  587;  582;  648
+;Slovakia;Electricity capacity (MW);  253;  246;  243
+;Spain;Electricity capacity (MW); 1 018; 1 023; 1 037
+;Sweden;Electricity capacity (MW); 4 850; 4 822; 5 021
+;Switzerland;Electricity capacity (MW);  241;  242;  243
+;UK;Electricity capacity (MW); 5 245; 5 476; 6 963
+Solid biofuels;Europe;Electricity capacity (MW); 21 981; 22 918; 25 191
+;Austria;Electricity capacity (MW); 1 188; 1 108; 1 094
+;Belgium;Electricity capacity (MW);  691;  685;  652
+;Czechia;Electricity capacity (MW);  404;  430;  413
+;Denmark;Electricity capacity (MW); 1 198; 1 683; 1 675
+;Finland;Electricity capacity (MW); 1 895; 2 114; 2 114
+;France;Electricity capacity (MW); 1 035; 1 052; 1 253
+;Germany;Electricity capacity (MW); 2 579; 2 605; 2 667
+;Hungary;Electricity capacity (MW);  351;  379;  408
+;Luxembourg;Electricity capacity (MW);  13;  23;  24
+;Netherlands;Electricity capacity (MW);  548;  551;  622
+;Norway;Electricity capacity (MW);  77;  77;  77
+;Poland;Electricity capacity (MW);  749;  738;  778
+;Portugal;Electricity capacity (MW);  519;  512;  577
+;Slovakia;Electricity capacity (MW);  160;  155;  154
+;Spain;Electricity capacity (MW);  794;  798;  797
+;Sweden;Electricity capacity (MW); 4 333; 4 273; 4 484
+;Switzerland;Electricity capacity (MW);  212;  212;  212
+;UK;Electricity capacity (MW); 3 483; 3 683; 5 152
+Bagasse;Europe;Electricity capacity (MW);  2;  2;  2
+;Austria;Electricity capacity (MW);;;
+;Belgium;Electricity capacity (MW);;;
+;Czechia;Electricity capacity (MW);;;
+;Denmark;Electricity capacity (MW);;;
+;Finland;Electricity capacity (MW);;;
+;France;Electricity capacity (MW);;;
+;Germany;Electricity capacity (MW);;;
+;Hungary;Electricity capacity (MW);;;
+;Luxembourg;Electricity capacity (MW);;;
+;Netherlands;Electricity capacity (MW);;;
+;Norway;Electricity capacity (MW);;;
+;Poland;Electricity capacity (MW);;;
+;Portugal;Electricity capacity (MW);  2;  2;  2
+;Slovakia;Electricity capacity (MW);;;
+;Spain;Electricity capacity (MW);;;
+;Sweden;Electricity capacity (MW);;;
+;Switzerland;Electricity capacity (MW);;;
+;UK;Electricity capacity (MW);;;
+Renewable municipal waste;Europe;Electricity capacity (MW); 4 568; 4 701; 4 860
+;Austria;Electricity capacity (MW);  271;  271;  270
+;Belgium;Electricity capacity (MW);  125;  125;  125
+;Czechia;Electricity capacity (MW);  28;  28;  28
+;Denmark;Electricity capacity (MW);  166;  182;  181
+;Finland;Electricity capacity (MW);  148;  148;  148
+;France;Electricity capacity (MW);  424;  429;  441
+;Germany;Electricity capacity (MW);  979; 1 004; 1 059
+;Hungary;Electricity capacity (MW);  29;  23;  23
+;Luxembourg;Electricity capacity (MW);  9;  9;  9
+;Netherlands;Electricity capacity (MW);  325;  325;  400
+;Norway;Electricity capacity (MW);  50;  50;  50
+;Poland;Electricity capacity (MW);  22;  30;  43
+;Portugal;Electricity capacity (MW);  42;  41;  41
+;Slovakia;Electricity capacity (MW);  10;  6;  6
+;Spain;Electricity capacity (MW);  117;  121;  121
+;Sweden;Electricity capacity (MW);  564;  567;  566
+;Switzerland;Electricity capacity (MW);  212;  212;  212
+;UK;Electricity capacity (MW);  514;  565;  589
+Other solid biofuels;Europe;Electricity capacity (MW); 17 408; 18 212; 20 326
+;Austria;Electricity capacity (MW);  917;  838;  824
+;Belgium;Electricity capacity (MW);  566;  559;  526
+;Czechia;Electricity capacity (MW);  376;  402;  385
+;Denmark;Electricity capacity (MW); 1 032; 1 501; 1 494
+;Finland;Electricity capacity (MW); 1 747; 1 966; 1 966
+;France;Electricity capacity (MW);  611;  623;  812
+;Germany;Electricity capacity (MW); 1 597; 1 598; 1 605
+;Hungary;Electricity capacity (MW);  322;  356;  385
+;Luxembourg;Electricity capacity (MW);  4;  15;  15
+;Netherlands;Electricity capacity (MW);  223;  226;  222
+;Norway;Electricity capacity (MW);  27;  27;  27
+;Poland;Electricity capacity (MW);  727;  709;  735
+;Portugal;Electricity capacity (MW);  475;  469;  534
+;Slovakia;Electricity capacity (MW);  150;  149;  148
+;Spain;Electricity capacity (MW);  677;  677;  677
+;Sweden;Electricity capacity (MW); 3 769; 3 706; 3 918
+;Switzerland;Electricity capacity (MW);  0;  0;  0
+;UK;Electricity capacity (MW); 2 969; 3 118; 4 563
+Liquid biofuels;Europe;Electricity capacity (MW); 1 792; 1 813; 1 791
+;Austria;Electricity capacity (MW);  3;  1;  1
+;Belgium;Electricity capacity (MW);  45;  45;  45
+;Czechia;Electricity capacity (MW);;;
+;Denmark;Electricity capacity (MW);  0;  1;  0
+;Finland;Electricity capacity (MW);  0;  0;  0
+;France;Electricity capacity (MW);  4;  0;  0
+;Germany;Electricity capacity (MW);  231;  230;  230
+;Hungary;Electricity capacity (MW);;;
+;Luxembourg;Electricity capacity (MW);;;
+;Netherlands;Electricity capacity (MW);  0;  0;  0
+;Norway;Electricity capacity (MW);  0;  0;  0
+;Poland;Electricity capacity (MW);  0;  0;  0
+;Portugal;Electricity capacity (MW);;;
+;Slovakia;Electricity capacity (MW);;;
+;Spain;Electricity capacity (MW);  0;  0;  6
+;Sweden;Electricity capacity (MW);  515;  547;  535
+;Switzerland;Electricity capacity (MW);;;
+;UK;Electricity capacity (MW);;;
+Biogas;Europe;Electricity capacity (MW); 11 717; 12 120; 12 831
+;Austria;Electricity capacity (MW);  202;  180;  175
+;Belgium;Electricity capacity (MW);  188;  183;  190
+;Czechia;Electricity capacity (MW);  369;  372;  369
+;Denmark;Electricity capacity (MW);  107;  108;  121
+;Finland;Electricity capacity (MW);  113;  116;  116
+;France;Electricity capacity (MW);  404;  438;  457
+;Germany;Electricity capacity (MW); 5 850; 6 147; 6 754
+;Hungary;Electricity capacity (MW);  76;  82;  76
+;Luxembourg;Electricity capacity (MW);  12;  12;  12
+;Netherlands;Electricity capacity (MW);  221;  221;  227
+;Norway;Electricity capacity (MW);  10;  10;  10
+;Poland;Electricity capacity (MW);  225;  229;  225
+;Portugal;Electricity capacity (MW);  68;  70;  71
+;Slovakia;Electricity capacity (MW);  93;  91;  89
+;Spain;Electricity capacity (MW);  224;  225;  234
+;Sweden;Electricity capacity (MW);  2;  2;  2
+;Switzerland;Electricity capacity (MW);  29;  30;  32
+;UK;Electricity capacity (MW); 1 762; 1 793; 1 811
+Geothermal;Europe;Electricity capacity (MW); 1 506; 1 558; 1 618
+;Austria;Electricity capacity (MW);  1;  1;  1
+;Belgium;Electricity capacity (MW);;;
+;Czechia;Electricity capacity (MW);;;
+;Denmark;Electricity capacity (MW);;;
+;Finland;Electricity capacity (MW);;;
+;France;Electricity capacity (MW);  16;  16;  16
+;Germany;Electricity capacity (MW);  33;  32;  36
+;Hungary;Electricity capacity (MW);  0;  3;  3
+;Luxembourg;Electricity capacity (MW);;;
+;Netherlands;Electricity capacity (MW);;;
+;Norway;Electricity capacity (MW);;;
+;Poland;Electricity capacity (MW);;;
+;Portugal;Electricity capacity (MW);  25;  29;  29
+;Slovakia;Electricity capacity (MW);;;
+;Spain;Electricity capacity (MW);;;
+;Sweden;Electricity capacity (MW);;;
+;Switzerland;Electricity capacity (MW);;;
+;UK;Electricity capacity (MW);;;

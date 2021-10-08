@@ -1,0 +1,18 @@
+﻿bnaID;OPSD_estimate;ER;fuel;technology;P_el;comment;company;eta_el;comment;Quelle;
+BNA0493;0,4475;0,4042925;H;ST;794;;RWE Generation SE;0,403;Angabe von 2013, zeitdem wurden weiter Maßnahmen zur Wirkungsgradsteigerung durchgeführt;https://www.chemietechnik.de/kraftwerk-ibbenbueren-investiert-40-mio-euro-in-grossrevision/;
+BNA0464;0,4325;0,3725;H;ST;690;;Stadtwerke Hannover AG;0,405;;https://www.kraftwerk-mehrum.de/kraftwerk/technische-daten/;
+BNA0707;0,4216;0,3376;L;ST;648;;RWE Power AG;0,37;Seite 2 der PDF;https://de.wikipedia.org/wiki/Kraftwerk_Niederau%C3%9Fem;http://www.nf-niederaussem.de/fileadmin/pdf/03_Praesentation_Aktueller_Stand_der_Technik__Dr._Eichholz_.pdf
+BNA0708;0,4192;0,3466121;L;ST;628;;RWE Power AG;0,37;;;
+BNA1093;0,4525;0,4087345;H;ST;472;;ENGIE Deutschland AG;0,433;letzter Satz;http://www.engie-kraftwerke.de/de/content/zolling;
+BNA0147;0,4425;0,3475;H;ST;350;;ENGIE Deutschland AG;0,425;letzter Satz;http://www.engie-kraftwerke.de/de/content/farge;
+BNA0313;0,376;0,3184;L;ST;284;;RWE Power AG;0,335;"Teilüberschrift ""Kraftwerk Frimmersdorf II"", 5. Absatz";https://de.wikipedia.org/wiki/Kraftwerk_Frimmersdorf;
+BNA0314;0,376;0,328;L;ST;278;;RWE Power AG;0,335;;;
+BNA0207;0,5175;0,4571512;NG;CC;260;;DREWAG Stadtwerke Dresden GmbH;0,41;letzter Satz im ersten Abschnitt;http://www.dnn.de/Dresden/Lokales/Tausende-Dresdner-besichtigen-Heizkraftwerk-Nossener-Bruecke;
+BNA0918a;0,3542;0,414;NG;CC;190;163 (laut versciedener Quellen);Dow Deutschland Anlagengesellschaft mbH;0,375;Seite 21 der PDF;https://www.siemens.com/press/de/feature/2014/power-gas/2014-10-stade.php;https://asue.de/sites/default/files/asue/termine_veranstaltungen/2010/fachveranstaltung2010/vortraege/04_vortrag_augele_siemens.pdf
+BNA0588;0,585;0,4816483;NG;CC;167;;Stadtwerke Leipzig GmbH;0,42;;http://www.leipziger-industriekultur.de/heizkraftwerknord/;
+BNA0075;0,3828;0,3072;NG;GT;144;;Vattenfall Europe Wärme AG;0,37;letzte Teilüberschrift, 2. Satz;https://www.tagesspiegel.de/berlin/bezirke/steglitz-zehlendorf/verzoegerungen-bei-neubau-heizkraftwerk-lichterfelde-weisser-rauch-ueber-dem-teltowkanal/21048944.html;
+BNA0076;0,3828;0,3124;NG;GT;144;;Vattenfall Europe Wärme AG;0,37;;https://www.tagesspiegel.de/berlin/bezirke/steglitz-zehlendorf/verzoegerungen-bei-neubau-heizkraftwerk-lichterfelde-weisser-rauch-ueber-dem-teltowkanal/21048944.html;
+BNA0080;0,3828;0,3098;NG;GT;144;;Vattenfall Europe Wärme AG;0,37;;;
+BNA0400;0,5805;0,51857;NG;CC;127;;Vattenfall Hamburg Wärme GmbH;0,38;;;
+BNA0432;0,45;0,3375;H;ST;125;;EnBW Energie Baden-Württemberg AG;0,4;;;
+BNA0433;0,45;0,34;H;ST;125;;EnBW Energie Baden-Württemberg AG;0,4;;;

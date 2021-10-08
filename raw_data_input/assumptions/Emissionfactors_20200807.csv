@@ -1,0 +1,13 @@
+﻿fuel;emission_factors;Unit;source
+uranium;0;t CO2/MWh;
+lignite;0,406;t CO2/MWh;UBA (2020), p. 16
+hardcoal;0,335;t CO2/MWh;UBA (2020), p. 16
+natgas;0,201;t CO2/MWh;UBA (2020), p. 16
+oil;0,266;t CO2/MWh;value for Heizöl, schwer from (UBA 2020), S. 27
+mixedfuels;0,314;t CO2/MWh;Mean value of lignite, hard coal and gas
+biomass;0;t CO2/MWh;
+otherfossil;0,2452248;t CO2/MWh;Value for Grubengas based on exploration of powerplants
+waste;0,164718;t CO2/MWh;"mean value of Hausmüll/Sidelungsabfall fossil (UBA 2018), S. 28; factor 0,5 in assumption that 50 percent of overall waste is organic waste"
+water;0;t CO2/MWh;
+otherRES;0;t CO2/MWh;
+solarthermal;0;t CO2/MWh;
