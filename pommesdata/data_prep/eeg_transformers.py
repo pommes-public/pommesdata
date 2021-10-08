@@ -379,75 +379,9 @@ def lcoe(capex, opex, flh, wacc, lifetime, capacity=1):
             / (flh * capacity * ppv(wacc, lifetime)))
 
 
-def estimate_lcoe(cost_estimates_df, dict_RES_cols,
-                  cost_years=[2020, 2025, 2030]):
-    """ Calculate the LCOE for a given energy carrier
-
-    Parameters
-    ----------
-    cost_estimates_df: pd.DataFrame
-        DataFrame containing the raw data for the LCOE calculation
-
-    dict_RES_cols: dict
-        Dictionary for renaming the columns of the cost estimates
-        DataFrame
-
-    cost_years:
-        The years for which the LCOE projections are given
-
-    Returns
-    -------
-    LCOE_df: pd.DataFrame
-        A DataFrame indexed by years containing the lower, median
-        and upper estimate for the LCOES, interpolated using a
-        polynomial interpolation of degree 2
-    """
-    cost_estimates_df.rename(columns=dict_RES_cols, inplace=True)
-    LCOE_df = pd.DataFrame(index=range(cost_years[0], cost_years[-1] + 1),
-                           columns=['LCOE_low', 'LCOE_middle', 'LCOE_high'])
-
-    for year in cost_years:
-        df = cost_estimates_df.loc[
-            cost_estimates_df['berechnet\nfür Jahr'] == year,
-            dict_RES_cols.values()]
-
-        df['LCOE_low'] = np.vectorize(lcoe)(df['capex_low'].mul(1000),
-                                            df['opex_percentage'],
-                                            df['flh_high'], df['wacc'],
-                                            df['unit_lifetime'])
-        df['LCOE_middle'] = np.vectorize(lcoe)(df['capex_middle'].mul(1000),
-                                               df['opex_percentage'],
-                                               df['flh_middle'], df['wacc'],
-                                               df['unit_lifetime'])
-        df['LCOE_high'] = np.vectorize(lcoe)(df['capex_high'].mul(1000),
-                                             df['opex_percentage'],
-                                             df['flh_low'], df['wacc'],
-                                             df['unit_lifetime'])
-
-        LCOE_df.loc[year, :] = (df[LCOE_df.columns].min().min(),
-                                df[LCOE_df.columns].median().median(),
-                                df[LCOE_df.columns].max().max())
-
-    # Assume an ongoing cost decline:
-    # Switch values if cost estimates for later years
-    # are higher than for earlier ones
-    min_cost = LCOE_df.min()
-    max_cost = LCOE_df.max()
-    median_cost = LCOE_df.median()
-
-    LCOE_df.loc[cost_years[0]] = max_cost
-    LCOE_df.loc[cost_years[1]] = median_cost
-    LCOE_df.loc[cost_years[-1]] = min_cost
-
-    # LCOE calculation gives €/MWh while remainder of the data is ct/kWh
-    LCOE_df = LCOE_df.astype(float).interpolate('linear').div(10)
-
-    return LCOE_df
-
-
 def estimate_lcoe_ise(cost_estimates, RES_cost_ISE_dict, energy_carrier,
                       cost_years=[2020, 2025, 2030]):
-    """ Calculate the LCOE for a given energy carrer
+    """ Calculate the LCOE for a given energy carrier
 
     Parameters
     ----------
@@ -475,9 +409,9 @@ def estimate_lcoe_ise(cost_estimates, RES_cost_ISE_dict, energy_carrier,
 
     cost_estimates_df = cost_estimates[
         cost_estimates["Parameter"] == "Fraunhofer ISE 2018"]
-    cost_estimates_df.loc[:, 'berechnet\nfür Jahr'] = cost_estimates_df.loc[:,
-                                                      'berechnet\nfür Jahr'].astype(
-        int)
+    cost_estimates_df.loc[:, 'berechnet\nfür Jahr'] = (
+        cost_estimates_df.loc[:, 'berechnet\nfür Jahr'].astype(int)
+    )
     cost_estimates_df.set_index(cost_estimates_df['berechnet\nfür Jahr'],
                                 inplace=True)
 
