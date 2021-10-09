@@ -1,62 +1,45 @@
-# YAML 1.2
----
 abstract: "pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD."
 authors: 
-  -
-    family-names: Werner
+  - family-names: Werner
     given-names: Yannick
     orcid: "https://orcid.org/0000-0002-6674-805X"
-  -
-    family-names: Kochems
+  - family-names: Kochems
     given-names: Johannes
     orcid: "https://orcid.org/0000-0002-3461-3679"
-  -
-    family-names: "Encinas-Rosa"
+  - family-names: "Encinas-Rosa"
     given-names: Leticia
-  -
-    family-names: Spiller
+  - family-names: Spiller
     given-names: Carla
-  -
-    family-names: Westphal
+  - family-names: Westphal
     given-names: Sophie
-  -
-    family-names: Endres
+  - family-names: Endres
     given-names: Julian
-  -
-    family-names: Faist
+  - family-names: Faist
     given-names: Julien
-  -
-    family-names: Ghosh
+  - family-names: Ghosh
     given-names: Timona
-  -
-    family-names: Giehl
+  - family-names: Giehl
     given-names: Johannes
     orcid: "https://orcid.org/0000-0002-1769-1907"
-  -
-    family-names: Fraatz
+  - family-names: Fraatz
     given-names: Christian
-  -
-    family-names: Claus
+  - family-names: Claus
     given-names: Robin
-  -
-    family-names: Peschel
+  - family-names: Peschel
     given-names: Daniel
-  -
-    family-names: Nicklisch
+  - family-names: Nicklisch
     given-names: Conrad
-  -
-    family-names: Grosse
+  - family-names: Grosse
     given-names: Benjamin
     orcid: "https://orcid.org/0000-0002-3323-9734"
-  -
-    family-names: "Müller-Kirchenbauer"
+  - family-names: "Müller-Kirchenbauer"
     given-names: Joachim
 cff-version: "1.1.0"
 date-released: 2021-10-15
-doi: 
+doi: https://doi.org/
 keywords: 
   - "power market"
-  - data
+  - "data"
   - "fundamental model"
   - "renewable energies"
   - "oemof.solph"
@@ -64,4 +47,3 @@ license: "MIT license"
 message: "If you use this software, please cite as follows."
 title: pommesdata
 version: "0.1.0"
-...
