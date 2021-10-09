@@ -1,0 +1,67 @@
+# YAML 1.2
+---
+abstract: "pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD."
+authors: 
+  -
+    family-names: Werner
+    given-names: Yannick
+    orcid: "https://orcid.org/0000-0002-6674-805X"
+  -
+    family-names: Kochems
+    given-names: Johannes
+    orcid: "https://orcid.org/0000-0002-3461-3679"
+  -
+    family-names: "Encinas-Rosa"
+    given-names: Leticia
+  -
+    family-names: Spiller
+    given-names: Carla
+  -
+    family-names: Westphal
+    given-names: Sophie
+  -
+    family-names: Endres
+    given-names: Julian
+  -
+    family-names: Faist
+    given-names: Julien
+  -
+    family-names: Ghosh
+    given-names: Timona
+  -
+    family-names: Giehl
+    given-names: Johannes
+    orcid: "https://orcid.org/0000-0002-1769-1907"
+  -
+    family-names: Fraatz
+    given-names: Christian
+  -
+    family-names: Claus
+    given-names: Robin
+  -
+    family-names: Peschel
+    given-names: Daniel
+  -
+    family-names: Nicklisch
+    given-names: Conrad
+  -
+    family-names: Grosse
+    given-names: Benjamin
+    orcid: "https://orcid.org/0000-0002-3323-9734"
+  -
+    family-names: "Müller-Kirchenbauer"
+    given-names: Joachim
+cff-version: "1.1.0"
+date-released: 2021-10-15
+doi: 
+keywords: 
+  - "power market"
+  - data
+  - "fundamental model"
+  - "renewable energies"
+  - "oemof.solph"
+license: "MIT license"
+message: "If you use this software, please cite as follows."
+title: pommesdata
+version: "0.1.0"
+...
