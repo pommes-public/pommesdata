@@ -101,6 +101,10 @@ If you use these, please refer to the citation information given at zenodo.
 If you are using `pommesdata` for your own analyses, please cite as:<br>
 *Werner, Y.; Kochems, J. et al. (2021): pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD.*
 
+Also see CITATION.cff for citation information. Licensing information stated
+in the CITATION.cff is only applicable for the code itself, see 
+[license](#License).
+
 We furthermore recommend to name the version tag or the commit hash used for the sake of transparency and reproducibility.
 
 ## License
