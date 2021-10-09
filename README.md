@@ -56,20 +56,59 @@ conda activate pommes_data
 
 ## Contributing
 Every kind of contribution or feedback is warmly welcome.<br>
-We use the GitHub issue management as well as pull requests for collaboration. We try to stick to the PEP8 coding standards.
+We use the GitHub issue management as well as pull requests for collaboration. 
+
+We try to stick to the PEP8 coding standards.
+
+The juypter notebook for data preparation does not (necessarily have to) 
+meet PEP8 standards, though readability shoud be made sure.
+
+The following people have contributed in the following manner to `pommesdata`:
+
+| Name | Contribution | Status |
+| ---- | ---- | ---- |
+| Yannick Werner | major development & conceptualization<br>conceptualization, main data preparation routines (status quo data for all components, detailed RES, interconnector and hydro data), architecture | coordinator & maintainer,<br>developer & corresponding author |
+| Johannes Kochems | major development & conceptualization<br>conceptualization, co-development of main data preparation routines (esp. future projection for all components, RES tender data and LCOE estimates, documentation), architecture publishing process | coordinator & co-maintainer,<br>developer & corresponding author |
+| Leticia Encinas Rosa | development<br>early-stage contributions to conventional power plant data collection for Germany (technical data, data processing routines) | former developer (research associate) |
+| Carla Spiller | development<br>early-stage contributions to conventional power plant data collection for Germany (technical data, data processing routines) | former developer (student assistant) |
+| Sophie Westphal | development<br>contributions to cost data collection for conventional plants (data bundling and processing routines) | former developer (student assistant) |
+| Julian Endres | development<br>early-stage contributions to conventional power plant data collection for Germany (location, technical data) | former developer (student assistant) |
+| Julien Faist | development<br>contributions to conventional power plant data collection for Germany (shutdowns, new constructions) | former developer (master's student) |
+| Timona Ghosh | development<br>early-stage development of interconnector exchange (approach and data) | former developer (master's student) |
+| Johannes Giehl | development<br>conceptualization and data licensing information | developer |
+| Christian Fraatz | development<br>early-stage contributions to European conventional power plant data (location and data processing) | former developer (bachelor's student) |
+| Robin Claus | development<br>early-stage contributions to German conventional power plant data (efficiencies) | former developer (student assistant) |
+| Daniel Peschel | development<br>early-stage input data contribution to German conventional power plant data (CHP information) | former developer (master's student) |
+| Conrad Nicklisch | development<br>early-stage contribution to RES cost information | former developer (bachelor's student) |
+| Benjamin Grosse | development<br>early-stage contributions to conventional power plants data & support | developer |
+| Joachim Müller-Kirchenbauer | support & conceptualization<br>early-stage conceptualization, funding | supporter (university professor) |
+
+*Note: Not every single contribution is reflected in the current version of
+`pommesdata`. This is especially true for those marked as early-stage 
+contributions that may have been extended, altered or sometimes discarded. 
+Nonetheless, all people listed have made valuable contributions. The ones
+discarded might be re-integrated at some point in time.
+Dedicated contributions to `pommesdispatch` and `pommesinvest` are not included
+in the list, but listed individually for these projects.*
 
 ## Citing
-A publication using and introducing `pommes-dispatch` as well as `pommesdata` for data preparation is currently in preparation.
+A publication using and introducing `pommesdispatch` is currently in preparation.
+This in turn will make use of data collected with `pommesdata`.
+
+Data sets created with `pommesdata` are shared at [zenodo](https://zenodo.org).
+If you use these, please refer to the citation information given at zenodo.
 
 If you are using `pommesdata` for your own analyses, please cite as:<br>
 *Werner, Y.; Kochems, J. et al. (2021): pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD.*
 
-We furthermore recommend to name the version tag or the commit hash used for the sake of transparancy and reproducibility.
+We furthermore recommend to name the version tag or the commit hash used for the sake of transparency and reproducibility.
 
 ## License
-This software is licensed under MIT License. For the licensing of the data, please see the breakdown below.
+Licensing for the code - in the following referred to as software - 
+and the input data used differs. For the licensing of the data, 
+please see the detailed list of data sets below.
 
-### Software
+### Software (code)
 
 Copyright 2021 pommes developer group
 
@@ -79,7 +118,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Data
+### Data (input data)
 | institution | data set | license | distributed with the repository | download link |
 | ---- | ---- | ---- | ---- | ---- |
 | OPSD | data package conventional power plants | MIT License | yes | https://doi.org/10.25832/conventional_power_plants/2018-12-20 
@@ -122,3 +161,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | BMWI | fuel costs heating oil 2017 | CC BY-ND 3.0 DE | yes | https://www.bmwi.de/Redaktion/DE/Artikel/Energie/energiedaten-gesamtausgabe.html
 | r2b | transport costs | CC BY-ND 3.0 DE | yes | https://www.bmwi.de/Redaktion/DE/Publikationen/Studien/definition-und-monitoring-der-versorgungssicherheit-an-den-europaeischen-strommaerkten.pdf?__blob=publicationFile&v=18
 | Fraunhofer ISI | operation costs | n.a. | yes | https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2018_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf
+
+### Prepared data sets (data sets created with *pommesdata*)
+Please refer to the licensing information provided at [zenodo](https://zenodo.org)
