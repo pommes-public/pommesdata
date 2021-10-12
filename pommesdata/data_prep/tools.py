@@ -13,7 +13,8 @@ The functions serve to
 - assign time-dependent NTC values,
 - convert data into the structure of oemof.solph,
 - load ENTSO-E data and transfer it to the format needed,
-- extract capacities from the TYNDP 2018 scenario data set.
+- extract capacities from the TYNDP 2018 scenario data set,
+- reindex timeseries data for another year of choice.
 
 Licensing information and Disclaimer
 ------------------------------------
@@ -431,3 +432,38 @@ def extract_tyndp_capacities(countries, no_dict, scenario="2030_DG",
                  'value': 'capacity'})
 
     return pp_eu_target_year
+
+
+def reindex_time_series(df, year):
+    """Reindex a time series given for 2017 by another year
+
+    Parameters
+    ----------
+    df: pd.DataFrame
+        original DataFrame
+
+    year: int
+        The year for reindexing
+
+    Returns
+    -------
+    df: pd.DataFrame
+        the manipulated DataFrame
+    """
+    df.index = pd.DatetimeIndex(df.index)
+    df.index.freq = 'H'
+    date_diff = (df.index[0]
+                 - pd.Timestamp("2017-01-01 00:00:00",
+                                tz=df.index.tz))
+    ts_start = (pd.Timestamp(str(year) + "-01-01 00:00:00",
+                             tz=df.index.tz)
+                + date_diff)
+    # account for leap years
+    if ts_start.month == 12:
+        ts_start = ts_start + pd.Timedelta("1 days")
+    new_index = pd.date_range(start=ts_start,
+                              periods=df.shape[0],
+                              freq=df.index.freq)
+    df.index = new_index
+
+    return df
