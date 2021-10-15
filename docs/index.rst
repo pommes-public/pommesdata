@@ -10,9 +10,9 @@ fundamental power market model *POMMES* (**PO**\wer
 **M**\arket **M**\odel of **E**\nergy and re **S**\ources).
 
 If you are intested in the dispatch model,
-you can find a description `here <https://pommes-dispatch.readthedocs.io>`_.
-The investment model is described
-`here <https://pommes-invest.readthedocs.io>`_.
+you can find a description `here <https://pommesdispatch.readthedocs.io/>`_.
+The investment model will be described
+`here <https://pommesinvest.readthedocs.io/>`_.
 
 .. toctree::
    :maxdepth: 2
