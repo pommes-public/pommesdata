@@ -1,8 +1,8 @@
 API reference
 =============
 
-data_prep
----------
+pommesdata.data_prep
+--------------------
 
 .. toctree::
    :maxdepth: 1
