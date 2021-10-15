@@ -8,7 +8,7 @@ Please navigate to the section of interest to find out more.
 ## Contents
 * [Introduction](#introduction)
 * [Documentation](#documentation)
-* [Installation](#installation)
+* [Installation and usage](#installation-and-usage)
 * [Contributing](#contributing)
 * [Citing](#citing)
 * [License](#license)
@@ -17,11 +17,14 @@ Please navigate to the section of interest to find out more.
 *POMMES* itself is a cosmos consisting of a **dispatch model**, a **data preparation routine** (stored in this repository and described here) and an **investment model** for the German wholesale power market. The model was originally developed by a group of researchers and students at the [chair of Energy and Resources Management of TU Berlin](https://www.er.tu-berlin.de/menue/home/) and is now maintained by a group of alumni and open for other contributions.
 
 If you are interested in the actual dispatch or investment model, please find more information here:
-- [pommes-dispatch](https://github.com/pommes-public/pommes-dispatch): A bottom-up fundamental power market model for the German electricity sector
-- pommes-invest: A multi-period integrated investment and dispatch model for the German power sector (upcoming).
+- [pommesdispatch](https://github.com/pommes-public/pommesdispatch): A bottom-up fundamental power market model for the German electricity sector
+- pommesinvest: A multi-period integrated investment and dispatch model for the German power sector (upcoming).
 
 ## Documentation
-The data preparation is mainly carried out in this **[jupyter notebook](https://github.com/pommes-public/pommesdata/blob/dev/data_preparation.ipynb)**. The data sources used as well as the calculation and transformation steps applied are described in a transparent manner. In addition to that, there is a **[documentation of pommesdata]()** on readthedocs. This in turn contains a documentation of the functions and classes used for data preparation. 
+The data preparation is mainly carried out in this **[jupyter notebook](https://github.com/pommes-public/pommesdata/blob/dev/pommesdata/data_preparation.ipynb)**.
+The data sources used as well as the calculation and transformation steps applied are described in a transparent manner.
+In addition to that, there is a **[documentation of pommesdata](https://pommesdata.readthedocs.io/)** on readthedocs.
+This in turn contains a documentation of the functions and classes used for data preparation. 
 
 ## Installation and usage
 There are **two use cases** for using `pommesdata`:
@@ -29,11 +32,10 @@ There are **two use cases** for using `pommesdata`:
 2. Understanding and manipulating the data prep process (inspecting / developing)
 
 If you are only interested in the readily prepared data sets (option 1), you can obtain
-them from zenodo and download it here: https://zenodo.org/
+them from zenodo and download it here: [https://zenodo.org/](https://zenodo.org/)
 
 If you are interested in understanding the data preparation process itself or
 if you wish to include own additions, changes or assumptions, you can
-you fist have to 
 [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
  and then clone the repository, in order to copy the files locally by typing
 
@@ -60,8 +62,8 @@ We use the GitHub issue management as well as pull requests for collaboration.
 
 We try to stick to the PEP8 coding standards.
 
-The juypter notebook for data preparation does not (necessarily have to) 
-meet PEP8 standards, though readability shoud be made sure.
+The jupyter notebook for the data preparation does not (necessarily have to) 
+meet PEP8 standards, though readability should be made sure.
 
 The following people have contributed in the following manner to `pommesdata`:
 
@@ -98,14 +100,14 @@ This in turn will make use of data collected with `pommesdata`.
 Data sets created with `pommesdata` are shared at [zenodo](https://zenodo.org).
 If you use these, please refer to the citation information given at zenodo.
 
-If you are using `pommesdata` for your own analyses, please cite as:<br>
+If you are using `pommesdata` for your own analyses, we recommend citing as:<br>
 *Werner, Y.; Kochems, J. et al. (2021): pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD.*
+
+We furthermore recommend naming the version tag or the commit hash used for the sake of transparency and reproducibility.
 
 Also see CITATION.cff for citation information. Licensing information stated
 in the CITATION.cff is only applicable for the code itself, see 
 [license](#License).
-
-We furthermore recommend to name the version tag or the commit hash used for the sake of transparency and reproducibility.
 
 ## License
 Licensing for the code - in the following referred to as software - 
@@ -123,6 +125,11 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### Data (input data)
+The following table contains the primary data sources used to create data sets used for *POMMES* models.
+The licensing of the different sources differs and the table should provide an overview over the licences used.
+Thus, we cannot publish all the data under an open licens, such as a Creative Commons Attribution license. Please
+be aware that some data might be subject to copyright.
+
 | institution | data set | license | distributed with the repository | download link |
 | ---- | ---- | ---- | ---- | ---- |
 | OPSD | data package conventional power plants | MIT License | yes | https://doi.org/10.25832/conventional_power_plants/2018-12-20 
