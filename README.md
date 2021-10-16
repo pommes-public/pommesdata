@@ -155,7 +155,7 @@ be aware that some data might be subject to copyright.
 | ÜNB | Anlagenstammdaten | data owned by the German TSO | yes | https://www.netztransparenz.de/EEG/Anlagenstammdaten
 | ÜNB | EEG-Bewegungsdaten zur Jahresabrechnung 2017 | data owned by the German TSO | yes | https://www.netztransparenz.de/EEG/Jahresabrechnungen
 | IRENA | installed RES capacities | All rights reserved, data used for pre-calculations | no | https://www.irena.org/Statistics/Download-Data
-| ENTSO-E | Installed Capacity per Production Type | Use pursuant to § 12a EGovG for pre-calculations | no | https://transparency.entsoe.eu/generation/r2/installedGenerationCapacityAggregation/show
+| ENTSO-E | Installed Capacity per Production Type | Use pursuant to Article 5 of the Terms & Conditions of ENTSO-E; data owned by the specific TSOs | no | https://transparency.entsoe.eu/generation/r2/installedGenerationCapacityAggregation/show
 | Prognos et al. | study on RES capacities for DE | All rights reserved, data used for pre calculations | yes | https://www.agora-energiewende.de/veroeffentlichungen/klimaneutrales-deutschland/
 | BNetzA | RES tender results solarPV | free to use, license-free according to §5 Abs. 1 UrhG | yes | https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html
 | BNetzA | RES tender results wind onshore | free to use, license-free according to §5 Abs. 1 UrhG | yes | https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Ausschreibungen/Wind_Onshore/BeendeteAusschreibungen/BeendeteAusschreibungen_node.html
