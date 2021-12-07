@@ -56,17 +56,24 @@ def create_ee_transformers(eeg_power_plants=None,
     """
     ee = eeg_power_plants.copy()
 
-    if energy_source_dict is None:
-        energy_source_dict = dict(
-            Wind_Onshore="windonshore",
-            Wind_Offshore="windoffshore",
-            Solar="solarPV")
+#    if energy_source_dict is None:
+#        energy_source_dict = dict(
+#            wind_onshore="windonshore",
+#            wind_offshore="windoffshore",
+#            solar="solarPV")
+
+    energy_sources = ["windonshore", "windoffshore", "solarPV"]
+    for source in energy_sources:
+        if source in ee["energy_source"].unique():
+            pass
+        else:
+            raise ValueError(source + " is not an energy source in the RES data.")
 
     ee.drop(
-        index=ee[~ee["energy_source"].isin(energy_source_dict.keys())].index,
+        index=ee[~ee["energy_source"].isin(energy_sources)].index,
         inplace=True)
-    ee.loc[:, "energy_source"] = ee.loc[:, "energy_source"].replace(
-        energy_source_dict)
+  #  ee.loc[:, "energy_source"] = ee.loc[:, "energy_source"].replace(
+   #     energy_source_dict)
 
     # Convert capacity unit and calculate total capacity (needed later)
     ee.loc[:, "capacity"] /= 1000
@@ -304,26 +311,26 @@ def add_new_built_res(cap_distribution, new_built_df, annual_cap_expansion,
         Manipulated DataFrame including the generated artificial
         new-built units
     """
-    energy_source_dict = dict(Wind_Onshore='windonshore',
-                              Wind_Offshore='windoffshore',
-                              Solar='solarPV')
+    #energy_source_dict = dict(Wind_Onshore='windonshore',
+    #                          Wind_Offshore='windoffshore',
+    #                          Solar='solarPV')
 
     for year in cap_distribution.keys():
 
         if indexed_by_years:
             cap_to_use = annual_cap_expansion.at[year, capacity_col]
         else:
-            cap_to_use = annual_cap_expansion.at[energy_source_dict[source],
+            cap_to_use = annual_cap_expansion.at[source,
                                                  capacity_col]
 
         for i in range(len(cap_distribution[year]['shares'])):
             new_built_df.loc[
-                energy_source_dict[source] + '_new_' + str(i + 1) + '_' + str(
+                source + '_new_' + str(i + 1) + '_' + str(
                     year),
                 ['capacity', 'energy_source',
-                 'value_applied', 'support_scheme', 'commissioning_year']] = (
-                [cap_distribution[year]['shares'][i] * cap_to_use, source,
-                 cap_distribution[year]['value_applied'][i], 'MP', year])
+                 'value_applied', 'support_scheme', 'commissioning_year']] = [
+                 cap_distribution[year]['shares'][i] * cap_to_use, source,
+                 cap_distribution[year]['value_applied'][i], 'MP', year]
 
     return new_built_df
 
