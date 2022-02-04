@@ -3,15 +3,15 @@ Reference docs
 
 .. contents::
 
-data_preparation
-----------------
+pommesdata.data_preparation
+---------------------------
 
 ```data_preparation.ipynb`` is the main project file. It is a jupyter notebook
 that contains the code and markdown description from raw data and assumptions
-to *POMMES* model input used for ``pommes-dispatch`` as well as ``pommes-invest``.
+to *POMMES* model input used for ``pommesdispatch`` as well as ``pommesinvest``.
 
 Since it contains a transparent description itself, please directly `refer
-to it <https://github.com/pommes-public/pommesdata/blob/dev/data_preparation.ipynb>`_
+to it <https://github.com/pommes-public/pommesdata/blob/dev/pommesdata/data_preparation.ipynb>`_
 and jump to the data source or component you are interested in. We recommend
 to use a jupyter notebook or jupyterlab table of content extension to facilitate
 navigation. You may find instructions for installing and using them here:
@@ -19,8 +19,8 @@ navigation. You may find instructions for installing and using them here:
 * `jupyter nbextension <https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html>`_
 * `jupyterlab extensions <https://jupyterlab.readthedocs.io/en/stable/user/extensions.html>`_
 
-data_prep
----------
+pommesdata.data_prep
+--------------------
 
 The ``data_prep`` package contains some functions that are used in the data
 preparation process.
