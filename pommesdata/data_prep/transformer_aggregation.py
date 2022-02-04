@@ -57,6 +57,8 @@ def cluster_transformers(transformers,
     x1, x2 = np.meshgrid(pd.unique(transformers["from"]),
                          pd.unique(transformers["mode"]))
 
+    increment = 1000
+
     for fuel, mode in zip(x1.flatten(), x2.flatten()):
         n = math.ceil(
             transformers.loc[(transformers["from"] == fuel)
@@ -83,7 +85,8 @@ def cluster_transformers(transformers,
                         & (transformers[
                                "mode"] == mode), by].values.reshape(
                         -1, 1)).labels_ + 1)
-            transformers.loc[transformers["cluster"] != 0, "cluster"] += n
+            transformers.loc[
+                transformers["cluster"] != 0, "cluster"] += increment
 
     return transformers
 
