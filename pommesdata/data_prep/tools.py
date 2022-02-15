@@ -295,6 +295,58 @@ def load_entsoe_generation_data(country=None,
         raise ValueError(msg)
 
 
+def load_entsoe_german_generation_data(
+        path="../raw_data_input/timeseries/",
+        year=2017
+):
+    """Load generation for Germany, handle time shift and resample to hourly
+
+    Parameters
+    ----------
+    path : str
+        relative path to the input file
+
+    year : int
+        Year for which to evaluate generation
+    """
+    if year in range(2017, 2022):
+        filename = f"entsoe_generation_DE_{year}0101-{year + 1}0101.csv"
+    else:
+        msg = f"year must be between 2017 and 2021. You specified {year}"
+        raise ValueError(msg)
+
+    generation = pd.read_csv(path+filename, index_col=1)
+    generation.drop(columns="Area", inplace=True)
+    # Columns for hour 2B are left empty; drop for time shift consideration
+    generation = generation.dropna(how="all")
+
+    generation.index = pd.date_range(
+        start=f"{year}-01-01 00:00:00",
+        end=f"{year}-12-31 23:45:00",
+        freq="15min"
+    )
+    generation = generation.resample("H").mean()
+
+    generation = generation[[
+        "Nuclear  - Actual Aggregated [MW]",
+        "Fossil Brown coal/Lignite  - Actual Aggregated [MW]",
+        "Fossil Hard coal  - Actual Aggregated [MW]",
+        "Fossil Gas  - Actual Aggregated [MW]"
+    ]]
+
+    generation.rename(
+        columns={
+            "Nuclear  - Actual Aggregated [MW]": "uranium",
+            "Fossil Brown coal/Lignite  - Actual Aggregated [MW]": "lignite",
+            "Fossil Hard coal  - Actual Aggregated [MW]": "hardcoal",
+            "Fossil Gas  - Actual Aggregated [MW]": "natgas",
+        },
+        inplace=True
+    )
+
+    return generation
+
+
 def load_entsoe_transmission_data(country,
                                   path="../raw_data_input/Interconnectors/"):
     """Loads and preprocesses ENTSO-E data for cross-border physical flows
