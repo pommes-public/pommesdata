@@ -1,5 +1,5 @@
 energy_carrier;unit;commodity;source
-uranium;EUR/MWh;3.0;Assumption based on Egerer et al., p. 32
+uranium;EUR/MWh;3.0;Assumption based on Egerer et al. 2014, p. 32
 biomass;EUR/MWh;28.2;Assumption based on Prognos AG 2013, p.31, Teske et al. 2015, p. 66, Bang et al. 2013, p. 63, Koch et al. 2018, pp. 26ff.
 water;EUR/MWh;0;Assumption
 waste;EUR/MWh;0;Assumption
