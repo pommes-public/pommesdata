@@ -1,0 +1,10 @@
+scenario;estimate;real_term_value_2030
+Fit_for_55_split;low;95
+Fit_for_55_split;medium;130
+Fit_for_55_split;high;210
+reductions_in_ETS_only;low;140
+reductions_in_ETS_only;medium;200
+reductions_in_ETS_only;high;320
+ESR_reduced;low;125
+ESR_reduced;medium;190
+ESR_reduced;high;255
