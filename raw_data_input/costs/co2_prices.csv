@@ -1,10 +1,10 @@
-scenario;estimate;real_term_value
-option 1: Fit for 55 split;low;95
-option 1: Fit for 55 split;medium;130
-option 1: Fit for 55 split;high;210
-option 2: reductions in ETS only;low;140
-option 2: reductions in ETS only;medium;200
-option 2: reductions in ETS only;high;320
-option 3: ESR reduced;low;125
-option 3: ESR reduced;medium;190
-option 3: ESR reduced;high;255
+scenario;estimate;real_term_value_2030
+Fit_for_55_split;low;95
+Fit_for_55_split;medium;130
+Fit_for_55_split;high;210
+reductions_in_ETS_only;low;140
+reductions_in_ETS_only;medium;200
+reductions_in_ETS_only;high;320
+ESR_reduced;low;125
+ESR_reduced;medium;190
+ESR_reduced;high;255

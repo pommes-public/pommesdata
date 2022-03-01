@@ -1,13 +1,13 @@
 energy_carrier;unit;opex;source
-uranium;EUR/MWh;3.0;Assumption based on 
+uranium;EUR/MWh;5.0;Assumption based on Pietzcker et al. 2021, p. 3
 biomass;EUR/MWh;4.0;Assumption based on Kost et al. 2021, p. 12
-water;EUR/MWh;1.0;Assumption
-waste;EUR/MWh;5.0;Assumption
-solarthermal;EUR/MWh;4.0;Assumption
-otherRES;EUR/MWh;4.0;Assumption
+water;EUR/MWh;2.0;Assumption
+waste;EUR/MWh;3.0;Assumption based on Pietzcker et al. 2021, p. 3
+solarthermal;EUR/MWh;2.0;Assumption
+otherRES;EUR/MWh;2.0;Assumption
 otherfossil;EUR/MWh;4.0;Assumption
 mixedfuels;EUR/MWh;4.0;Assumption
-lignite;EUR/MWh;4.5;Assumption based on Kost et al. 2021, p. 12
-hardcoal;EUR/MWh;4.0;Assumption based on Kost et al. 2021, p. 12
-natgas;EUR/MWh;3.0;Assumption based on Kost et al. 2021, p. 12
+lignite;EUR/MWh;7.0;Assumption based on Kost et al. 2021, p. 12, Pietzcker 2021 et al. p. 3, mean value
+hardcoal;EUR/MWh;5.0;Assumption based on Kost et al. 2021, p. 12, Pietzcker 2021 et al. p. 3, mean value
+natgas;EUR/MWh;3.0;Assumption based on Kost et al. 2021, p. 12, Pietzcker 2021 et al. p. 3
 oil;EUR/MWh;3.0;Assumption based on Kost et al. 2021, p. 12
