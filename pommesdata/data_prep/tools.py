@@ -22,7 +22,7 @@ This software is provided under MIT License (see licensing file).
 
 @author: Yannick Werner, Johannes Kochems
 """
-from math import sin, cos, sqrt, atan2
+from math import atan2, cos, sin, sqrt
 
 import geopandas as gpd
 import numpy as np
@@ -279,8 +279,7 @@ def load_entsoe_generation_data(
         if len(df) == 8760 * 4 + 1 * 4:
             df.drop(
                 index=df.loc[
-                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)"
-                    :"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
+                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)":"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
                 ].index,
                 inplace=True,
             )
@@ -558,9 +557,7 @@ def reindex_time_series(df, year):
     return df
 
 
-def reformat_costs_values(
-    costs, sources_commodity, index="bus"
-):
+def reformat_costs_values(costs, sources_commodity, index="bus"):
     """Reformat commodity cost values
 
     Parameters
@@ -580,9 +577,7 @@ def reformat_costs_values(
         Combination of historical and predicted costs indexed by
         commodity sources introduced by the model
     """
-    reformatted_costs = costs.loc[
-        sources_commodity["fuel"].values
-    ]
+    reformatted_costs = costs.loc[sources_commodity["fuel"].values]
     if index == "bus":
         reformatted_costs.index = sources_commodity["to"].values
     elif index == "source":
@@ -591,3 +586,24 @@ def reformat_costs_values(
     reformatted_costs = reformatted_costs.astype("float64").round(2)
 
     return reformatted_costs
+
+
+def index_costs_values_to_year(costs, year=2020):
+    """Index costs values to given year
+
+    Parameters
+    ----------
+    costs: pd.DataFrame
+        Costs to be indexed to a certain year
+
+    year: int
+        Year to be used for indexation. Defaults to 2020.
+    """
+    costs_ts = pd.DataFrame(columns=range(2017, 2051))
+    for col in costs.columns:
+        costs_ts[col] = costs[col].div(costs[2020]).fillna(1)
+    costs_ts = costs_ts.T
+    costs_ts["date_index"] = pd.date_range(start="2017", end="2050", freq="AS")
+    costs_ts.set_index("date_index", drop=True, inplace=True)
+
+    return costs_ts
