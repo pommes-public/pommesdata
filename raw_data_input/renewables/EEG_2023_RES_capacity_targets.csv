@@ -1,0 +1,17 @@
+﻿fuel;year;capacity [GW]
+solarPV;2024;88
+solarPV;2026;128
+solarPV;2028;172
+solarPV;2030;215
+solarPV;2035;309
+solarPV;2040;400
+windonshore;2024;69
+windonshore;2026;84
+windonshore;2028;99
+windonshore;2030;115
+windonshore;2035;157
+windonshore;2040;160
+windoffshore;2030;30
+windoffshore;2035;40
+windoffshore;2045;70
+biomass;2030;8,4
