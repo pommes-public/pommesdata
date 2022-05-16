@@ -5,6 +5,7 @@
 *__pycache__*
 /pommesdata/.ipynb_checkpoints/
 *.idea
+*.vscode
 *start_jupyter*
 *.aux
 *.bcf
