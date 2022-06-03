@@ -535,7 +535,7 @@ def reindex_time_series(df, year):
 
     Returns
     -------
-    df: pd.DataFrame
+    df_reindexed: pd.DataFrame
         the manipulated DataFrame
     """
     df.index = pd.DatetimeIndex(df.index)
@@ -552,9 +552,10 @@ def reindex_time_series(df, year):
     new_index = pd.date_range(
         start=ts_start, periods=df.shape[0], freq=df.index.freq
     )
-    df.index = new_index
+    df_reindexed = df.copy()
+    df_reindexed.index = new_index
 
-    return df
+    return df_reindexed
 
 
 def reformat_costs_values(costs, sources_commodity, index="bus"):
