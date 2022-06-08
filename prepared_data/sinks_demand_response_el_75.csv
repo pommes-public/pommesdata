@@ -1,6 +1,0 @@
-cluster,fixed_costs,interference_duration_neg,interference_duration_pos,maximum_activations_year,regeneration_duration,shifting_duration,specific_investments,variable_costs,installed_cap,potential_neg_overall,potential_pos_overall,max_cap,country,from
-ind_cluster-1,0.0,4.25,3.5,357.0,1.0,8.5,0.5,154.3,14003.0,4923.0,8865.0,10957.0,DE,DE_bus_el
-ind_cluster-2,9.2,4.25,2.75,55.0,1.0,6.25,3.3,299.2,470.0,59.0,318.0,1881.0,DE,DE_bus_el
-tcs_cluster,0.0,1.5,1.5,172.0,0.0,2.75,7.0,95.7,5238.0,3427.0,2104.0,1599.0,DE,DE_bus_el
-hoho_cluster,89.8,2.75,3.75,3202.0,0.0,2.75,83.2,0.0,196996.0,6739.0,7179.0,12517.0,DE,DE_bus_el
-tcs_hoho_cluster,8.1,7.75,8.25,329.0,0.0,12.75,39.7,0.3,68877.0,6172.0,6459.0,8209.0,DE,DE_bus_el

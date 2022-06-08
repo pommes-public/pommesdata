@@ -1,0 +1,9 @@
+energy_carrier;unit;markup
+uranium;EUR/MWh;0
+lignite;EUR/MWh;0
+waste;EUR/MWh;0
+hardcoal;EUR/MWh;5
+natgas;EUR/MWh;5
+otherfossil;EUR/MWh;6
+mixedfuels;EUR/MWh;6
+oil;EUR/MWh;7

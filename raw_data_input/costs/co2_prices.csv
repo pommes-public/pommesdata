@@ -1,0 +1,10 @@
+scenario;estimate;real_term_value_2030
+Ff55_split;low;95
+Ff55_split;medium;130
+Ff55_split;high;210
+red_ETS;low;140
+red_ETS;medium;200
+red_ETS;high;320
+ESR_red;low;125
+ESR_red;medium;190
+ESR_red;high;255

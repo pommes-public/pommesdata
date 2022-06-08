@@ -1,0 +1,43 @@
+technology;country;2016;2017;2018
+Biomass;DK1;115;115;696
+Fossil Brown coal/Lignite;DK1;0;n/e;n/e
+Fossil Coal-derived gas;DK1;n/e;n/e;n/e
+Fossil Gas;DK1;1700;1700;1161
+Fossil Hard coal;DK1;2775;2775;1915
+Fossil Oil;DK1;292;292;208
+Fossil Oil shale;DK1;n/e;n/e;n/e
+Fossil Peat;DK1;n/e;n/e;n/e
+Geothermal;DK1;n/e;n/e;n/e
+Hydro Pumped Storage;DK1;n/e;n/e;n/e
+Hydro Run-of-river and poundage;DK1;9;9;6
+Hydro Water Reservoir;DK1;n/e;n/e;n/e
+Marine;DK1;n/e;n/e;n/e
+Nuclear;DK1;n/e;n/e;n/e
+Other;DK1;n/e;n/e;n/e
+Other renewable;DK1;75;75;125
+Solar;DK1;421;421;664
+Waste;DK1;211;211;211
+Wind Offshore;DK1;843;843;1277
+Wind Onshore;DK1;2966;2966;3664
+Total Grand capacity;DK1;9407;9407;9927
+Biomass;DK2;82;82;1000
+Fossil Brown coal/Lignite;DK2;0;n/e;n/e
+Fossil Coal-derived gas;DK2;n/e;n/e;n/e
+Fossil Gas;DK2;1241;1241;665
+Fossil Hard coal;DK2;2072;2072;1741
+Fossil Oil;DK2;759;759;799
+Fossil Oil shale;DK2;n/e;n/e;n/e
+Fossil Peat;DK2;n/e;n/e;n/e
+Geothermal;DK2;n/e;n/e;n/e
+Hydro Pumped Storage;DK2;n/e;n/e;n/e
+Hydro Run-of-river and poundage;DK2;0;0;0
+Hydro Water Reservoir;DK2;n/e;n/e;n/e
+Marine;DK2;n/e;n/e;n/e
+Nuclear;DK2;n/e;n/e;n/e
+Other;DK2;n/e;n/e;n/e
+Other renewable;DK2;13;13;21
+Solar;DK2;180;180;338
+Waste;DK2;152;152;173
+Wind Offshore;DK2;428;428;423
+Wind Onshore;DK2;608;608;759
+Total Grand capacity;DK2;5535;5535;5919

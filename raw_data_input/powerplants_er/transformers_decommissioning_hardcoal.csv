@@ -1,0 +1,122 @@
+﻿Kraftwerksnummer Bundesnetzagentur;Unternehmen;Kraftwerksname;Blockname;"Aufnahme der kommerziellen Stromerzeugung der derzeit in Betrieb befindlichen Erzeugungseinheit
+(Datum/Jahr)";Geplante Ausserbetriebnahme;Energieträger;Netto-Nennleistung (elektrische Wirkleistung) in MW;Geplante endgültige Aufgabe von Netto-Nennleistung (elektrisch) in MW;Art der Stilllegung;Netzreserve / Kapazitätsreserve / Sicherheitsbereitschaft / vorläufig stillgelegt;Systemrelevanz;Quelle;;;;Installierte Leistung in MW;Feststehende Außerbetriebnahme in MW;Feststehende Inbetriebnahme in MW;Empfohlene Außerbetriebnahme laut Kohlekommission in MW;Ziel in MW;Differenz in MW;Anzahl außer Betrieb genommener Steinkohlekraftwerke;Anzahl in Betrieb genommener Steinkohlekraftwerke
+BNA0414;RWE Generation SE;Westfalen;A;1963;2011;Steinkohle;152;152;OPSD;;;OPSD;;;2011; 25.668 ; 304 ; 283 ;;;;2;1
+BNA0415;RWE Generation SE;Westfalen;B;1963;2011;Steinkohle;152;152;OPSD;;;OPSD;;;2012; 25.121 ; 547 ; -   ;;;;4;0
+BNA0212;Stadtwerke Duisburg AG;HKW II/B;HKW II/B;1965;2012;Steinkohle;133;133;OPSD;;;OPSD;;;2013; 25.897 ; 684 ; 1.460 ;;;;5;2
+BNA0812;Gemeinschaftskraftwerk Veltheim GmbH;Kraftwerk Veltheim;2;1965;2012;Steinkohle;93;93;OPSD;;;OPSD;;;2014; 26.220 ; 2.159 ; 2.482 ;;;;7;4
+BNA0376;Uniper Kraftwerke GmbH ;Staudinger;3;1970;2012;Steinkohle;293;293;OPSD;;;OPSD;;;2015; 28.436 ; 958 ; 3.174 ;;;;5;4
+BNA0011;Papierfabrik Albbruck GmbH;Papierfabrik Albbruck;;2009;2012;Steinkohle;28;28;OPSD;;;OPSD;;;2016; 27.202 ; 1.234 ; -   ;;;;5;0
+BNA0448;Uniper Kraftwerke GmbH ;Shamrock;;1957;2013;Steinkohle;132;132;OPSD;;;OPSD;;;2017; 23.450 ; 3.752 ; -   ;;;;8;0
+BNA0187;Uniper Kraftwerke GmbH ;Datteln;1;1964;2013;Steinkohle;95;95;OPSD;;;OPSD;;;2018; 22.098 ; 1.352 ; -   ;;;;7;0
+BNA0188;Uniper Kraftwerke GmbH ;Datteln;2;1964;2013;Steinkohle;95;95;OPSD;;;OPSD;;;2019; 20.770 ; 1.328 ; -   ; -   ;;;6;0
+BNA0375;Uniper Kraftwerke GmbH ;Staudinger;1;1965;2013;Steinkohle;249;249;OPSD;;;OPSD;;;2020; 20.629 ; 1.193 ; 1.052 ; -   ;;;4;1
+BNA0189;Uniper Kraftwerke GmbH ;Datteln;3;1969;2013;Steinkohle;113;113;OPSD;;;OPSD;;;2021; 20.562 ; 67 ; -   ; -   ;;;2;0
+BNA0215;Steag GmbH;KW Walsum;Walsum 7;1959;2014;Steinkohle;129;129;OPSD;;;OPSD;;;2022; 14.982 ; 760 ; -   ; 4.821 ; 15.000 ;-18 ;23;0
+BNA0447;Steag GmbH;KW Herne;Herne 2;1963;2014;Steinkohle;133;133;OPSD;;;OPSD;;;2023; 14.107 ; -   ; 850 ; 1.725 ; 14.125 ;-18 ;8;1
+BNA0333;Uniper Kraftwerke GmbH ;Scholven;D;1970;2014;Steinkohle;345;345;OPSD;;;OPSD;;;2024; 13.232 ; -   ; -   ; 875 ; 13.250 ;-18 ;1;0
+BNA0203;Uniper Kraftwerke GmbH ;Knepper;C;1971;2014;Steinkohle;345;345;OPSD;;;OPSD;;;2025; 12.327 ; -   ; -   ; 905 ; 12.375 ;-48 ;4;0
+BNA0334;Uniper Kraftwerke GmbH ;Scholven;E;1971;2014;Steinkohle;345;345;OPSD;;;OPSD;;;2026; 11.478 ; -   ; -   ; 850 ; 11.500 ;-22 ;4;0
+BNA1035;Mark-E AG;Kraftwerk Werdohl-Elverlingsen;E3;1971;2014;Steinkohle;186;186;OPSD;;;OPSD;;;2027; 10.616 ; -   ; -   ; 862 ; 10.625 ;-9 ;4;0
+BNA0335;Uniper Kraftwerke GmbH ;Scholven;F;1979;2014;Steinkohle;676;676;OPSD;;;OPSD;;;2028; 9.671 ; -   ; -   ; 945 ; 9.750 ;-79 ;2;0
+BNA0432;EnBW Energie Baden-Württemberg AG;Heizkraftwerk Heilbronn;HLB 5;1965;2015;Steinkohle;125,0;125;Geplant endgültig;Netzreserve;x;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;2029; 8.864 ; -   ; -   ; 806 ; 8.875 ;-11 ;5;0
+BNA0433;EnBW Energie Baden-Württemberg AG;Heizkraftwerk Heilbronn;HLB 6;1966;2015;Steinkohle;125,0;125;Geplant endgültig;Netzreserve;x;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;2030; 7.528 ; -   ; -   ; 1.337 ; 8.000 ;-472 ;4;0
+BNA0642;Grosskraftwerk Mannheim AG;GKM ;Block 3;1966;2015;Steinkohle;202,5;202,5;OPSD;;;OPSD;;;2031; 6.062 ; -   ; -   ; 1.466 ; 6.400 ;-338 ;2;0
+BNA0813;Uniper Kraftwerke GmbH ;Kraftwerk Veltheim;3;1970;2015;Steinkohle;303;303;OPSD;;;OPSD;;;2032; 4.498 ; -   ; -   ; 1.564 ; 4.800 ;-302 ;2;0
+BNA0643;Grosskraftwerk Mannheim AG;GKM ;Block 4;1970;2015;Steinkohle;202,5;202,5;OPSD;;;OPSD;;;2033; 2.864 ; -   ; -   ; 1.634 ; 3.200 ;-336 ;2;0
+BNA0145;swb Erzeugung GmbH & Co. KG;KW Hafen;Block 5;1968;2016;Steinkohle;127;127;OPSD;;;OPSD;;;2034; 850 ; -   ; -   ; 2.014 ; 1.600 ;-750 ;3;0
+BNA0413a;RWE Generation SE;Westfalen;C;1969;2016;Steinkohle;284;284;OPSD;;;OPSD;;;2035; 0 ; -   ; -   ; 850 ;0; 0 ;1;0
+BNA0274;Stadtwerke Flensburg GmbH;Heizkraftwerk FL;Block 7;1978;2016;Steinkohle;23;23;OPSD;;;OPSD;;;;;;;;;;;
+BNA0273;Stadtwerke Flensburg GmbH;Heizkraftwerk FL;Block 8;1982;2016;Steinkohle;35;35;OPSD;;;OPSD;;;;;;;;;;;
+BNA0413b;RWE Generation SE;Westfalen;D;2014;2016;Steinkohle;765;765;OPSD;;;OPSD;;;;;;;;;;;
+BNA0661;Evonik Degussa GmbH;Kraftwerk II;Block 3;1966;2017;Steinkohle;60,4;60,4;OPSD;;;OPSD;;;;;;;;;;;
+BNA0449;Steag GmbH;KW Herne;Herne 3;1966;2017;Steinkohle;280;280;OPSD;;;OPSD;;;;;;;;;;;
+BNA0989;Steag GmbH;KW West;West 2;1971;2017;Steinkohle;318;318;OPSD;;;OPSD;;;;;;;;;;;
+BNA0990;Steag GmbH;KW West;West 1;1971;2017;Steinkohle;322;322;OPSD;;;OPSD;;;;;;;;;;;
+BNA0820;STEAG GmbH;Weiher;Weiher III;1976;2017;Steinkohle;655,6;655,6;Geplant vorläufig;Netzreserve;x;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA0991;RWE Generation SE;KW Voerde;Block A;1982;2017;Steinkohle;695;695;OPSD;;;OPSD;;;;;;;;;;;
+BNA0093;STEAG GmbH;Kraftwerk Bexbach;BEX;1983;2017;Steinkohle;726,0;726;Geplant vorläufig;Netzreserve;x;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA0992;RWE Generation SE;KW Voerde;Block B;1985;2017;Steinkohle;695;695;OPSD;;;OPSD;;;;;;;;;;;
+BNA0618;Steag GmbH;KW Lünen;Lünen 6;1962;2018;Steinkohle;149,0;149;Geplante endgültige Stilllegung und mittlerweile endgültig stillgelegt;;;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA0253;VSE AG, Kraftwerk Ensdorf;Kraftwerk Ensdorf;Block 1;1963;2018;Steinkohle;106;106;OPSD;;;OPSD;;;;;;;;;;;
+BNA0619;Steag GmbH;KW Lünen;Lünen 7;1969;2018;Steinkohle;324,0;324;Geplante endgültige Stilllegung und mittlerweile endgültig stillgelegt;;;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA1037;Mark-E AG;Kraftwerk Werdohl-Elverlingsen;E4;1982;2018;Steinkohle;310;310;OPSD;;;OPSD;;;;;;;;;;;
+BNA0211;Stadtwerke Duisburg AG;HKW I;ZAWSF;1985;2018;Steinkohle;95;95;OPSD;;;OPSD;;;;;;;;;;;
+BNA1084;WSW Energie & Wasser AG;HKW Elberfeld ;Block 3;1992;2018;Steinkohle;85;85;OPSD;;;OPSD;;;;;;;;;;;
+BNA0252;Gemeinschaft nach Bruchteilen der Saarstahl AG (SAG) und Saarschmiede GmbH Freiformschmiede (SSF);Kraftwerk Ensdorf;Block 3;2011;2018;Steinkohle;283;283;OPSD;;;OPSD;;;;;;;;;;;
+BNA1005;EnBW Energie Baden-Württemberg AG;Kraftwerk Walheim;WAL 1;1964;2019;Steinkohle;96,0;96;Geplant endgültig;Netzreserve;x;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA1006;EnBW Energie Baden-Württemberg AG;Kraftwerk Walheim;WAL 2;1967;2019;Steinkohle;148,0;148;Geplant endgültig;Netzreserve;x;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA0082;Vattenfall Wärme Berlin AG;Reuter;Reuter C;1969;2019;Steinkohle;124,0;124;Geplante endgültige Stilllegung (mit StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0526;Gemeinschaftskraftwerk Kiel GmbH;Gemeinschaftskraftwerk Kiel;;1970;2019;Steinkohle;323,0;323;Geplante endgültige Stilllegung (mit StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA1046a;RWE Generation SE;Gersteinwerk;Block K2;1984;2019;Steinkohle;614,0;614;Geplante endgültige Stilllegung (mit StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0934;EnBW Energie Baden-Württemberg AG;Heizkraftwerk Stuttgart-Gaisburg;GAI DT 14 neu;2009;2019;Steinkohle;22,6;22,6;Geplante endgültige Stilllegung (mit StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0332;Uniper Kraftwerke GmbH ;Scholven;B;1968;2020;Steinkohle;345,0;345;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0331;Uniper Kraftwerke GmbH ;Scholven;C;1969;2020;Steinkohle;345,0;345;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0020;EnBW Energie Baden-Württemberg AG;Heizkraftwerk Altbach/Deizisau;ALT HKW 1;1985;2020;Steinkohle;433,0;433;Geplant endgültig;Netzreserve;x;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA0336;Uniper Kraftwerke GmbH ;FWK Buer;;1985;2020;Steinkohle;70,0;70;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0261b;Erlanger Stadtwerke AG;HKW Erlangen;K6 DT2;1982;2021;Steinkohle;17,4;17,4;Geplant endgültig;;;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA0861b;Energie SaarLorLux AG;HKW Römerbrücke;Kohleanlage;1989;2021;Steinkohle;50,0;50;Geplante vorläufige Stilllegung in Form der saisonalen Stilllegung;;;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;;;;;;;;;
+BNA1076a;Volkswagen AG;HKW West;Block 1;1985;2022;Steinkohle;138,5;138,5;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA1076b;Volkswagen AG;HKW West;Block 2;1985;2022;Steinkohle;138,5;138,5;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0801;Heizkraftwerk Pforzheim GmbH;HKW Pforzheim;Wirbelschichtblock;1990;2022;Steinkohle;26,9;26,9;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0969b;SWM Service GmbH;Nord 2;Block 2;1991;2022;Steinkohle;332,7;332,7;Geplante endgültige Stilllegung (mit StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA1075a;Volkswagen AG;HKW Nord;Generator A;2000;2022;Steinkohle;61,5;61,5;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA1075b;Volkswagen AG;HKW Nord;Generator B;2000;2022;Steinkohle;61,5;61,5;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA1331;R.D.M. Arnsberg GmbH;Reno De Medici;HD - Kraftwerk;1923;2022;Steinkohle;19,2;19,2;;;;OPSD;;;;;;;;;;;
+BNA0662b;Evonik Degussa GmbH;Kraftwerk I;Dampfwirtschaft (6 Einzelturbinen);1940;2022;Steinkohle;169,3;169,3;;;;OPSD;;;;;;;;;;;
+BNA0557a;Currenta GmbH & Co. OHG;Kraftwerk L 57;;1957;2022;Steinkohle;26,0;26,0;;;;OPSD;;;;;;;;;;;
+BNA0404;Vattenfall Europe Wärme AG;Wedel;Wedel 1;1961;2022;Steinkohle;137,0;137,0;;;;OPSD;;;;;;;;;;;
+BNA0403;Vattenfall Europe Wärme AG;Wedel;Wedel 2;1962;2022;Steinkohle;123,0;123,0;;;;OPSD;;;;;;;;;;;
+BNA0600b;Currenta GmbH & Co. OHG;G-Kraftwerk;;1962;2022;Steinkohle;103,0;103,0;;;;OPSD;;;;;;;;;;;
+BNA0147;ENGIE Deutschland AG;Farge;Farge;1969;2022;Steinkohle;350,0;350,0;;;;OPSD;;;;;;;;;;;
+BNA0926b;Sappi Stockstadt GmbH;Heizkraftwerk der Sappi Stockstadt GmbH;Konventionelles Sammelschienenkraftwerk;1970;2022;Steinkohle;24,8;24,8;;;;OPSD;;;;;;;;;;;
+BNA0557b;Currenta GmbH & Co. OHG;Kraftwerk N 230;;1971;2022;Steinkohle;110,0;110,0;;;;OPSD;;;;;;;;;;;
+BNA0660;Evonik Degussa GmbH;Kraftwerk I  ;Block 4 ;1971;2022;Steinkohle;55,6;55,6;;;;OPSD;;;;;;;;;;;
+BNA1061;Uniper Kraftwerke GmbH ;Wilhelmshaven;1;1976;2022;Steinkohle;757,0;757,0;;;;OPSD;;;;;;;;;;;
+BNA0146;swb Erzeugung AG & Co. KG;KW Hafen;Block 6;1979;2022;Steinkohle;303,0;303,0;;;;OPSD;;;;;;;;;;;
+BNA0464;Stadtwerke Hannover AG;KWM;Block3;1979;2022;Steinkohle;690,0;690,0;;;;OPSD;;;;;;;;;;;
+BNA0067;RWE Generation SE;Bergkamen;A;1981;2022;Steinkohle;717,0;717,0;;;;OPSD;;;;;;;;;;;
+BNA0645;Grosskraftwerk Mannheim AG;GKM ;Block 7;1982;2022;Steinkohle;425,0;425,0;;;;OPSD;;;;;;;;;;;
+BNA0935;EnBW Energie Baden-Württemberg AG;Restmüll-Heizkraftwerk Stuttgart-Münster;MÜN DT12;1982;2023;Steinkohle;45,0;45,0;;;;OPSD;;;;;;;;;;;
+BNA0998;Steag GmbH;Modellkraftwerk;MKV;1982;2023;Steinkohle;179,0;179,0;;;;OPSD;;;;;;;;;;;
+BNA0662a;Evonik Degussa GmbH;Kraftwerk I ;Block 5 ;1983;2023;Steinkohle;68,4;68,4;;;;OPSD;;;;;;;;;;;
+BNA0138;Braunschweiger Versorgungs-AG & Co. KG;HKW-Mitte;Block 1 ;1984;2023;Steinkohle;43,3;43,3;;;;OPSD;;;;;;;;;;;
+BNA0936;EnBW Energie Baden-Württemberg AG;Restmüll-Heizkraftwerk Stuttgart-Münster;MÜN DT15;1984;2023;Steinkohle;45,0;45,0;;;;OPSD;;;;;;;;;;;
+BNA0272;Stadtwerke Flensburg GmbH;Heizkraftwerk FL;Block 9;1985;2022;Steinkohle;33,0;33,0;;;;OPSD;;;;;;;;;;;
+BNA0434;EnBW Energie Baden-Württemberg AG;Heizkraftwerk Heilbronn;HLB 7;1985;2022;Steinkohle;778,0;778,0;;;;OPSD;;;;;;;;;;;
+BNA0493;RWE Generation SE;Ibbenbüren;B;1985;2023;Steinkohle;794,0;794,0;;;;OPSD;;;;;;;;;;;
+BNA0518a;EnBW Energie Baden-Württemberg AG;Rheinhafen-Dampfkraftwerk;RDK 7;1985;2023;Steinkohle;517,0;517,0;;;;OPSD;;;;;;;;;;;
+BNA1093;ENGIE Deutschland AG;Zolling;Zolling Block 5;1985;2025;Steinkohle;472,0;472,0;;;;OPSD;;;;;;;;;;;
+BNA0086;Vattenfall Wärme Berlin AG;Reuter West;Reuter West D;1987;2025;Steinkohle;282,0;282,0;;;;OPSD;;;;;;;;;;;
+BNA0793;Uniper Kraftwerke GmbH ;Heyden;4;1987;2024;Steinkohle;875,0;875,0;;;;OPSD;;;;;;;;;;;
+BNA0087;Vattenfall Wärme Berlin AG;Reuter West;Reuter West E;1988;2026;Steinkohle;282,0;282,0;;;;OPSD;;;;;;;;;;;
+BNA0216a;Steag GmbH;KW Walsum;Walsum 9;1988;2026;Steinkohle;370,0;370,0;;;;OPSD;;;;;;;;;;;
+BNA0289b;Mainova AG;HKW West;Block 2;1988;2025;Steinkohle;61,5;61,5;;;;OPSD;;;;;;;;;;;
+BNA0085a;Vattenfall Wärme Berlin AG;Moabit;Moabit A;1989;2025;Steinkohle;89,0;89,0;;;;OPSD;;;;;;;;;;;
+BNA0271;Stadtwerke Flensburg GmbH;Heizkraftwerk FL;Block 10;1989;2023;Steinkohle;33,0;33,0;;;;OPSD;;;;;;;;;;;
+BNA0290;Mainova AG;HKW West;Block 3;1989;2026;Steinkohle;61,5;61,5;;;;OPSD;;;;;;;;;;;
+BNA0420;enercity AG;GKH;Block1;1989;2026;Steinkohle;136,0;136,0;;;;OPSD;;;;;;;;;;;
+BNA0421;enercity AG;GKH;Block2;1989;2027;Steinkohle;136,0;136,0;;;;OPSD;;;;;;;;;;;
+BNA0450;Steag GmbH;KW Herne;Herne 4;1989;2027;Steinkohle;449,0;449,0;;;;OPSD;;;;;;;;;;;
+BNA0498;Infraserv GmbH & Co. Höchst KG;Heizkraftwerk;Block B;1989;2027;Steinkohle;66,0;66,0;;;;OPSD;;;;;;;;;;;
+BNA0999;Steag GmbH;Heizkraftwerk;HKV;1989;2027;Steinkohle;211,0;211,0;;;;OPSD;;;;;;;;;;;
+BNA0758;Energieversorgung Offenbach AG;Heizkraftwerk Offenbach;;1990;2029;Steinkohle;54,0;54,0;;;;OPSD;;;;;;;;;;;
+BNA0270;Stadtwerke Flensburg GmbH;Heizkraftwerk FL;Block 11;1992;2029;Steinkohle;31,0;31,0;;;;OPSD;;;;;;;;;;;
+BNA0377;Uniper Kraftwerke GmbH ;Staudinger;5;1992;2028;Steinkohle;510,0;510,0;;;;OPSD;;;;;;;;;;;
+BNA1405a;Fernwärme Ulm GmbH;Heizkraftwerk Magirusstraße;;1992;2030;Steinkohle;20,7;20,7;;;;OPSD;;;;;;;;;;;
+BNA0402;Vattenfall Hamburg Wärme GmbH;Tiefstack;Tiefstack;1993;2029;Steinkohle;194,0;194,0;;;;OPSD;;;;;;;;;;;
+BNA0646a;Grosskraftwerk Mannheim AG;GKM ;Block 8;1993;2028;Steinkohle;435,0;435,0;;;;OPSD;;;;;;;;;;;
+BNA0849;EnBW Energie Baden-Württemberg AG;KNG Kraftwerk Rostock;Rostock;1994;2029;Steinkohle;514,0;514,0;;;;OPSD;;;;;;;;;;;
+BNA0510b;SWK Stadtwerke Kaiserslautern, Versorgungs-AG;HKW Karcherstr.;20;1996;2029;Steinkohle;13,4;13,4;;;;OPSD;;;;;;;;;;;
+BNA0019;EnBW Energie Baden-Württemberg AG;Heizkraftwerk Altbach/Deizisau;ALT HKW 2 (DT Solobetrieb);1997;2030;Steinkohle;336,0;336,0;;;;OPSD;;;;;;;;;;;
+BNA0644;Grosskraftwerk Mannheim AG;GKM ;Block 6;2005;2030;Steinkohle;255,0;255,0;;;;OPSD;;;;;;;;;;;
+BNA0216b;STEAG-EVN Walsum 10 Kraftwerksgesellsellschaft mbH;KW Walsum;Walsum 10;2013;2030;Steinkohle;725,0;725,0;;;;OPSD;;;;;;;;;;;
+BNA1508;Trianel Kohlekraftwerk Lünen GmbH & Co. KG;Trianel Kohlekraftwerk Lünen;;2013;2031;Steinkohle;735,0;735,0;;;;OPSD;;;;;;;;;;;
+BNA0144;swb Erzeugung AG & Co. KG;KW Hastedt;Block 15;2014;2034;Steinkohle;119,0;119,0;;;;OPSD;;;;;;;;;;;
+BNA0413c;RWE Generation SE;Westfalen;E;2014;2032;Steinkohle;763,7;763,7;;;;OPSD;;;;;;;;;;;
+BNA0518b;EnBW Energie Baden-Württemberg AG;Rheinhafen-Dampfkraftwerk;RDK 8;2014;2033;Steinkohle;834,0;834,0;;;;OPSD;;;;;;;;;;;
+BNA0646b;Grosskraftwerk Mannheim AG;GKM ;Block 9;2015;2034;Steinkohle;843,0;843,0;;;;OPSD;;;;;;;;;;;
+BNA1558;Vattenfall Heizkraftwerk Moorburg GmbH;Moorburg B;B;2015;2032;Steinkohle;800,0;800,0;;;;OPSD;;;;;;;;;;;
+BNA1673;Vattenfall Heizkraftwerk Moorburg GmbH;Moorburg A;A;2015;2033;Steinkohle;800,0;800,0;;;;OPSD;;;;;;;;;;;
+BNA1674;ENGIE Deutschland AG;Kraftwerk Wilhelmshaven;Kraftwerk Wilhelmshaven;2015;2031;Steinkohle;731,0;731,0;;;;OPSD;;;;;;;;;;;
+new_built_005;Uniper Kraftwerke GmbH;Datteln 4;;2020;2034;Steinkohle;1052;1052;;Im Bau;;Genehmigte oder im Genehmigungsverfahren befindliche Kraftwerksprojekte¹ in Deutschland UBA 2019 (Ausnahmen gekennzeichet);;;;;;;;;;;
+new_built_018;Dow Chemical;Stade-Bützfleth;;2023;2035;Steinkohle;850;850;;Geplant;;Genehmigte oder im Genehmigungsverfahren befindliche Kraftwerksprojekte¹ in Deutschland UBA 2019 (Ausnahmen gekennzeichet);;;;;;;;;;;

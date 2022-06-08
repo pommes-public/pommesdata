@@ -1,0 +1,9 @@
+energy_carrier;unit;commodity;source
+uranium;EUR/MWh;3.0;Assumption based on Egerer et al. 2014, p. 32
+biomass;EUR/MWh;28.2;Assumption based on Prognos AG 2013, p.31, Teske et al. 2015, p. 66, Bang et al. 2013, p. 63, Koch et al. 2018, pp. 26ff.
+water;EUR/MWh;0;Assumption
+waste;EUR/MWh;0;Assumption
+solarthermal;EUR/MWh;0;Assumption
+otherRES;EUR/MWh;0;Assumption
+otherfossil;EUR/MWh;21.0;Assumption
+lignite;EUR/MWh;3.10;Assumption based on Schulte et al. 2021, p. 10.

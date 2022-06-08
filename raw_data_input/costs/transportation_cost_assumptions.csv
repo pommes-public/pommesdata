@@ -1,0 +1,4 @@
+energy_carrier;unit;transportation;source
+hardcoal;EUR/MWh;1.25;r2b (2019), p. 163
+natgas;EUR/MWh;0.5;r2b (2019), p. 163
+oil;EUR/MWh;0.3;r2b (2019), p. 163

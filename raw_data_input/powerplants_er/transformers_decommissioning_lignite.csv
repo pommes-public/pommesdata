@@ -1,0 +1,81 @@
+﻿Kraftwerksnummer Bundesnetzagentur;Unternehmen;Kraftwerksname;Blockname;"Aufnahme der kommerziellen Stromerzeugung der derzeit in Betrieb befindlichen Erzeugungseinheit
+(Datum/Jahr)";Geplante Ausserbetriebnahme;Energieträger;Netto-Nennleistung (elektrische Wirkleistung) in MW;Geplante endgültige Aufgabe von Netto-Nennleistung (elektrisch) in MW;Art der Stilllegung;Netzreserve / Kapazitätsreserve / Sicherheitsbereitschaft / vorläufig stillgelegt;Systemrelevanz;Quelle;;;;Installierte Leistung in MW;Feststehende Außerbetriebnahme in MW;Feststehende Inbetriebnahme in MW;Empfohlene Außerbetriebnahme laut Kohlekommission in MW;Ziel in MW;Differenz in MW;Anzahl außer Betrieb genommener Braunkohlekraftwerke;Anzahl in Betrieb genommener Braunkohlekraftwerke
+BNA0302;RWE Power AG;Frimmersdorf;C;1957;2011;Braunkohle;129;129;;;;OPSD;;;2011;19.794;383;0;;;;3;0
+BNA0303;RWE Power AG;Frimmersdorf;D;1957;2011;Braunkohle;130;130;;;;OPSD;;;2012;21.233;1321;2760;;;;10;3
+BNA0304;RWE Power AG;Frimmersdorf;G;1960;2011;Braunkohle;124;124;;;;OPSD;;;2013;21.196;60;23,2;;;;1;1
+BNA1021;RWE Power AG;Weisweiler;C;1955;2012;Braunkohle;123;123;;;;OPSD;;;2014;21.216;0;20,3;;;;0;1
+BNA1022;RWE Power AG;Weisweiler;D;1959;2012;Braunkohle;135;135;;;;OPSD;;;2015;21.171;45;0;;;;1;0
+BNA0305;RWE Power AG;Frimmersdorf;E;1959;2012;Braunkohle;130;130;;;;OPSD;;;2016;20.819;352;0;;;;1;0
+BNA0307;RWE Power AG;Frimmersdorf;I;1960;2012;Braunkohle;128;128;;;;OPSD;;;2017;20.249;570;0;;;;2;0
+BNA0306;RWE Power AG;Frimmersdorf;F;1960;2012;Braunkohle;132;132;;;;OPSD;;;2018;19.192;1057;0;;;;3;0
+BNA0308;RWE Power AG;Frimmersdorf;K;1962;2012;Braunkohle;136;136;;;;OPSD;;;2019;18.395;797;0;;;;3;0
+BNA0310;RWE Power AG;Frimmersdorf;M;1962;2012;Braunkohle;138;138;;;;OPSD;;;2020;18.344;51;0;;;;1;0
+BNA0311;RWE Power AG;Frimmersdorf;L;1962;2012;Braunkohle;131;131;;;;OPSD;;;2021;18.344;0;0;;;;0;0
+BNA0309;RWE Power AG;Frimmersdorf;N;1964;2012;Braunkohle;135;135;;;;OPSD;;;2022;14.976;74;0;3294;15000;-24;16;0
+BNA0312;RWE Power AG;Frimmersdorf;O;1964;2012;Braunkohle;133;133;;;;OPSD;;;2023;14.075;0;0;901;14250;-175;2;0
+BNA0680;Mitteldeutsche Braunkohlengesellschaft mbH;Mumsdorf;;1968;2013;Braunkohle;60;60;;;;OPSD;;;2024;13.412;0;0;663;13500;-88;1;0
+BNA0490b;RWE Power AG;Goldenberg;F;1993;2015;Braunkohle;45;45;;;;OPSD;;;2025;12.739;0;0;673;12750;-11;2;0
+BNA0439;Helmstedter Revier GmbH;Buschhaus;D;1985;2016;Braunkohle;352;352;Geplante endgültige Stilllegung nach SicherheitsSicherheitsbereitschaft;Sicherheitsbereitschaft;;Abschlussbericht - Kommission „Wachstum, Strukturwandel und Beschäftigung“;;;2026;11.618;0;0;1121;12000;-382;2;0
+BNA0313;RWE Power AG;Frimmersdorf;P;1970;2017;Braunkohle;278;278;Geplante endgültige Stilllegung nach SicherheitsSicherheitsbereitschaft;Sicherheitsbereitschaft;;Abschlussbericht - Kommission „Wachstum, Strukturwandel und Beschäftigung“;;;2027;11.153;0;0;465;11250;-97;1;0
+BNA0314;RWE Power AG;Frimmersdorf;Q;1973;2017;Braunkohle;292;292;Geplante endgültige Stilllegung nach SicherheitsSicherheitsbereitschaft;Sicherheitsbereitschaft;;Abschlussbericht - Kommission „Wachstum, Strukturwandel und Beschäftigung“;;;2028;10.084;0;0;1069;10500;-416;2;0
+BNA0706;RWE Power AG;Niederaußem;F;1968;2018;Braunkohle;297;297;Geplante endgültige Stilllegung nach SicherheitsSicherheitsbereitschaft;Sicherheisbereitschaft;;Abschlussbericht - Kommission „Wachstum, Strukturwandel und Beschäftigung“;;;2029;9.619;0;0;465;9750;-131;1;0
+BNA0713;RWE Power AG;Niederaußem;E;1970;2018;Braunkohle;295;295;Geplante endgültige Stilllegung nach SicherheitsSicherheitsbereitschaft;Sicherheisbereitschaft;;Abschlussbericht - Kommission „Wachstum, Strukturwandel und Beschäftigung“;;;2030;8.997;0;0;621,9;9000;-3;4;0
+BNA0790;"Vattenfall Europe Generation AG
+";KW Jänschwalde;F;1989;2018;Braunkohle;465;465;Sicherheitsbereitschaft von Braunkohlekraftwerken gem. § 13g EnWG;Sicherheisbereitschaft;;Abschlussbericht - Kommission „Wachstum, Strukturwandel und Beschäftigung“;;;2031;7.200;0;0;1797,3;7200;0;8;0
+BNA0698;RWE Power AG;Neurath ;C;1973;2019;Braunkohle;292;292;Sicherheitsbereitschaft von Braunkohlekraftwerken gem. § 13g EnWG;Sicherheisbereitschaft;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;2032;5.379;0;0;1821;5400;-21;4;0
+BNA0789;"Vattenfall Europe Generation AG
+";KW Jänschwalde E;E;1987;2019;Braunkohle;465;465;Sicherheitsbereitschaft von Braunkohlekraftwerken gem. § 13g EnWG;Sicherheisbereitschaft;;Abschlussbericht - Kommission „Wachstum, Strukturwandel und Beschäftigung“;;;2033;2.879;0;0;2500;3600;-721;3;0
+BNA0489;RWE Power AG;Goldenberg;E, Besicherung F;1992;2019;Braunkohle;40;40;Geplant vorläufig;Vorläufig stillgelegt;;Kraftwerksstilllegungsanzeigenliste der Bundesnetzagentur, Stand: 01.04.2019;;;2034;1.799;0;0;1080,3;1800;-2;2;0
+BNA0194;Kraftwerk Dessau GmbH;Kraftwerk Dessau;;1996;2020;Braunkohle;51;14;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;2035;0;0;0;1798,5;0;0;4;0
+BNA0183;HKW Heizkraftwerksgesellschaft Cottbus mbH;HKW Cottbus;1;1999;2022;Braunkohle;74;30;Geplante endgültige Stilllegung (ohne StA);;;Kraftwerksliste Bundesnetzagentur zum erwarteten Zu- und Rückbau 2019 bis 2022;;;;;;;;;;;
+BNA0491;RWE Power AG;Ville/Berrenrath;Ville/Berrenrath;1917;2022;Braunkohle;98;98;3294;;;OPSD;;;;;;;;;;;
+BNA0196;Mitteldeutsche Braunkohlengesellschaft mbH;Deuben;;1936;2022;Braunkohle;67;67;;;;OPSD;;;;;;;;;;;
+BNA0714;RWE Power AG;Fortuna Nord;Fortuna Nord;1939;2022;Braunkohle;15;15;;;;OPSD;;;;;;;;;;;
+BNA0292;RWE Power AG;Frechen/Wachtberg;Frechen/Wachtberg;1959;2022;Braunkohle;176;176;;;;OPSD;;;;;;;;;;;
+BNA0710;RWE Power AG;Niederaußem;B;1963;2022;Braunkohle;125;125;;Vorläufig stillgelegt;;OPSD;;;;;;;;;;;
+BNA0711;RWE Power AG;Niederaußem;A;1963;2022;Braunkohle;125;125;;Vorläufig stillgelegt;;OPSD;;;;;;;;;;;
+BNA1097;Smurfit Kappa Zülpich Papier GmbH;Kohlekraftwerk;K06;1964;2022;Braunkohle;19,5;19,5;;;;OPSD;;;;;;;;;;;
+BNA1451;Venator Germany GmbH;HKW Sachtleben;;1964;2022;Braunkohle;27,5;27,5;;;;OPSD;;;;;;;;;;;
+BNA0712;RWE Power AG;Niederaußem;C;1965;2022;Braunkohle;295;295;;;;OPSD;;;;;;;;;;;
+BNA1025;RWE Power AG;Weisweiler;E;1965;2022;Braunkohle;321;321;;;;OPSD;;;;;;;;;;;
+BNA1026;RWE Power AG;Weisweiler;F;1967;2022;Braunkohle;321;321;;;;OPSD;;;;;;;;;;;
+BNA0705;RWE Power AG;Niederaußem;D;1968;2022;Braunkohle;297;297;;;;OPSD;;;;;;;;;;;
+BNA0696;RWE Power AG;Neurath;A;1972;2022;Braunkohle;294;294;;;;OPSD;;;;;;;;;;;
+BNA0697;RWE Power AG;Neurath;B;1972;2023;Braunkohle;294;294;901;;;OPSD;;;;;;;;;;;
+BNA0707;RWE Power AG;Niederaußem;H;1974;2022;Braunkohle;648;648;;;;OPSD;;;;;;;;;;;
+BNA0708;RWE Power AG;Niederaußem;G;1974;2025;Braunkohle;628;628;673;;;OPSD;;;;;;;;;;;
+BNA1027;RWE Power AG;Weisweiler;G;1974;2024;Braunkohle;663;663;663;;;OPSD;;;;;;;;;;;
+BNA0699;RWE Power AG;Neurath;D;1975;2023;Braunkohle;607;607;;;;OPSD;;;;;;;;;;;
+BNA1028;RWE Power AG;Weisweiler;H;1975;2026;Braunkohle;656;656;1121;;;OPSD;;;;;;;;;;;
+BNA0700;RWE Power AG;Neurath;E;1976;2028;Braunkohle;604;604;1069;;;OPSD;;;;;;;;;;;
+BNA0122;Lausitz Energie Kraftwerke AG;Boxberg;N;1979;2022;Braunkohle;465;465;;;;OPSD;;;;;;;;;;;
+BNA1486;ROMONTA GmbH;Grubenheizkraftwerk;;1979;2025;Braunkohle;45;45;;;;OPSD;;;;;;;;;;;
+BNA0123;Lausitz Energie Kraftwerke AG;Boxberg;P;1980;2026;Braunkohle;465;465;;;;OPSD;;;;;;;;;;;
+BNA0785;Lausitz Energie Kraftwerke AG;KW Jänschwalde;A;1981;2027;Braunkohle;465;465;465;;;OPSD;;;;;;;;;;;
+BNA0786;Lausitz Energie Kraftwerke AG;KW Jänschwalde;B;1982;2028;Braunkohle;465;465;;;;OPSD;;;;;;;;;;;
+BNA1511a;Papierfabrik Schoellershammer H. A. Schoeller Söhne GmbH & Co KG;Kessel 4;;1983;2030;Braunkohle;9,3;9,3;621,9;;;OPSD;;;;;;;;;;;
+BNA0787;Lausitz Energie Kraftwerke AG;KW Jänschwalde;C;1984;2029;Braunkohle;465;465;465;;;OPSD;;;;;;;;;;;
+BNA0788;Lausitz Energie Kraftwerke AG;KW Jänschwalde;D;1985;2030;Braunkohle;465;465;;;;OPSD;;;;;;;;;;;
+BNA0177;eins - energie in sachsen GmbH & Co. KG;HKW Chemnitz  Nord II;Block B;1988;2030;Braunkohle;56,8;56,8;;;;OPSD;;;;;;;;;;;
+BNA0523;Städtische Werke Energie + Wärme GmbH;FKK;;1989;2031;Braunkohle;33,5;33,5;1797,3;;;OPSD;;;;;;;;;;;
+BNA0179;eins - energie in sachsen GmbH & Co. KG;HKW Chemnitz  Nord II;Block C;1990;2030;Braunkohle;90,8;90,8;;;;OPSD;;;;;;;;;;;
+BNA1141;Pfeifer & Langen GmbH & Co. KG;P&L Werk Euskirchen;Kessel 4 / 6;1991;2031;Braunkohle;14,5;14,5;;;;OPSD;;;;;;;;;;;
+BNA1400a;Südzucker AG, Werk Zeitz;EZ1;WSK;1993;2031;Braunkohle;23,3;23,3;;;;OPSD;;;;;;;;;;;
+BNA1002;Mitteldeutsche Braunkohlengesellschaft mbH;Wählitz;;1994;2031;Braunkohle;31;31;;;;OPSD;;;;;;;;;;;
+BNA1293a;Martinswerk GmbH;Kraftwerk;K1/TG1;1995;2032;Braunkohle;10;10;1821;;;OPSD;;;;;;;;;;;
+BNA1293b;Martinswerk GmbH;Kraftwerk;K2/TG2;1995;2032;Braunkohle;10;10;;;;OPSD;;;;;;;;;;;
+BNA0878;Uniper Kraftwerke GmbH ;Schkopau;A;1996;2031;Braunkohle;450;450;;;;OPSD;;;;;;;;;;;
+BNA0879;Uniper Kraftwerke GmbH ;Schkopau;B;1996;2031;Braunkohle;450;450;;;;OPSD;;;;;;;;;;;
+BNA0284;Stadtwerke Frankfurt (Oder) GmbH;Heizkraftwerk FFO;Block1-GuD-EK;1997;2031;Braunkohle;45;45;;;;OPSD;;;;;;;;;;;
+BNA0914;Lausitz Energie Kraftwerke AG;Schwarze Pumpe;A;1997;2031;Braunkohle;750;750;;;;OPSD;;;;;;;;;;;
+BNA0915;Lausitz Energie Kraftwerke AG;Schwarze Pumpe;B;1998;2033;Braunkohle;750;750;2500;;;OPSD;;;;;;;;;;;
+BNA0116;EnBW Energie Baden-Württemberg AG;Braunkohlekraftwerk Lippendorf;LIP S;1999;2033;Braunkohle;875;875;;;;OPSD;;;;;;;;;;;
+BNA0115;Lausitz Energie Kraftwerke AG;Lippendorf;R;2000;2033;Braunkohle;875;875;;;;OPSD;;;;;;;;;;;
+BNA0124;Lausitz Energie Kraftwerke AG;Boxberg;Q;2000;2032;Braunkohle;857;857;;;;OPSD;;;;;;;;;;;
+BNA0709;RWE Power AG;Niederaußem;K;2002;2032;Braunkohle;944;944;;;;OPSD;;;;;;;;;;;
+BNA0543;RheinEnergie AG;HKW Merkenich;Block 6;2010;2035;Braunkohle;75,3;75,3;;;;OPSD;;;;;;;;;;;
+BNA1401a;RWE Power AG;BoA 2;Neurath F;2012;2034;Braunkohle;1060;1060;1080,3;;;OPSD;;;;;;;;;;;
+BNA1401b;RWE Power AG;BoA 3;Neurath G;2012;2035;Braunkohle;1060;1060;;;;OPSD;;;;;;;;;;;
+BNA1404;Lausitz Energie Kraftwerke AG;Boxberg;R;2012;2035;Braunkohle;640;640;;;;OPSD;;;;;;;;;;;
+BNA1164;Pfeifer & Langen GmbH & Co. KG;P&L Werk Jülich;Kessel 5;2013;2035;Braunkohle;23,2;23,2;;;;OPSD;;;;;;;;;;;
+BNA1185;Pfeifer & Langen GmbH & Co. KG;P&L Werk Könnern;Kessel 1 und 2;2014;2034;Braunkohle;20,3;20,3;;;;OPSD;;;;;;;;;;;
