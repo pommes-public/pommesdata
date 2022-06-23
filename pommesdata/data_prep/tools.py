@@ -279,7 +279,8 @@ def load_entsoe_generation_data(
         if len(df) == 8760 * 4 + 1 * 4:
             df.drop(
                 index=df.loc[
-                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)":"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
+                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)":
+                    "26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
                 ].index,
                 inplace=True,
             )
@@ -602,7 +603,7 @@ def index_costs_values_to_year(costs, year=2020):
     """
     costs_ts = pd.DataFrame(columns=range(2017, 2051))
     for col in costs.columns:
-        costs_ts[col] = costs[col].div(costs[2020]).fillna(1)
+        costs_ts[col] = costs[col].div(costs[year]).fillna(1)
     costs_ts = costs_ts.T
     costs_ts["date_index"] = pd.date_range(start="2017", end="2050", freq="AS")
     costs_ts.set_index("date_index", drop=True, inplace=True)
