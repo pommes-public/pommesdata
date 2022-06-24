@@ -279,8 +279,7 @@ def load_entsoe_generation_data(
         if len(df) == 8760 * 4 + 1 * 4:
             df.drop(
                 index=df.loc[
-                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)":
-                    "26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
+                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)":"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
                 ].index,
                 inplace=True,
             )
@@ -590,22 +589,26 @@ def reformat_costs_values(costs, sources_commodity, index="bus"):
     return reformatted_costs
 
 
-def index_costs_values_to_year(costs, year=2020):
-    """Index costs values to given year
+def transform_costs_values_to_time_series(costs, end_year=2050):
+    """Transform costs values to time series with annual frequency
 
     Parameters
     ----------
     costs: pd.DataFrame
         Costs to be indexed to a certain year
 
-    year: int
-        Year to be used for indexation. Defaults to 2020.
+    end_year: int
+        Last year for which there is data
     """
-    costs_ts = pd.DataFrame(columns=range(2017, 2051))
-    for col in costs.columns:
-        costs_ts[col] = costs[col].div(costs[year]).fillna(1)
-    costs_ts = costs_ts.T
-    costs_ts["date_index"] = pd.date_range(start="2017", end="2050", freq="AS")
+    costs_ts = costs.T
+    try:
+        costs_ts["date_index"] = pd.date_range(
+            start="2017", end=str(end_year), freq="AS"
+        )
+    except ValueError:
+        raise ValueError(
+            f"Time series must range from 2017 to {end_year} (inclusively)!"
+        )
     costs_ts.set_index("date_index", drop=True, inplace=True)
 
     return costs_ts
