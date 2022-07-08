@@ -612,3 +612,25 @@ def transform_costs_values_to_time_series(costs, end_year=2050):
     costs_ts.set_index("date_index", drop=True, inplace=True)
 
     return costs_ts
+
+
+def add_study_to_comparison(parameter_data, study_data):
+    """Add given study data to parameter comparison
+
+    Parameters
+    ----------
+    parameter_data: pd.DataFrame
+        parameter data collection
+
+    study_data: pd.DataFrame
+        data from study to be appended to parameter data
+
+    Returns
+    -------
+    parameter_data: pd.DataFrame
+        extended parameter data collection
+    """
+    parameter_data = pd.concat([parameter_data, study_data]).astype("float64")
+    parameter_data = parameter_data.interpolate(how="linear", axis=1)
+
+    return parameter_data

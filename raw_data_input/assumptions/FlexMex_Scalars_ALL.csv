@@ -1,0 +1,241 @@
+Scenario,Region,Year,Parameter,Unit,Value,Source,Comment
+ALL,ALL,ALL,DemandResponse_Eta_Electricity_Cooling,percent,96,Gils 2014,
+ALL,ALL,ALL,DemandResponse_Eta_Electricity_HVAC,percent,97,Gils 2014,
+ALL,ALL,ALL,DemandResponse_Eta_Electricity_Shed,percent,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_Eta_Electricity_Shift,percent,99,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadAdvance_Electricity_Cooling,bool,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadAdvance_Electricity_HVAC,bool,0,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadAdvance_Electricity_Shed,bool,0,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadAdvance_Electricity_Shift,bool,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadDelay_Electricity_Cooling,bool,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadDelay_Electricity_HVAC,bool,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadDelay_Electricity_Shed,bool,0,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadDelay_Electricity_Shift,bool,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadShedding_Electricity_Cooling,bool,0,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadShedding_Electricity_HVAC,bool,0,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadShedding_Electricity_Shed,bool,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_LoadShedding_Electricity_Shift,bool,0,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxDuration_Electricity_Cooling,h,2,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxDuration_Electricity_HVAC,h,1,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxDuration_Electricity_Shed,h,4,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxDuration_Electricity_Shift,h,3,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxShiftingDuration_Electricity_Cooling,h,6,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxShiftingDuration_Electricity_HVAC,h,2,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxShiftingDuration_Electricity_Shed,h,8760,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MaxShiftingDuration_Electricity_Shift,h,48,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MinBreak_Electricity_Cooling,h,8,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MinBreak_Electricity_HVAC,h,4,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MinBreak_Electricity_Shed,h,24,Gils 2014,
+ALL,ALL,ALL,DemandResponse_MinBreak_Electricity_Shift,h,24,Gils 2014,
+ALL,ALL,ALL,DemandResponse_VarOM_Electricity_Cooling,Eur/GWh (el),20000,Gils 2014,
+ALL,ALL,ALL,DemandResponse_VarOM_Electricity_HVAC,Eur/GWh (el),5000,Gils 2014,
+ALL,ALL,ALL,DemandResponse_VarOM_Electricity_Shed,Eur/GWh (el),1000000,Gils 2014,
+ALL,ALL,ALL,DemandResponse_VarOM_Electricity_Shift,Eur/GWh (el),150000,Gils 2014,
+ALL,ALL,ALL,Energy_EmissionFactor_CH4,t/GWh,201,UBA 2019,Zeile 86
+ALL,ALL,ALL,Energy_Price_CH4,Eur/GWh,49358,BMWi 2017,Consideration of inflation rate Euro 2010 to 2016 (1.073)
+ALL,ALL,ALL,Energy_Price_CO2,Eur/tCO2,107.3,BMWi 2017,Consideration of inflation rate Euro 2010 to 2016 (1.073)
+ALL,ALL,ALL,Energy_Price_Uranium,Eur/GWh,3219,DIW 2013,Consideration of inflation rate Euro 2010 to 2016 (1.073)
+ALL,ALL,ALL,EnergyConversion_Amortisation_Electricity_CH4_GT,a,30,Garcia 2015,App. A p.5
+ALL,ALL,ALL,EnergyConversion_Amortisation_Electricity_Hydro_ReservoirPump,a,30,Own assumption,
+ALL,ALL,ALL,EnergyConversion_Amortisation_Electricity_Hydro_ReservoirTurbine,a,30,Own assumption,
+ALL,ALL,ALL,EnergyConversion_Amortisation_Electricity_Nuclear_ST,a,45,ECF 2010,App. A p.5
+ALL,ALL,ALL,EnergyConversion_Amortisation_ElectricityHeat_CH4_ExCCGT,a,25,DEA 2016b,p.71
+ALL,ALL,ALL,EnergyConversion_Amortisation_H2_Electricity,a,15,DEA 2017,
+ALL,ALL,ALL,EnergyConversion_Amortisation_Heat_CH4_Large,a,25,DEA 2016b,p.326
+ALL,ALL,ALL,EnergyConversion_Amortisation_Heat_Electricity_Large,a,20,DEA 2016b,
+ALL,ALL,ALL,EnergyConversion_Amortisation_Heat_ElectricityHeat_Large,a,30,DEA 2016b,p.265
+ALL,ALL,ALL,EnergyConversion_Amortisation_Heat_ElectricityHeat_Small,a,20,DEA 2016a,p.90
+ALL,ALL,ALL,EnergyConversion_Availability_Electricity_CH4_GT,percent,94.8,Garcia 2015,
+ALL,ALL,ALL,EnergyConversion_Availability_Electricity_Hydro_Reservoir,percent,98,Cebulla 2017,
+ALL,ALL,ALL,EnergyConversion_Availability_Electricity_Solar_PV,percent,100,own assumption,Already considered in generation time series
+ALL,ALL,ALL,EnergyConversion_Availability_Electricity_Wind_Offshore,percent,100,own assumption,Already considered in generation time series
+ALL,ALL,ALL,EnergyConversion_Availability_Electricity_Wind_Onshore,percent,100,own assumption,Already considered in generation time series
+ALL,ALL,ALL,EnergyConversion_Availability_ElectricityHeat_Biomass_ST,percent,95,Gils 2015,
+ALL,ALL,ALL,EnergyConversion_Availability_ElectricityHeat_CH4_ExCCGT,percent,95,Gils 2015,
+ALL,ALL,ALL,EnergyConversion_Capex_Electricity_CH4_GT,Eur/MW (el),437000,Garcia 2015,
+ALL,ALL,ALL,EnergyConversion_Capex_Electricity_Hydro_ReservoirPump,Eur/MW (el),640000,Own assumption,
+ALL,ALL,ALL,EnergyConversion_Capex_Electricity_Hydro_ReservoirStorage,Eur/MWh (el),9200,Own assumption,
+ALL,ALL,ALL,EnergyConversion_Capex_Electricity_Hydro_ReservoirTurbine,Eur/MW (el),640000,Own assumption,
+ALL,ALL,ALL,EnergyConversion_Capex_Electricity_Nuclear_ST,Eur/MW (el),6480000,DIW 2013,p.75. Inflation rate 1.073 (Euro 2010 to Euro 2016)
+ALL,ALL,ALL,EnergyConversion_Capex_ElectricityHeat_CH4_ExCCGT,Eur/MW (el),850000,DEA 2016b,p.71
+ALL,ALL,ALL,EnergyConversion_Capex_H2_Electricity,Eur/MW (el),400000,DEA 2017,
+ALL,ALL,ALL,EnergyConversion_Capex_Heat_CH4_Large,Eur/MW (el),250000,DEA 2016b,p.311
+ALL,ALL,ALL,EnergyConversion_Capex_Heat_Electricity_Large,Eur/MWh (th),250000,DEA 2016b,p.275
+ALL,ALL,ALL,EnergyConversion_Capex_Heat_ElectricityHeat_Large,Eur/MWh (th),1000000,DEA 2016b,p.265
+ALL,ALL,ALL,EnergyConversion_Capex_Heat_ElectricityHeat_Small,Eur/MWh (th),1333333,DEA 2016a,p.90
+ALL,ALL,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Large,-,4.5,DEA 2016b,p.265
+ALL,AT,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.730780411,Own calculation,
+ALL,BE,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.867685477,Own calculation,
+ALL,CH,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.736113801,Own calculation,
+ALL,CZ,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.737260809,Own calculation,
+ALL,DE,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.80241591,Own calculation,
+ALL,DK,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.829732509,Own calculation,
+ALL,FR,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.918137095,Own calculation,
+ALL,IT,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,4.037595448,Own calculation,
+ALL,LU,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.789750871,Own calculation,
+ALL,NL,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.90358185,Own calculation,
+ALL,PL,ALL,EnergyConversion_COP_Heat_ElectricityHeat_Small,-,3.746091829,Own calculation,
+ALL,ALL,ALL,EnergyConversion_E2P_Electricity_Hydro_ReservoirPump,KWh/kW,400,Own assumption ,
+ALL,ALL,ALL,EnergyConversion_Eta_Electricity_Hydro_ReservoirPump,percent,82,Stein 2019,
+ALL,ALL,ALL,EnergyConversion_Eta_Electricity_Hydro_ReservoirSelfDischarge,percent,0,Own assumption ,
+ALL,ALL,ALL,EnergyConversion_Eta_Electricity_Hydro_ReservoirTurbine,percent,83,Stein 2019,
+ALL,ALL,ALL,EnergyConversion_Eta_Heat_CH4_Large,percent,94,DEA 2016b,p.311
+ALL,ALL,ALL,EnergyConversion_Eta_Heat_CH4_Small,percent,90,Gils 2015,
+ALL,ALL,ALL,EnergyConversion_Eta_Heat_Electricity_Large,percent,99,DEA 2016b,p.275
+ALL,ALL,ALL,EnergyConversion_Eta_Heat_Electricity_Small,percent,99,Gils 2015,
+ALL,ALL,ALL,EnergyConversion_EtaElectricityToH2_H2_Electricity,MW (chem)/MW (el),72,DEA 2017,
+ALL,ALL,ALL,EnergyConversion_EtaGross_Electricity_CH4_GT,percent,47,Nitsch 2012,
+ALL,ALL,ALL,EnergyConversion_EtaNet_Electricity_CH4_GT,percent,46.5,Nitsch 2012,
+ALL,ALL,ALL,EnergyConversion_EtaNet_Electricity_Coal_ST,percent,46.7,DIW 2013,p. 79
+ALL,ALL,ALL,EnergyConversion_EtaNetPartialLoad_Electricity_CH4_GT,percent,34.9,Own calculation,
+ALL,ALL,ALL,EnergyConversion_EtaNetPartialLoad_ElectricityHeat_CH4_ExCCGT,percent,41.56,Own calculation,
+ALL,ALL,ALL,EnergyConversion_EtaNominal_ElectricityHeat_CH4_ExCCGT,percent,88,Gils 2015,
+ALL,ALL,ALL,EnergyConversion_FixOM_Electricity_CH4_GT,percent Inv./a,4,Cebulla 2017,
+ALL,ALL,ALL,EnergyConversion_FixOM_Electricity_Hydro_ReservoirPump,percent Inv./a,5,Own assumption,
+ALL,ALL,ALL,EnergyConversion_FixOM_Electricity_Hydro_ReservoirStorage,percent Inv./a,5,Own assumption,
+ALL,ALL,ALL,EnergyConversion_FixOM_Electricity_Hydro_ReservoirTurbine,percent Inv./a,5,Own assumption,
+ALL,ALL,ALL,EnergyConversion_FixOM_Electricity_Nuclear_ST,percent Inv./a,0,DIW 2013,p.78
+ALL,ALL,ALL,EnergyConversion_FixOM_ElectricityHeat_CH4_ExCCGT,percent Inv./a,2,Own assumption,
+ALL,ALL,ALL,EnergyConversion_FixOM_H2_Electricity,percent Inv./a,5,DEA 2017,
+ALL,ALL,ALL,EnergyConversion_FixOM_Heat_CH4_Large,percent Inv./a,1,DEA 2016b,p.311
+ALL,ALL,ALL,EnergyConversion_FixOM_Heat_Electricity_Large,percent Inv./a,0.4,DEA 2016b,p.275
+ALL,ALL,ALL,EnergyConversion_FixOM_Heat_ElectricityHeat_Large,percent Inv./a,0.3,DEA 2016b,p.265
+ALL,ALL,ALL,EnergyConversion_FixOM_Heat_ElectricityHeat_Small,percent Inv./a,3.69,DEA 2016a,p.90
+ALL,ALL,ALL,EnergyConversion_HotStartFuelCons_Electricity_CH4_GT,GWh (th) /MW (el),0.00064,Stein 2019,
+ALL,ALL,ALL,EnergyConversion_HotStartFuelCons_Electricity_Nuclear_ST,GWh (th) /MW (el),0.012,Stein 2019,
+ALL,ALL,ALL,EnergyConversion_HotStartFuelCons_ElectricityHeat_CH4_BpCCGT,GWh (th) /MW (el),0.00165,Stein 2019,
+ALL,ALL,ALL,EnergyConversion_HotStartFuelCons_ElectricityHeat_CH4_ExCCGT,GWh (th) /MW (el),0.00165,Stein 2019,
+ALL,ALL,ALL,EnergyConversion_InletTemperature_Heat_ElectricityHeat_Small,degree celsius,41,Own assumption ,
+ALL,ALL,ALL,EnergyConversion_InterestRate_ALL,%,7,BMWi 2017,
+ALL,ALL,ALL,EnergyConversion_LifeTime_Electricity_CH4_GT,a,30,Garcia 2015,
+ALL,ALL,ALL,EnergyConversion_LifeTime_Electricity_Hydro_ReservoirPump,a,30,Own assumption,
+ALL,ALL,ALL,EnergyConversion_LifeTime_Electricity_Hydro_ReservoirTurbine,a,30,Own assumption,
+ALL,ALL,ALL,EnergyConversion_LifeTime_Electricity_Nuclear_ST,a,45,ECF 2010, App.A p.5
+ALL,ALL,ALL,EnergyConversion_LifeTime_ElectricityHeat_CH4_ExCCGT,a,25,DEA 2016b,p.71
+ALL,ALL,ALL,EnergyConversion_LifeTime_H2_Electricity,a,15,DEA 2017,
+ALL,ALL,ALL,EnergyConversion_LifeTime_Heat_CH4_Large,a,25,DEA 2016b,p.311
+ALL,ALL,ALL,EnergyConversion_LifeTime_Heat_Electricity_Large,a,20,DEA 2016b,
+ALL,ALL,ALL,EnergyConversion_LifeTime_Heat_ElectricityHeat_Large,a,30,DEA 2016b,p.265
+ALL,ALL,ALL,EnergyConversion_LifeTime_Heat_ElectricityHeat_Small,a,20,DEA 2016a,p.90
+ALL,ALL,ALL,EnergyConversion_MaxPowerChange_Electricity_CH4_GT,percent Cap./5min,100,Own assumption,
+ALL,ALL,ALL,EnergyConversion_MaxPowerChange_ElectricityHeat_CH4_ExCCGT,percent Cap./5min,100,Own assumption,
+ALL,ALL,ALL,EnergyConversion_MinDownTime_Electricity_CH4_GT,h,1,ECF 2010,App. A p.6
+ALL,ALL,ALL,EnergyConversion_MinGen_Electricity_CH4_GT,percent of Cap.,30,DEA 2016b,p.66
+ALL,ALL,ALL,EnergyConversion_MinGen_ElectricityHeat_CH4_ExCCGT,percent of Cap.,50,DEA 2016b,p.71
+ALL,ALL,ALL,EnergyConversion_MinUpTime_Electricity_CH4_GT,h,1,ECF 2010,App. A p.6
+ALL,ALL,ALL,EnergyConversion_Power2HeatRatio_ElectricityHeat_CH4_ExCCGT,-,1.25,Gils 2015,
+ALL,ALL,ALL,EnergyConversion_PowerLossIndex_ElectricityHeat_CH4_ExCCGT,-,0.15,Gils 2015,
+ALL,ALL,ALL,EnergyConversion_StartTime_Electricity_CH4_GT,h,0,Own assumption,
+ALL,ALL,ALL,EnergyConversion_StartTime_ElectricityHeat_CH4_ExCCGT,h,0,Own assumption,
+ALL,ALL,ALL,EnergyConversion_VarOM_Electricity_CH4_GT,Eur/GWh (el),1100,Garcia 2015,
+ALL,ALL,ALL,EnergyConversion_VarOM_Electricity_Hydro_Reservoir,Eur/GWh (el),0.0001,Own assumption ,
+ALL,ALL,ALL,EnergyConversion_VarOM_Electricity_Solar_PV,Eur/GWh (el),0,Own assumption ,
+ALL,ALL,ALL,EnergyConversion_VarOM_Electricity_Wind_Offshore,Eur/GWh (el),0,Own assumption ,
+ALL,ALL,ALL,EnergyConversion_VarOM_Electricity_Wind_Onshore,Eur/GWh (el),0,Own assumption ,
+ALL,ALL,ALL,EnergyConversion_VarOM_ElectricityHeat_CH4_ExCCGT,Eur/GWh (el),517,Gils 2015,Consideration of inflation rate Euro 2012 to 2016 (1.034)
+ALL,ALL,ALL,EnergyConversion_VarOM_H2_Electricity,Eur/GWh,1000,Own assumption,
+ALL,ALL,ALL,EnergyConversion_VarOM_Heat_CH4_Large,Eur/GWh (th),2200,DEA 2016b,p. 311
+ALL,ALL,ALL,EnergyConversion_VarOM_Heat_CH4_Small,Eur/GWh (th),5000,Gils 2015,Consideration of inflation rate Euro 2012 to 2016  (1.034)
+ALL,ALL,ALL,EnergyConversion_VarOM_Heat_Electricity_Large,Eur/GWh (th),1000,DEA 2016b,p. 275
+ALL,ALL,ALL,EnergyConversion_VarOM_Heat_ElectricityHeat_Large,Eur/GWh (th),6700,DEA 2016b,p. 265
+ALL,ALL,ALL,EnergyConversion_VarOM_Heat_ElectricityHeat_Small,Eur/GWh (th),0,DEA 2016a,p. 90
+ALL,ALL,ALL,EnergyConversion_WaTCost_Electricity_CH4_GT,Eur/MW (el),0.69894,Kumar 2012,Consideration of inflation rate Euro 2011 to Euro 2016 (1.054)
+ALL,ALL,ALL,EnergyConversion_WaTCost_ElectricityHeat_CH4_ExCCGT,Eur/MW (el),0.5,Own assumption,
+ALL,ALL,ALL,EnergyConversion_WaTCost_H2_Electricity,Eur/MW (el),1,Own assumption,
+ALL,ALL,ALL,Storage_Amortisation_Electricity_LiIonBatteryCharge,a,25,Cebulla 2017,
+ALL,ALL,ALL,Storage_Amortisation_Electricity_LiIonBatteryDischarge,a,25,Cebulla 2017,
+ALL,ALL,ALL,Storage_Amortisation_Electricity_LiIonBatteryStorage,a,25,Cebulla 2017,
+ALL,ALL,ALL,Storage_Amortisation_H2_CavernCharge,a,30,PLANET 2014,p.84
+ALL,ALL,ALL,Storage_Amortisation_H2_CavernDischarge,a,30,PLANET 2014,p.85
+ALL,ALL,ALL,Storage_Amortisation_H2_CavernStorage,a,30,PLANET 2014,p.88
+ALL,ALL,ALL,Storage_Amortisation_H2_TankStorage,a,15,Fette 2020,
+ALL,ALL,ALL,Storage_Amortisation_Heat_Large,a,25,DEA 2016a,p.50
+ALL,ALL,ALL,Storage_Amortisation_Heat_Small,a,30,DEA 2016a,p.66
+ALL,ALL,ALL,Storage_Availability_Electricity_LiIonBattery,percent,98,Cebulla 2018,
+ALL,ALL,ALL,Storage_Availability_H2_Cavern,percent,95,Cebulla 2017,
+ALL,ALL,ALL,Storage_Capex_Electricity_LiIonBatteryCharge,Eur/MW (el),50000,Cebulla 2017,
+ALL,ALL,ALL,Storage_Capex_Electricity_LiIonBatteryDischarge,Eur/MW (el),0,Cebulla 2017,
+ALL,ALL,ALL,Storage_Capex_Electricity_LiIonBatteryStorage,Eur/GWh (el),150000000,Cebulla 2017,
+ALL,ALL,ALL,Storage_Capex_H2_CavernCharge,Eur/MW (el),305000,Cebulla 2017,
+ALL,ALL,ALL,Storage_Capex_H2_CavernDischarge,Eur/MW (el),850000,Cebulla 2017,
+ALL,ALL,ALL,Storage_Capex_H2_CavernStorage,Eur/GWh (chem),1000000,Cebulla 2017,
+ALL,ALL,ALL,Storage_Capex_H2_TankCharge,Eur/MW (chem),300000,Fette 2020,
+ALL,ALL,ALL,Storage_Capex_H2_TankDischarge,Eur/MW (chem),300000,Fette 2020,
+ALL,ALL,ALL,Storage_Capex_H2_TankStorage,Eur/GWh (chem),7000000,Fette 2020,
+ALL,ALL,ALL,Storage_Capex_Heat_LargeCharge,Eur/MW (th),0,Own assumption,
+ALL,ALL,ALL,Storage_Capex_Heat_LargeDischarge,Eur/MW (th),0,Own assumption,
+ALL,ALL,ALL,Storage_Capex_Heat_LargeStorage,Eur/GWh (th),470000,DEA 2016a,p.50
+ALL,ALL,ALL,Storage_Capex_Heat_SmallCharge,Eur/MW (th),0,Own assumption,
+ALL,ALL,ALL,Storage_Capex_Heat_SmallDischarge,Eur/MW (th),0,Own assumption,
+ALL,ALL,ALL,Storage_Capex_Heat_SmallStorage,Eur/GWh (th),130000000,DEA 2016a,p.66
+ALL,ALL,ALL,Storage_Eta_Electricity_LiIonBatteryCharge,percent,97,Cebulla 2017,
+ALL,ALL,ALL,Storage_Eta_Electricity_LiIonBatteryDischarge,percent,97,Cebulla 2017,
+ALL,ALL,ALL,Storage_Eta_H2_CavernCharge,percent,73,Cebulla 2017,
+ALL,ALL,ALL,Storage_Eta_H2_CavernDischarge,percent,60,Cebulla 2017,
+ALL,ALL,ALL,Storage_Eta_H2_TankCharge,percent,97.76,Noack 2015,
+ALL,ALL,ALL,Storage_Eta_H2_TankDischarge,percent,97.76,Noack 2015,
+ALL,ALL,ALL,Storage_Eta_Heat_LargeCharge,percent,100,DEA 2016a,p.50
+ALL,ALL,ALL,Storage_Eta_Heat_LargeDischarge,percent,100,DEA 2016a,p.50
+ALL,ALL,ALL,Storage_Eta_Heat_SmallCharge,percent,100,DEA 2016a,p.66
+ALL,ALL,ALL,Storage_Eta_Heat_SmallDischarge,percent,100,DEA 2016a,p.66
+ALL,ALL,ALL,Storage_FixOM_Electricity_LiIonBattery,percent Inv./a,0.22,DEA 2018,p. 134
+ALL,ALL,ALL,Storage_FixOM_H2_Cavern,percent Inv./a,1.6,PLANET 2014,p.92
+ALL,ALL,ALL,Storage_FixOM_H2_Tank,percent Inv./a,2,Fette 2020,
+ALL,ALL,ALL,Storage_FixOM_Heat_Large,percent Inv./a,0,DEA 2018,p.50
+ALL,ALL,ALL,Storage_FixOM_Heat_Small,percent Inv./a,12.2,DEA 2018,p.66
+ALL,ALL,ALL,Storage_LifeTime_Electricity_LiIonBatteryCharge,a,25,Cebulla 2017,
+ALL,ALL,ALL,Storage_LifeTime_Electricity_LiIonBatteryDischarge,a,25,Cebulla 2017,
+ALL,ALL,ALL,Storage_LifeTime_Electricity_LiIonBatteryStorage,a,25,Cebulla 2017,
+ALL,ALL,ALL,Storage_LifeTime_H2_CavernCharge,a,30,PLANET 2014,p.84
+ALL,ALL,ALL,Storage_LifeTime_H2_CavernDischarge,a,30,PLANET 2014,p.85
+ALL,ALL,ALL,Storage_LifeTime_H2_CavernStorage,a,30,PLANET 2014,p.88
+ALL,ALL,ALL,Storage_LifeTime_H2_TankStorage,a,15,Fette 2020,
+ALL,ALL,ALL,Storage_LifeTime_Heat_Large,a,25,DEA 2018,p.50
+ALL,ALL,ALL,Storage_LifeTime_Heat_Small,a,30,DEA 2018,p.66
+ALL,ALL,ALL,Storage_MinLevel_Electricity_LiIonBattery,GWh (el),0,Own assumption ,
+ALL,ALL,ALL,Storage_SelfDischarge_Electricity_LiIonBattery,percent/h,0.0011,Cebulla 2017,
+ALL,ALL,ALL,Storage_SelfDischarge_H2_Cavern,percent/h,0,Cebulla 2017,
+ALL,ALL,ALL,Storage_SelfDischarge_H2_Tank,percent/h,0,DEA 2018 ,p.91
+ALL,ALL,ALL,Storage_SelfDischarge_Heat_Large,percent/h,0.012,DEA 2018,p.50
+ALL,ALL,ALL,Storage_SelfDischarge_Heat_Small,percent/h,2.1,DEA 2018,p.66
+ALL,ALL,ALL,Storage_StartSpeed_Electricity_LiIonBattery,percent Cap./5min,0,Own assumption ,
+ALL,ALL,ALL,Storage_StartSpeed_H2_Cavern,percent Cap./5min,0,Own assumption ,
+ALL,ALL,ALL,Storage_StartSpeed_H2_Tank,percent Cap./5min,0,Own assumption ,
+ALL,ALL,ALL,Storage_VarOM_Electricity_LiIonBattery,Eur/GWh (el),300,DEA 2018,p.181
+ALL,ALL,ALL,Storage_VarOM_H2_Cavern,Eur/GWh (el),1200,Swider 2007,
+ALL,ALL,ALL,Storage_VarOM_H2_Tank,Eur/GWh (chem),0,Noack 2015,
+ALL,ALL,ALL,Storage_VarOM_Heat_Large,Eur/GWh (input),0,DEA 2018,p.50
+ALL,ALL,ALL,Storage_VarOM_Heat_Small,Eur/GWh (input),1200,DEA 2018,p.66
+ALL,ALL,ALL,Transmission_Amortisation_Electricity_ACLine,a,40,Dena 2014,p.35
+ALL,ALL,ALL,Transmission_Capex_Electricity_Grid,Eur/MW/km,326,BNetzA 2012,Assumption for Transmission line technology 550-A1/71-St1A. Based on own calculation.
+ALL,ALL,ALL,Transmission_FixOM_Electricity_Grid,percent Inv./a,1.19,Dena 2014,p.70
+ALL,AT_CH,ALL,Transmission_Length_Electricity_Grid,km,340,Own GIS calculations,
+ALL,AT_CZ,ALL,Transmission_Length_Electricity_Grid,km,248,Own GIS calculations,
+ALL,AT_IT,ALL,Transmission_Length_Electricity_Grid,km,546,Own GIS calculations,
+ALL,BE_FR,ALL,Transmission_Length_Electricity_Grid,km,469,Own GIS calculations,
+ALL,BE_LU,ALL,Transmission_Length_Electricity_Grid,km,125,Own GIS calculations,
+ALL,BE_NL,ALL,Transmission_Length_Electricity_Grid,km,188,Own GIS calculations,
+ALL,CH_FR,ALL,Transmission_Length_Electricity_Grid,km,318,Own GIS calculations,
+ALL,CH_IT,ALL,Transmission_Length_Electricity_Grid,km,496,Own GIS calculations,
+ALL,CZ_PL,ALL,Transmission_Length_Electricity_Grid,km,349,Own GIS calculations,
+ALL,DE_AT,ALL,Transmission_Length_Electricity_Grid,km,444,Own GIS calculations,
+ALL,DE_BE,ALL,Transmission_Length_Electricity_Grid,km,323,Own GIS calculations,
+ALL,DE_CH,ALL,Transmission_Length_Electricity_Grid,km,494,Own GIS calculations,
+ALL,DE_CZ,ALL,Transmission_Length_Electricity_Grid,km,314,Own GIS calculations,
+ALL,DE_DK,ALL,Transmission_Length_Electricity_Grid,km,540,Own GIS calculations,
+ALL,DE_FR,ALL,Transmission_Length_Electricity_Grid,km,669,Own GIS calculations,
+ALL,DE_LU,ALL,Transmission_Length_Electricity_Grid,km,282,Own GIS calculations,
+ALL,DE_NL,ALL,Transmission_Length_Electricity_Grid,km,297,Own GIS calculations,
+ALL,DE_PL,ALL,Transmission_Length_Electricity_Grid,km,514,Own GIS calculations,
+ALL,DK_NL,ALL,Transmission_Length_Electricity_Grid,km,481,Own GIS calculations,
+ALL,FR_IT,ALL,Transmission_Length_Electricity_Grid,km,676,Own GIS calculations,
+ALL,FR_LU,ALL,Transmission_Length_Electricity_Grid,km,409,Own GIS calculations,
+ALL,ALL,ALL,Transmission_LifeTime_Electricity_Grid,a,40,Dena 2014,p.35
+ALL,ALL,ALL,Transmission_Losses_Electricity_Grid,percent/ 100 km,2,BNetzA 2012,
+ALL,ALL,ALL,Transmission_VarOM_Electricity_Grid,Eur/MWh*km,0.01,Own assumption ,
+ALL,ALL,ALL,Transport_BatteryCap_Electricity_Cars,GWh_el/Car,0.000022,Own assumption ,
+ALL,ALL,ALL,Transport_ConnecPower_Electricity_Cars,MW/Car,0.0085,LucaDeTena 2018,
+ALL,ALL,ALL,Transport_EtaFeedIn_Electricity_Cars,percent,95,LucaDeTena 2018,
+ALL,ALL,ALL,Transport_EtaLoad_Electricity_Cars,percent,100,Own assumption ,
+ALL,ALL,ALL,Transport_VarOMChargeControl_Electricity_Cars,Eur/GWh (el),5000,Own assumption ,
+ALL,ALL,ALL,Transport_VarOMGridFeedIn_Electricity_Cars,Eur/GWh (el),25000,Own assumption ,
