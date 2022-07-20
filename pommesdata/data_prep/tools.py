@@ -27,6 +27,8 @@ from math import atan2, cos, sin, sqrt
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+import seaborn as sns
+from matplotlib import pyplot as plt
 
 
 def load_bidding_zone_shape(country, zone, path_folder):
@@ -634,3 +636,120 @@ def add_study_to_comparison(parameter_data, study_data):
     parameter_data = parameter_data.interpolate(how="linear", axis=1)
 
     return parameter_data
+
+
+def plot_parameter_comparison(
+    data, parameter, category, savefig=False, show=True
+):
+    """Create a plot to visually compare parameter distributions
+
+    Parameters
+    ----------
+    data: pd.DataFrame
+        Parameter data (subset per category) to be evaluated
+
+    parameter: str
+        Parameter to be evaluated
+
+    category: str
+        Category for which data shall be evaluated
+
+    savefig: boolean
+        If True, save figure to disk
+
+    show: boolean
+        If True, display the plot
+    """
+    fig, ax = plt.subplots(figsize=(8, 3))
+    _ = sns.boxplot(data=data, ax=ax, color="lightgrey")
+    _ = sns.swarmplot(data=data, ax=ax, color="black")
+    _ = plt.title(f"{parameter} distribution for {category}")
+    _ = plt.xticks(rotation=90)
+    _ = plt.tight_layout()
+    if savefig:
+        plt.savefig(f"../graphics/{parameter}_{category}.png", dpi=300)
+    if show:
+        plt.show()
+    plt.close()
+
+
+def calculate_summary_statistics(
+    data,
+    path,
+    parameter,
+    category,
+    save=True,
+):
+    """Calculate some summary statistics from data
+
+    Parameters
+    ----------
+    data: pd.DataFrame
+        Parameter data (subset per category) to be evaluated
+
+    path: str
+        Path where to store the output
+
+    parameter: str
+        Parameter to be evaluated
+
+    category: str
+        Category for which data shall be evaluated
+
+    save: boolean
+        If True, save to disk
+
+    Returns
+    -------
+    stats_data: pd.DataFrame
+        Data statistics (count, moments, etc.)
+    """
+    stats_data = data.describe()
+    quantiles = {"5%": 0.05, "10%": 0.1, "90%": 0.9, "95%": 0.95}
+
+    for key, val in quantiles.items():
+        stats_data.loc[key] = data.quantile(val).values
+
+    if save:
+        stats_data.to_csv(f"{path}{parameter}_{category}.csv")
+
+    return stats_data
+
+
+def combine_parameter_estimates(
+    data_sets, parameter, estimate, path, save=True
+):
+    """Re-combine parameter estimates
+
+    Used to create data sets for unsecure future parameters.
+
+    Parameters
+    ----------
+    data_sets: dict
+        Dictionary holding data sets (i.e. DataFrames) of each category
+
+    parameter: str
+        Parameter to be evaluated
+
+    estimate: str
+        Estimate to be calculated (one of '5%', '50%', '95%')
+
+    path: str
+        Path where to store the output
+
+    save: boolean
+        If True, save to disk
+
+    Returns
+    -------
+    overall_data_set: pd.DataFrame
+        Data aggregation for given estimate
+    """
+    overall_data_set = pd.DataFrame(columns=list(range(2020, 2051)))
+    for key, val in data_sets.items():
+        overall_data_set.loc[key] = val.loc[estimate]
+
+    if save:
+        overall_data_set.to_csv(f"{path}{parameter}_{estimate}.csv")
+
+    return overall_data_set
