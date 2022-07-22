@@ -660,7 +660,7 @@ def plot_parameter_comparison(
     show: boolean
         If True, display the plot
     """
-    fig, ax = plt.subplots(figsize=(8, 3))
+    fig, ax = plt.subplots(figsize=(10, 5))
     _ = sns.boxplot(data=data, ax=ax, color="lightgrey")
     _ = sns.swarmplot(data=data, ax=ax, color="black")
     _ = plt.title(f"{parameter} distribution for {category}")
@@ -717,7 +717,7 @@ def calculate_summary_statistics(
 
 
 def combine_parameter_estimates(
-    data_sets, parameter, estimate, path, save=True
+    col_names, data_sets, parameter, estimate, path, save=True
 ):
     """Re-combine parameter estimates
 
@@ -725,6 +725,9 @@ def combine_parameter_estimates(
 
     Parameters
     ----------
+    col_names: list
+        List of column names to be contained in overall DataFrame
+
     data_sets: dict
         Dictionary holding data sets (i.e. DataFrames) of each category
 
@@ -745,7 +748,7 @@ def combine_parameter_estimates(
     overall_data_set: pd.DataFrame
         Data aggregation for given estimate
     """
-    overall_data_set = pd.DataFrame(columns=list(range(2020, 2051)))
+    overall_data_set = pd.DataFrame(columns=col_names)
     for key, val in data_sets.items():
         overall_data_set.loc[key] = val.loc[estimate]
 

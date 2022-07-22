@@ -1,0 +1,481 @@
+﻿Technology;Specification;Year;Unit;Value;Source
+Utility PV;Min;2018;%;1.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Utility PV;Min;2020;%;1.4;IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Utility PV;Min;2030;%;1.2;IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Utility PV;Min;2040;%;1.3;IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Utility PV;Min;2050;%;1.3;IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Utility PV;Max;2018;%;2.3;IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Utility PV;Max;2020;%;2.4;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Utility PV;Max;2030;%;2.6;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Utility PV;Max;2040;%;3;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Utility PV;Max;2050;%;3.6;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Utility PV;Mean;2018;%;1.7;
+Utility PV;Mean;2020;%;1.8;
+Utility PV;Mean;2030;%;1.8;
+Utility PV;Mean;2040;%;1.8;
+Utility PV;Mean;2050;%;1.9;
+Utility PV;Median;2018;%;1.7;
+Utility PV;Median;2020;%;1.7;
+Utility PV;Median;2030;%;1.7;
+Utility PV;Median;2040;%;1.7;
+Utility PV;Median;2050;%;1.7;
+Onshore wind;Min;2018;%;1.8;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Onshore wind;Min;2020;%;2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101., n.a., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Onshore wind;Min;2030;%;2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101., n.a., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Onshore wind;Min;2040;%;1.9;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101., 18
+Onshore wind;Min;2050;%;1.7;IEA, Energy Technology Perspectives 2016, OECD Publishing, 2016.
+Onshore wind;Max;2018;%;5;Vorbereitung und Begleitung bei der Erstellung eines Erfahrungsberichts gemäß §97 Erneuerbare-Energien-Gesetz, Teilvorhaben II e): Wind an Land, Deutsche WindGuard, 2019.
+Onshore wind;Max;2020;%;4;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101., 48
+Onshore wind;Max;2030;%;4;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101., 48
+Onshore wind;Max;2040;%;4;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101., 48
+Onshore wind;Max;2050;%;4;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101., 48
+Onshore wind;Mean;2018;%;3.4;
+Onshore wind;Mean;2020;%;3.1;
+Onshore wind;Mean;2030;%;3.1;
+Onshore wind;Mean;2040;%;3;
+Onshore wind;Mean;2050;%;3;
+Onshore wind;Median;2018;%;3.6;
+Onshore wind;Median;2020;%;3.1;
+Onshore wind;Median;2030;%;3.1;
+Onshore wind;Median;2040;%;3.1;
+Onshore wind;Median;2050;%;3.1;
+Run of River;Min;2018;%;4;n.a.
+Run of River;Min;2020;%;4;n.a.
+Run of River;Min;2030;%;4;n.a.
+Run of River;Min;2040;%;4;n.a.
+Run of River;Min;2050;%;4;n.a.
+Run of River;Max;2018;%;5;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018., IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Run of River;Max;2020;%;5;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018., IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Run of River;Max;2030;%;5;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018., IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Run of River;Max;2040;%;5;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018., IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Run of River;Max;2050;%;5;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018., IEA (2017). Energy technology perspectives 2017, International Energy Agency.
+Run of River;Mean;2018;%;4.7;
+Run of River;Mean;2020;%;4.7;
+Run of River;Mean;2030;%;4.7;
+Run of River;Mean;2040;%;4.7;
+Run of River;Mean;2050;%;4.7;
+Run of River;Median;2018;%;4.8;
+Run of River;Median;2020;%;4.8;
+Run of River;Median;2030;%;4.8;
+Run of River;Median;2040;%;4.8;
+Run of River;Median;2050;%;4.8;
+Solid Biomass;Min;2018;%;1.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Solid Biomass;Min;2020;%;1.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Solid Biomass;Min;2030;%;1.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Solid Biomass;Min;2040;%;1.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Solid Biomass;Min;2050;%;1.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Solid Biomass;Max;2018;%;7;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Max;2020;%;7;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Max;2030;%;7;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Max;2040;%;7;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Max;2050;%;7;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Mean;2018;%;3.8;
+Solid Biomass;Mean;2020;%;3.8;
+Solid Biomass;Mean;2030;%;3.8;
+Solid Biomass;Mean;2040;%;3.8;
+Solid Biomass;Mean;2050;%;3.8;
+Solid Biomass;Median;2018;%;4.4;
+Solid Biomass;Median;2020;%;4.4;
+Solid Biomass;Median;2030;%;4.4;
+Solid Biomass;Median;2040;%;4.4;
+Solid Biomass;Median;2050;%;4.4;
+Biogas;Min;2018;%;4;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Biogas;Min;2020;%;4;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Biogas;Min;2030;%;4;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Biogas;Min;2040;%;4;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Biogas;Min;2050;%;4;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Biogas;Max;2018;%;12;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Max;2020;%;12;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Max;2030;%;12;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Max;2040;%;12;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Max;2050;%;12;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Mean;2018;%;7.4;
+Biogas;Mean;2020;%;7.4;
+Biogas;Mean;2030;%;7.4;
+Biogas;Mean;2040;%;7.4;
+Biogas;Mean;2050;%;7.4;
+Biogas;Median;2018;%;8;
+Biogas;Median;2020;%;8;
+Biogas;Median;2030;%;8;
+Biogas;Median;2040;%;8;
+Biogas;Median;2050;%;8;
+Offshore wind;Min;2018;%;2;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Offshore wind;Min;2020;%;2;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Offshore wind;Min;2030;%;2;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Offshore wind;Min;2040;%;2;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Offshore wind;Min;2050;%;2;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Offshore wind;Max;2018;%;5.5;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid excha
+Offshore wind;Max;2020;%;5.5;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid excha
+Offshore wind;Max;2030;%;5.5;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid excha
+Offshore wind;Max;2040;%;5.5;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid excha
+Offshore wind;Max;2050;%;5.5;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid excha
+Offshore wind;Mean;2018;%;3.8;
+Offshore wind;Mean;2020;%;3.7;
+Offshore wind;Mean;2030;%;3.7;
+Offshore wind;Mean;2040;%;3.9;
+Offshore wind;Mean;2050;%;3.9;
+Offshore wind;Median;2018;%;3.7;
+Offshore wind;Median;2020;%;3.2;
+Offshore wind;Median;2030;%;3.4;
+Offshore wind;Median;2040;%;4;
+Offshore wind;Median;2050;%;4;
+Pumped hydro;Min;2018;%;1.5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2020;%;1.5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2030;%;1.5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2040;%;1.5;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2050;%;1.5;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Max;2018;%;3;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2020;%;3;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2030;%;3;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2040;%;3;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2050;%;3;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Mean;2018;%;2.3;
+Pumped hydro;Mean;2020;%;2.3;
+Pumped hydro;Mean;2030;%;2.3;
+Pumped hydro;Mean;2040;%;2.3;
+Pumped hydro;Mean;2050;%;2.3;
+Pumped hydro;Median;2018;%;2.3;
+Pumped hydro;Median;2020;%;2.3;
+Pumped hydro;Median;2030;%;2.3;
+Pumped hydro;Median;2040;%;2.3;
+Pumped hydro;Median;2050;%;2.3;
+Electrolyzers;Min;2018;%;0.9;Technology data survey from Energy System 2050 (unpublished)., p.44, 
+Electrolyzers;Min;2020;%;0.9;Assumption based on Technology data survey from Energy System 2050 (unpublished).
+Electrolyzers;Min;2030;%;0.9;Technology data survey from Energy System 2050 (unpublished)., p.44, 
+Electrolyzers;Min;2040;%;1.1;Technology data survey from Energy System 2050 (unpublished)., p.44, 
+Electrolyzers;Min;2050;%;1.2;Technology data survey from Energy System 2050 (unpublished)., p.44, 
+Electrolyzers;Max;2018;%;5;"Multi - Annual Implementation Plan 2008 - 2013., FUEL CELLS AND HYDROGEN JOINT UNDERTAKING (FCH JU), 2011., M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Electrolyzers;Max;2020;%;4;"Assumption based on M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Electrolyzers;Max;2030;%;5.3;"I. D.; Mertens D.; Meeus M.; van der Laak W.; Francois Thomas, Power-to-Gas Roadmap for Flanders, WaterstofNet, 2016."
+Electrolyzers;Max;2040;%;6.9;"I. D.; Mertens D.; Meeus M.; van der Laak W.; Francois Thomas, Power-to-Gas Roadmap for Flanders, WaterstofNet, 2016."
+Electrolyzers;Max;2050;%;8.5;"I. D.; Mertens D.; Meeus M.; van der Laak W.; Francois Thomas, Power-to-Gas Roadmap for Flanders, WaterstofNet, 2016."
+Electrolyzers;Mean;2018;%;2.7;
+Electrolyzers;Mean;2020;%;3.5;
+Electrolyzers;Mean;2030;%;3.7;
+Electrolyzers;Mean;2040;%;3.9;
+Electrolyzers;Mean;2050;%;4;
+Electrolyzers;Median;2018;%;2.3;
+Electrolyzers;Median;2020;%;3.5;
+Electrolyzers;Median;2030;%;4;
+Electrolyzers;Median;2040;%;4;
+Electrolyzers;Median;2050;%;4;
+Fuel cells;Min;2018;%;0.8;n.a.
+Fuel cells;Min;2020;%;0.8;n.a.
+Fuel cells;Min;2030;%;0.8;n.a.
+Fuel cells;Min;2040;%;0.8;n.a.
+Fuel cells;Min;2050;%;0.8;n.a.
+Fuel cells;Max;2018;%;6;n.a.
+Fuel cells;Max;2020;%;6;n.a.
+Fuel cells;Max;2030;%;6;n.a.
+Fuel cells;Max;2040;%;6;n.a.
+Fuel cells;Max;2050;%;6;n.a.
+Fuel cells;Mean;2018;%;3.7;
+Fuel cells;Mean;2020;%;3.8;
+Fuel cells;Mean;2030;%;3.8;
+Fuel cells;Mean;2040;%;3.8;
+Fuel cells;Mean;2050;%;3.8;
+Fuel cells;Median;2018;%;3;
+Fuel cells;Median;2020;%;4.5;
+Fuel cells;Median;2030;%;4.5;
+Fuel cells;Median;2040;%;4.5;
+Fuel cells;Median;2050;%;4.5;
+CCS;Min;2018;%;2.1;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Min;2020;%;2.1;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Min;2030;%;2.1;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Min;2040;%;2.1;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Min;2050;%;2.1;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Max;2018;%;3;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Max;2020;%;3;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Max;2030;%;3;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Max;2040;%;3;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Max;2050;%;3;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+CCS;Mean;2018;%;2.4;
+CCS;Mean;2020;%;2.4;
+CCS;Mean;2030;%;2.4;
+CCS;Mean;2040;%;2.4;
+CCS;Mean;2050;%;2.4;
+CCS;Median;2018;%;2.3;
+CCS;Median;2020;%;2.3;
+CCS;Median;2030;%;2.3;
+CCS;Median;2040;%;2.3;
+CCS;Median;2050;%;2.3;
+Open cycle gas turbines;Min;2018;%;2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Open cycle gas turbines;Min;2020;%;2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Open cycle gas turbines;Min;2030;%;2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Open cycle gas turbines;Min;2040;%;2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Open cycle gas turbines;Min;2050;%;2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Open cycle gas turbines;Max;2018;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Max;2020;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Max;2030;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Max;2040;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Max;2050;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Mean;2018;%;3.4;
+Open cycle gas turbines;Mean;2020;%;3.4;
+Open cycle gas turbines;Mean;2030;%;3.4;
+Open cycle gas turbines;Mean;2040;%;3.4;
+Open cycle gas turbines;Mean;2050;%;3.4;
+Open cycle gas turbines;Median;2018;%;3.4;
+Open cycle gas turbines;Median;2020;%;3.4;
+Open cycle gas turbines;Median;2030;%;3.4;
+Open cycle gas turbines;Median;2040;%;3.4;
+Open cycle gas turbines;Median;2050;%;3.4;
+Combinded-cycle gas turbines;Min;2018;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Combinded-cycle gas turbines;Min;2020;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Combinded-cycle gas turbines;Min;2030;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Combinded-cycle gas turbines;Min;2040;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Combinded-cycle gas turbines;Min;2050;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Combinded-cycle gas turbines;Max;2018;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Max;2020;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Max;2030;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Max;2040;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Max;2050;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Mean;2018;%;3.4;
+Combinded-cycle gas turbines;Mean;2020;%;3.4;
+Combinded-cycle gas turbines;Mean;2030;%;3.4;
+Combinded-cycle gas turbines;Mean;2040;%;3.4;
+Combinded-cycle gas turbines;Mean;2050;%;3.4;
+Combinded-cycle gas turbines;Median;2018;%;3.4;
+Combinded-cycle gas turbines;Median;2020;%;3.4;
+Combinded-cycle gas turbines;Median;2030;%;3.4;
+Combinded-cycle gas turbines;Median;2040;%;3.4;
+Combinded-cycle gas turbines;Median;2050;%;3.4;
+Nuclear power plants;Min;2018;%;2.6;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2020;%;2.6;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2030;%;2.4;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2040;%;2.2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2050;%;2.1;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2018;%;2.6;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2020;%;2.6;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2030;%;2.4;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2040;%;2.2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2050;%;2.1;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Mean;2018;%;2.6;
+Nuclear power plants;Mean;2020;%;2.6;
+Nuclear power plants;Mean;2030;%;2.4;
+Nuclear power plants;Mean;2040;%;2.2;
+Nuclear power plants;Mean;2050;%;2.1;
+Nuclear power plants;Median;2018;%;2.6;
+Nuclear power plants;Median;2020;%;2.6;
+Nuclear power plants;Median;2030;%;2.4;
+Nuclear power plants;Median;2040;%;2.2;
+Nuclear power plants;Median;2050;%;2.1;
+Hard coal power plants;Min;2018;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Hard coal power plants;Min;2020;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Hard coal power plants;Min;2030;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Hard coal power plants;Min;2040;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Hard coal power plants;Min;2050;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Hard coal power plants;Max;2018;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Max;2020;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Max;2030;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Max;2040;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Max;2050;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Mean;2018;%;3;
+Hard coal power plants;Mean;2020;%;3;
+Hard coal power plants;Mean;2030;%;3;
+Hard coal power plants;Mean;2040;%;3;
+Hard coal power plants;Mean;2050;%;3;
+Hard coal power plants;Median;2018;%;3;
+Hard coal power plants;Median;2020;%;3;
+Hard coal power plants;Median;2030;%;3;
+Hard coal power plants;Median;2040;%;3;
+Hard coal power plants;Median;2050;%;3;
+Lignite power plants;Min;2018;%;3.3;n.a.
+Lignite power plants;Min;2020;%;3.3;n.a.
+Lignite power plants;Min;2030;%;3.3;n.a.
+Lignite power plants;Min;2040;%;3.3;n.a.
+Lignite power plants;Min;2050;%;3.3;n.a.
+Lignite power plants;Max;2018;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Max;2020;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Max;2030;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Max;2040;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Max;2050;%;4;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Mean;2018;%;3.8;
+Lignite power plants;Mean;2020;%;3.8;
+Lignite power plants;Mean;2030;%;3.8;
+Lignite power plants;Mean;2040;%;3.8;
+Lignite power plants;Mean;2050;%;3.8;
+Lignite power plants;Median;2018;%;3.8;
+Lignite power plants;Median;2020;%;3.8;
+Lignite power plants;Median;2030;%;3.8;
+Lignite power plants;Median;2040;%;3.8;
+Lignite power plants;Median;2050;%;3.8;
+HVAC overhead transmission;Min;2018;%;0.2;O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC overhead transmission;Min;2020;%;0.2;Assumption based on O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC overhead transmission;Min;2030;%;0.2;O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC overhead transmission;Min;2040;%;0.2;Assumption based on O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC overhead transmission;Min;2050;%;0.2;O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC overhead transmission;Max;2018;%;5;G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC overhead transmission;Max;2020;%;5;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC overhead transmission;Max;2030;%;5;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC overhead transmission;Max;2040;%;5;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC overhead transmission;Max;2050;%;5;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC overhead transmission;Mean;2018;%;2.3;
+HVAC overhead transmission;Mean;2020;%;2.3;
+HVAC overhead transmission;Mean;2030;%;2.3;
+HVAC overhead transmission;Mean;2040;%;2.3;
+HVAC overhead transmission;Mean;2050;%;2.3;
+HVAC overhead transmission;Median;2018;%;1.5;
+HVAC overhead transmission;Median;2020;%;1.5;
+HVAC overhead transmission;Median;2030;%;1.5;
+HVAC overhead transmission;Median;2040;%;1.5;
+HVAC overhead transmission;Median;2050;%;1.5;
+HVDC overhead transmission;Min;2018;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Min;2020;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Min;2030;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Min;2040;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Min;2050;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Max;2018;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Max;2020;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Max;2030;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Max;2040;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Max;2050;%;1;46, M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC overhead transmission;Mean;2018;%;1;
+HVDC overhead transmission;Mean;2020;%;1;
+HVDC overhead transmission;Mean;2030;%;1;
+HVDC overhead transmission;Mean;2040;%;1;
+HVDC overhead transmission;Mean;2050;%;1;
+HVDC overhead transmission;Median;2018;%;1;
+HVDC overhead transmission;Median;2020;%;1;
+HVDC overhead transmission;Median;2030;%;1;
+HVDC overhead transmission;Median;2040;%;1;
+HVDC overhead transmission;Median;2050;%;1;
+HVAC underground cables;Min;2018;%;0.2;G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC underground cables;Min;2020;%;0.2;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC underground cables;Min;2030;%;0.2;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC underground cables;Min;2040;%;0.2;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC underground cables;Min;2050;%;0.2;Assumption based on G.M. Angelo L’Abbate, Review of costs of transmission infrastructures, including cross border connections, Ricerca sul Sistema Energetico (RSE), 2011.
+HVAC underground cables;Max;2018;%;1.1;O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC underground cables;Max;2020;%;1.1;Assumption based on O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC underground cables;Max;2030;%;1.1;O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC underground cables;Max;2040;%;1.1;Assumption based on O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC underground cables;Max;2050;%;1.1;O. Feix, T. Wiede, M. Strecker, and R. König, Netzentwicklungsplan Strom 2025: Erster Entwurf der Übertragungsnetzbetreiber, 50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH, 2015.
+HVAC underground cables;Mean;2018;%;0.5;
+HVAC underground cables;Mean;2020;%;0.5;
+HVAC underground cables;Mean;2030;%;0.5;
+HVAC underground cables;Mean;2040;%;0.5;
+HVAC underground cables;Mean;2050;%;0.5;
+HVAC underground cables;Median;2018;%;0.5;
+HVAC underground cables;Median;2020;%;0.5;
+HVAC underground cables;Median;2030;%;0.5;
+HVAC underground cables;Median;2040;%;0.5;
+HVAC underground cables;Median;2050;%;0.5;
+HVDC underground cables;Min;2018;%;0.2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC underground cables;Min;2020;%;0.2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC underground cables;Min;2030;%;0.2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC underground cables;Min;2040;%;0.2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC underground cables;Min;2050;%;0.2;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+HVDC underground cables;Max;2018;%;1.1;F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353.
+HVDC underground cables;Max;2020;%;1.1;F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353.
+HVDC underground cables;Max;2030;%;1.1;F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353.
+HVDC underground cables;Max;2040;%;1.1;F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353.
+HVDC underground cables;Max;2050;%;1.1;F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353.
+HVDC underground cables;Mean;2018;%;0.8;
+HVDC underground cables;Mean;2020;%;0.8;
+HVDC underground cables;Mean;2030;%;0.8;
+HVDC underground cables;Mean;2040;%;0.8;
+HVDC underground cables;Mean;2050;%;0.8;
+HVDC underground cables;Median;2018;%;1;
+HVDC underground cables;Median;2020;%;1;
+HVDC underground cables;Median;2030;%;1;
+HVDC underground cables;Median;2040;%;1;
+HVDC underground cables;Median;2050;%;1;
+HVAC overhead transmission;Min;2018;%;NA;
+HVAC overhead transmission;Min;2020;%;NA;
+HVAC overhead transmission;Min;2030;%;NA;
+HVAC overhead transmission;Min;2040;%;NA;
+HVAC overhead transmission;Min;2050;%;NA;
+HVAC overhead transmission;Max;2018;%;NA;
+HVAC overhead transmission;Max;2020;%;NA;
+HVAC overhead transmission;Max;2030;%;NA;
+HVAC overhead transmission;Max;2040;%;NA;
+HVAC overhead transmission;Max;2050;%;NA;
+HVAC overhead transmission;Mean;2018;%;NA;
+HVAC overhead transmission;Mean;2020;%;NA;
+HVAC overhead transmission;Mean;2030;%;NA;
+HVAC overhead transmission;Mean;2040;%;NA;
+HVAC overhead transmission;Mean;2050;%;NA;
+HVAC overhead transmission;Median;2018;%;NA;
+HVAC overhead transmission;Median;2020;%;NA;
+HVAC overhead transmission;Median;2030;%;NA;
+HVAC overhead transmission;Median;2040;%;NA;
+HVAC overhead transmission;Median;2050;%;NA;
+HVDC overhead transmission;Min;2018;%;0.5;"D. Westermann, D. Van Hertem, G. Real, T. Rauhala, M. Meisingset, M. Kurrat, B. Deppe, R. Atmuri, A. Küster, D. Soerangr, G. Asplund, M. Takasaki, B. Klöckl, M. Bennett, and K. Friedrich, Voltage Source Converter (VSC) HVDC for Power Transmission – Economic Aspects and Comparison with other AC and DC Technologies, Cigré; Paris, 2012., F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353."
+HVDC overhead transmission;Min;2020;%;0.5;"Assumption based on D. Westermann, D. Van Hertem, G. Real, T. Rauhala, M. Meisingset, M. Kurrat, B. Deppe, R. Atmuri, A. Küster, D. Soerangr, G. Asplund, M. Takasaki, B. Klöckl, M. Bennett, and K. Friedrich, Voltage Source Converter (VSC) HVDC for Power Transmission – Economic Aspects and Comparison with other AC and DC Technologies, Cigré; Paris, 2012., F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353."
+HVDC overhead transmission;Min;2030;%;0.5;"Assumption based on D. Westermann, D. Van Hertem, G. Real, T. Rauhala, M. Meisingset, M. Kurrat, B. Deppe, R. Atmuri, A. Küster, D. Soerangr, G. Asplund, M. Takasaki, B. Klöckl, M. Bennett, and K. Friedrich, Voltage Source Converter (VSC) HVDC for Power Transmission – Economic Aspects and Comparison with other AC and DC Technologies, Cigré; Paris, 2012., F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353."
+HVDC overhead transmission;Min;2040;%;0.5;"Assumption based on D. Westermann, D. Van Hertem, G. Real, T. Rauhala, M. Meisingset, M. Kurrat, B. Deppe, R. Atmuri, A. Küster, D. Soerangr, G. Asplund, M. Takasaki, B. Klöckl, M. Bennett, and K. Friedrich, Voltage Source Converter (VSC) HVDC for Power Transmission – Economic Aspects and Comparison with other AC and DC Technologies, Cigré; Paris, 2012., F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353."
+HVDC overhead transmission;Min;2050;%;0.5;"Assumption based on D. Westermann, D. Van Hertem, G. Real, T. Rauhala, M. Meisingset, M. Kurrat, B. Deppe, R. Atmuri, A. Küster, D. Soerangr, G. Asplund, M. Takasaki, B. Klöckl, M. Bennett, and K. Friedrich, Voltage Source Converter (VSC) HVDC for Power Transmission – Economic Aspects and Comparison with other AC and DC Technologies, Cigré; Paris, 2012., F. Trieb, C. Schillings, T. Pregger, and M. O’Sullivan, “Solar electricity imports from the Middle East and North Africa to Europe,” Energy Policy, vol. 42, 2012, pp. 341–353."
+HVDC overhead transmission;Max;2018;%;1.1;Assumption based on H. Seidl und R. Heuke, Technologieübersicht. Das deutsche Höchstspannungsnetz: Technologien und Rahmenbedingungen, Deutsche Energie-Agentur GmbH (dena), 2014.
+HVDC overhead transmission;Max;2020;%;1.1;Assumption based on H. Seidl und R. Heuke, Technologieübersicht. Das deutsche Höchstspannungsnetz: Technologien und Rahmenbedingungen, Deutsche Energie-Agentur GmbH (dena), 2014.
+HVDC overhead transmission;Max;2030;%;1.1;H. Seidl und R. Heuke, Technologieübersicht. Das deutsche Höchstspannungsnetz: Technologien und Rahmenbedingungen, Deutsche Energie-Agentur GmbH (dena), 2014.
+HVDC overhead transmission;Max;2040;%;1.1;Assumption based on H. Seidl und R. Heuke, Technologieübersicht. Das deutsche Höchstspannungsnetz: Technologien und Rahmenbedingungen, Deutsche Energie-Agentur GmbH (dena), 2014.
+HVDC overhead transmission;Max;2050;%;1.1;H. Seidl und R. Heuke, Technologieübersicht. Das deutsche Höchstspannungsnetz: Technologien und Rahmenbedingungen, Deutsche Energie-Agentur GmbH (dena), 2014.
+HVDC overhead transmission;Mean;2018;%;0.8;
+HVDC overhead transmission;Mean;2020;%;0.9;
+HVDC overhead transmission;Mean;2030;%;0.9;
+HVDC overhead transmission;Mean;2040;%;0.9;
+HVDC overhead transmission;Mean;2050;%;0.9;
+HVDC overhead transmission;Median;2018;%;1;
+HVDC overhead transmission;Median;2020;%;1;
+HVDC overhead transmission;Median;2030;%;1;
+HVDC overhead transmission;Median;2040;%;1;
+HVDC overhead transmission;Median;2050;%;1;
+Vanadium redox flow batteries;Min;2018;%;1;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Min;2020;%;1;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Min;2030;%;1;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Min;2040;%;1;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Min;2050;%;1;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Max;2018;%;2;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Max;2020;%;2;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Max;2030;%;2;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Max;2040;%;2;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Max;2050;%;2;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Vanadium redox flow batteries;Mean;2018;%;1.5;
+Vanadium redox flow batteries;Mean;2020;%;1.5;
+Vanadium redox flow batteries;Mean;2030;%;1.5;
+Vanadium redox flow batteries;Mean;2040;%;1.5;
+Vanadium redox flow batteries;Mean;2050;%;1.5;
+Vanadium redox flow batteries;Median;2018;%;1.5;
+Vanadium redox flow batteries;Median;2020;%;1.5;
+Vanadium redox flow batteries;Median;2030;%;1.5;
+Vanadium redox flow batteries;Median;2040;%;1.5;
+Vanadium redox flow batteries;Median;2050;%;1.5;
+Compressed air;Min;2018;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2020;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2030;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2040;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2050;%;1.3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Max;2018;%;1.5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Compressed air;Max;2020;%;1.5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Compressed air;Max;2030;%;1.5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Compressed air;Max;2040;%;1.5;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Compressed air;Max;2050;%;1.5;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Compressed air;Mean;2018;%;1.4;
+Compressed air;Mean;2020;%;1.4;
+Compressed air;Mean;2030;%;1.4;
+Compressed air;Mean;2040;%;1.4;
+Compressed air;Mean;2050;%;1.4;
+Compressed air;Median;2018;%;1.4;
+Compressed air;Median;2020;%;1.4;
+Compressed air;Median;2030;%;1.4;
+Compressed air;Median;2040;%;1.4;
+Compressed air;Median;2050;%;1.4;
+Lithium batteries;Min;2018;%;0.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Lithium batteries;Min;2020;%;0.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Lithium batteries;Min;2030;%;0.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Lithium batteries;Min;2040;%;0.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Lithium batteries;Min;2050;%;0.5;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Lithium batteries;Max;2018;%;4;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2020;%;3;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2030;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2040;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2050;%;2.5;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Mean;2018;%;1.6;
+Lithium batteries;Mean;2020;%;1.5;
+Lithium batteries;Mean;2030;%;1.4;
+Lithium batteries;Mean;2040;%;1.4;
+Lithium batteries;Mean;2050;%;1.4;
+Lithium batteries;Median;2018;%;1.5;
+Lithium batteries;Median;2020;%;1.5;
+Lithium batteries;Median;2030;%;1.5;
+Lithium batteries;Median;2040;%;1.5;
+Lithium batteries;Median;2050;%;1.5;
