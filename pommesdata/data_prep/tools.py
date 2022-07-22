@@ -29,6 +29,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
+from statsmodels.tsa.tsatools import rename_trend
 
 
 def load_bidding_zone_shape(country, zone, path_folder):
@@ -756,3 +757,316 @@ def combine_parameter_estimates(
         overall_data_set.to_csv(f"{path}{parameter}_{estimate}.csv")
 
     return overall_data_set
+
+
+def extract_parameter_pietzcker(raw_data, parameter, rename_dict):
+    """Extract constant parameter from data set of study Pietzcker 2021
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    Returns
+    -------
+    pandas.DataFrame
+        Data for parameter of interest
+    """
+    return (
+        raw_data[[parameter]]
+        .loc[raw_data[parameter].notna()]
+        .rename(rename_dict)
+    )
+
+
+def extract_parameter_ise(raw_data, parameter, rename_dict, slice=False):
+    """Extract constant parameter from data set of study ISE 2020
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    slice: boolean
+        If True, drop all values that do not appear in rename dict
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    df = raw_data.loc[raw_data.index.get_level_values(1) == parameter]
+    df = df.reset_index(level=[1, 2], drop=True).rename(index=rename_dict)
+    # Values are constant, so we randomly select one column
+    df = df[[2020]]
+    if slice:
+        df = df.loc[df.index.get_level_values(0).isin(rename_dict.values())]
+
+    return df
+
+
+def extract_parameter_dieterpy(raw_data, parameter, rename_dict):
+    """Extract constant parameter from data set of model dieterpy (2021)
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    df = raw_data.loc[raw_data.index.get_level_values(1) == parameter]
+    df = df.reset_index(level=[1, 2], drop=True).rename(index=rename_dict)
+    # Values are constant, so we randomly select one column
+    df = df[[2020]]
+
+    return df
+
+
+def extract_parameter_flexmex(
+    raw_data, conditions, rename_dict, mode="generators"
+):
+    """Extract constant parameter from data set of project FlexMex (2021)
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    conditions: list of str
+        List describing parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    mode: str
+        Selection mode. Options 'generators' or 'storages'
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    if mode == "generators":
+        df = apply_simple_conditions_flexmex(raw_data, conditions)
+    elif mode == "storages":
+        df = apply_complex_conditions_flexmex(raw_data, conditions)
+    else:
+        raise ValueError(
+            "'mode' not supported. Must be one of 'generators' and 'storages'"
+        )
+    df = pd.concat([df, df["Parameter"].str.split("_", expand=True)], axis=1)
+    df.replace(rename_dict, inplace=True)
+    df.rename(
+        columns={2: "final_energy", 3: "fuel", 4: "technology"}, inplace=True
+    )
+
+    if mode == "generators":
+        df = df.loc[
+            (df["fuel"].isin(rename_dict.values()))
+            & (df["final_energy"].isin(["Electricity", "ElectricityHeat"]))
+        ]
+
+        df["fuel_tech"] = df["fuel"] + "_" + df["technology"]
+    elif mode == "storages":
+        df["fuel_tech"] = (df["fuel"] + "_" + df["technology"]).str.strip("_")
+
+    df.set_index("fuel_tech", inplace=True)
+    df = df[["Value"]]
+
+    return df
+
+
+def apply_simple_conditions_flexmex(raw_data, conditions):
+    """Select data based on simple condition and return slice
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    conditions: list of str
+        List describing parameter for which information shall be extracted
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    return raw_data.loc[
+        (raw_data["Parameter"].str.contains(conditions[0]))
+        & (raw_data["Parameter"].str.contains(conditions[1]))
+    ]
+
+
+def apply_complex_conditions_flexmex(raw_data, conditions):
+    """Select data based on complex condition and return slice
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    conditions: list of str
+        List describing parameter for which information shall be extracted
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    return raw_data.loc[
+        (
+            (raw_data["Parameter"].str.contains(conditions[0]))
+            | (raw_data["Parameter"].str.contains(conditions[1]))
+        )
+        & (raw_data["Parameter"].str.contains(conditions[2]))
+        & ~(raw_data["Parameter"].str.contains(conditions[3]))
+    ]
+
+
+def extract_parameter_unseen(
+    main_path, sub_path, input_file, file_name, rename_dict
+):
+    """Extract constant parameter from data set of project UNSEEN (2021)
+
+    Parameters
+    ----------
+    main_path: dict
+        Collection of main path folders
+
+    sub_path: dict
+        Collection of sub path folders
+
+    input_file: dict
+        Collection of all input file names
+
+    file_name: str
+        Key of the data file to read in
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    raw_data = pd.read_csv(
+        main_path["inputs"] + sub_path["assumptions"] + input_file[file_name],
+        index_col=[0, 1],
+        header=0,
+        sep=";",
+    )
+    raw_data.rename(index=rename_dict, inplace=True)
+    raw_data = raw_data.loc[[idx for idx in rename_dict.values()]]
+
+    df = raw_data.pivot_table(
+        index=raw_data.index, columns="Year", values="Value"
+    )
+    # Since parameters is constant, we randomly select one year
+    df = df[[2020]]
+    df.columns = ["fixed_costs_percent_per_year"]
+
+    df.index = pd.MultiIndex.from_tuples(df.index)
+    df.reset_index(level=1, inplace=True)
+    df["study_title"] = "UNSEEN_" + df["level_1"]
+    df.set_index("study_title", append=True, inplace=True)
+    df.drop(columns="level_1", inplace=True)
+
+    # Exclude storages for later use
+    df_storages = df.loc[
+        df.index.get_level_values(0).isin(
+            ["storage_el_phes", "storage_el_battery"]
+        )
+    ]
+    df = df.loc[
+        ~df.index.get_level_values(0).isin(
+            df_storages.index.get_level_values(0)
+        )
+    ]
+
+    return df, df_storages
+
+
+def extract_parameter_pypsa_eur(raw_data, parameter, rename_dict):
+    """Extract constant parameter from model PyPSA-Eur
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    df = raw_data.loc[raw_data["parameter"] == parameter, ["value"]]
+    df.rename(index=rename_dict, inplace=True)
+    df.drop(
+        index=[el for el in df.index if el not in rename_dict.values()],
+        inplace=True,
+    )
+
+    return df
+
+
+def append_study_title_and_rename_column(df, study_title, column=None):
+    """Append the name of the study to the data set
+
+    Parameters
+    ----------
+    df: pd.DataFrame
+        DataFrame containing parameter information
+
+    study_title: str
+        Title of the study to be appended
+
+    column: str or None
+        Column name to be adjusted (if not None)
+    """
+    df["study_title"] = study_title
+    df.set_index("study_title", append=True, inplace=True)
+    if column:
+        df.columns = [column]
+
+
+def add_hydrogen_cost_assumption(df):
+    """Add hydrogen cost assumption by using natgas cost values"""
+    # Add hydrogen costs
+    natgas_idx = df.loc[
+        df.index.get_level_values(0).str.contains("natgas")
+    ].index
+    for el in natgas_idx:
+        hydrogen_idx = el[0].replace("natgas", "hydrogen")
+        df.loc[(hydrogen_idx, el[1]), :] = df.loc[el].values
+
+    return df
