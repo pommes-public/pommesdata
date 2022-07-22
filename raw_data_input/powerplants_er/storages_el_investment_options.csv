@@ -1,0 +1,3 @@
+﻿plant;country;type;bus_inflow;bus_outflow;loss_rate;efficiency_pump;efficiency_turbine;initial_storage_level;min_storage_level;max_storage_level;min_invest_pump;max_invest_pump;overall_invest_limit_pump;min_invest_turbine;max_invest_turbine;overall_invest_limit_turbine;min_invest;max_invest;overall_invest_limit;unit_lifetime_pump;unit_lifetime_turbine;unit_lifetime;invest_relation_input_output;invest_relation_input_capacity;invest_relation_output_capacity;bus_technology
+DE_storage_el_PHS_new_built;DE;phes;DE_bus_el;DE_bus_el;0.01;0.82;0.89;0.5;0;1;0;800;800;0;800;800;0;800;800;45;45;80;1;;;storage_el_PHS
+DE_storage_el_battery_new_built;DE;battery;DE_bus_el;DE_bus_el;0.01;0.98;0.98;0;0;1;0;10000;1000000;0;10000;1000000;0;10000;1000000;15;15;15;1;;;storage_el_battery

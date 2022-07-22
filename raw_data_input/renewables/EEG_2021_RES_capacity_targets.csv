@@ -1,4 +1,4 @@
-﻿fuel;year;capacity [GW]
+fuel;year;capacity [GW]
 solarPV;2022;63
 solarPV;2024;73
 solarPV;2026;83
@@ -11,4 +11,4 @@ windonshore;2028;68
 windonshore;2030;71
 windoffshore;2030;20
 windoffshore;2040;40
-biomass;2030;8,4
+biomassEEG;2030;8,4

@@ -22,11 +22,13 @@ This software is provided under MIT License (see licensing file).
 
 @author: Yannick Werner, Johannes Kochems
 """
-from math import sin, cos, sqrt, atan2
+from math import atan2, cos, sin, sqrt
 
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+import seaborn as sns
+from matplotlib import pyplot as plt
 
 
 def load_bidding_zone_shape(country, zone, path_folder):
@@ -279,8 +281,7 @@ def load_entsoe_generation_data(
         if len(df) == 8760 * 4 + 1 * 4:
             df.drop(
                 index=df.loc[
-                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)"
-                    :"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
+                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)":"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
                 ].index,
                 inplace=True,
             )
@@ -536,7 +537,7 @@ def reindex_time_series(df, year):
 
     Returns
     -------
-    df: pd.DataFrame
+    df_reindexed: pd.DataFrame
         the manipulated DataFrame
     """
     df.index = pd.DatetimeIndex(df.index)
@@ -553,14 +554,13 @@ def reindex_time_series(df, year):
     new_index = pd.date_range(
         start=ts_start, periods=df.shape[0], freq=df.index.freq
     )
-    df.index = new_index
+    df_reindexed = df.copy()
+    df_reindexed.index = new_index
 
-    return df
+    return df_reindexed
 
 
-def reformat_costs_values(
-    costs, sources_commodity, index="bus"
-):
+def reformat_costs_values(costs, sources_commodity, index="bus"):
     """Reformat commodity cost values
 
     Parameters
@@ -580,9 +580,7 @@ def reformat_costs_values(
         Combination of historical and predicted costs indexed by
         commodity sources introduced by the model
     """
-    reformatted_costs = costs.loc[
-        sources_commodity["fuel"].values
-    ]
+    reformatted_costs = costs.loc[sources_commodity["fuel"].values]
     if index == "bus":
         reformatted_costs.index = sources_commodity["to"].values
     elif index == "source":
@@ -591,3 +589,170 @@ def reformat_costs_values(
     reformatted_costs = reformatted_costs.astype("float64").round(2)
 
     return reformatted_costs
+
+
+def transform_costs_values_to_time_series(costs, end_year=2050):
+    """Transform costs values to time series with annual frequency
+
+    Parameters
+    ----------
+    costs: pd.DataFrame
+        Costs to be indexed to a certain year
+
+    end_year: int
+        Last year for which there is data
+    """
+    costs_ts = costs.T
+    try:
+        costs_ts["date_index"] = pd.date_range(
+            start="2017", end=str(end_year), freq="AS"
+        )
+    except ValueError:
+        raise ValueError(
+            f"Time series must range from 2017 to {end_year} (inclusively)!"
+        )
+    costs_ts.set_index("date_index", drop=True, inplace=True)
+
+    return costs_ts
+
+
+def add_study_to_comparison(parameter_data, study_data):
+    """Add given study data to parameter comparison
+
+    Parameters
+    ----------
+    parameter_data: pd.DataFrame
+        parameter data collection
+
+    study_data: pd.DataFrame
+        data from study to be appended to parameter data
+
+    Returns
+    -------
+    parameter_data: pd.DataFrame
+        extended parameter data collection
+    """
+    parameter_data = pd.concat([parameter_data, study_data]).astype("float64")
+    parameter_data = parameter_data.interpolate(how="linear", axis=1)
+
+    return parameter_data
+
+
+def plot_parameter_comparison(
+    data, parameter, category, savefig=False, show=True
+):
+    """Create a plot to visually compare parameter distributions
+
+    Parameters
+    ----------
+    data: pd.DataFrame
+        Parameter data (subset per category) to be evaluated
+
+    parameter: str
+        Parameter to be evaluated
+
+    category: str
+        Category for which data shall be evaluated
+
+    savefig: boolean
+        If True, save figure to disk
+
+    show: boolean
+        If True, display the plot
+    """
+    fig, ax = plt.subplots(figsize=(10, 5))
+    _ = sns.boxplot(data=data, ax=ax, color="lightgrey")
+    _ = sns.swarmplot(data=data, ax=ax, color="black")
+    _ = plt.title(f"{parameter} distribution for {category}")
+    _ = plt.xticks(rotation=90)
+    _ = plt.tight_layout()
+    if savefig:
+        plt.savefig(f"../graphics/{parameter}_{category}.png", dpi=300)
+    if show:
+        plt.show()
+    plt.close()
+
+
+def calculate_summary_statistics(
+    data,
+    path,
+    parameter,
+    category,
+    save=True,
+):
+    """Calculate some summary statistics from data
+
+    Parameters
+    ----------
+    data: pd.DataFrame
+        Parameter data (subset per category) to be evaluated
+
+    path: str
+        Path where to store the output
+
+    parameter: str
+        Parameter to be evaluated
+
+    category: str
+        Category for which data shall be evaluated
+
+    save: boolean
+        If True, save to disk
+
+    Returns
+    -------
+    stats_data: pd.DataFrame
+        Data statistics (count, moments, etc.)
+    """
+    stats_data = data.describe()
+    quantiles = {"5%": 0.05, "10%": 0.1, "90%": 0.9, "95%": 0.95}
+
+    for key, val in quantiles.items():
+        stats_data.loc[key] = data.quantile(val).values
+
+    if save:
+        stats_data.to_csv(f"{path}{parameter}_{category}.csv")
+
+    return stats_data
+
+
+def combine_parameter_estimates(
+    col_names, data_sets, parameter, estimate, path, save=True
+):
+    """Re-combine parameter estimates
+
+    Used to create data sets for unsecure future parameters.
+
+    Parameters
+    ----------
+    col_names: list
+        List of column names to be contained in overall DataFrame
+
+    data_sets: dict
+        Dictionary holding data sets (i.e. DataFrames) of each category
+
+    parameter: str
+        Parameter to be evaluated
+
+    estimate: str
+        Estimate to be calculated (one of '5%', '50%', '95%')
+
+    path: str
+        Path where to store the output
+
+    save: boolean
+        If True, save to disk
+
+    Returns
+    -------
+    overall_data_set: pd.DataFrame
+        Data aggregation for given estimate
+    """
+    overall_data_set = pd.DataFrame(columns=col_names)
+    for key, val in data_sets.items():
+        overall_data_set.loc[key] = val.loc[estimate]
+
+    if save:
+        overall_data_set.to_csv(f"{path}{parameter}_{estimate}.csv")
+
+    return overall_data_set
