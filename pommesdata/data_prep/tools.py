@@ -947,7 +947,7 @@ def apply_complex_conditions_flexmex(raw_data, conditions):
 
 
 def extract_parameter_unseen(
-    main_path, sub_path, input_file, file_name, rename_dict
+    main_path, sub_path, input_file, file_name, rename_dict, column
 ):
     """Extract constant parameter from data set of project UNSEEN (2021)
 
@@ -968,6 +968,9 @@ def extract_parameter_unseen(
     rename_dict: dict
         Renaming to be made to map POMMES technology names
 
+    column: str or None
+        Column name to be adjusted
+
     Returns
     -------
     df: pandas.DataFrame
@@ -987,7 +990,7 @@ def extract_parameter_unseen(
     )
     # Since parameters is constant, we randomly select one year
     df = df[[2020]]
-    df.columns = ["fixed_costs_percent_per_year"]
+    df.columns = [column]
 
     df.index = pd.MultiIndex.from_tuples(df.index)
     df.reset_index(level=1, inplace=True)
