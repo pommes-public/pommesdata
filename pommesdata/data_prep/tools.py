@@ -754,7 +754,7 @@ def combine_parameter_estimates(
         overall_data_set.loc[key] = val.loc[estimate]
 
     if save:
-        overall_data_set.to_csv(f"{path}{parameter}_{estimate}.csv")
+        overall_data_set.to_csv(f"{path}{parameter}_{estimate}_nominal.csv")
 
     return overall_data_set
 
