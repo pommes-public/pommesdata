@@ -115,8 +115,8 @@ def assign_gradients_and_min_loads(pp_df, min_load_dict):
     Gradients are converted from %/min to MW/hour and expressed as relative
     shares of nominal capacity. Minimum loads are determined by fuel.
 
-    Also does some renaming and drops columns not needed anymore ('tech_fuel'
-    and 'load_gradient_relative').
+    Also does some renaming and drops columns not needed anymore (
+    'load_gradient_relative').
 
     Parameters
     ----------
@@ -135,7 +135,7 @@ def assign_gradients_and_min_loads(pp_df, min_load_dict):
     pp_df["grad_pos"] = np.minimum(1, 60 * pp_df["load_grad_relative"])
     pp_df["grad_neg"] = np.minimum(1, 60 * pp_df["load_grad_relative"])
     pp_df = pp_df.rename(columns={"min_load_LP": "min_load_factor"}).drop(
-        columns=["tech_fuel", "load_grad_relative"]
+        columns=["load_grad_relative"]
     )
 
     for fuel in min_load_dict.keys():
@@ -728,7 +728,7 @@ def calculate_summary_statistics(
 
 
 def combine_parameter_estimates(
-    col_names, data_sets, parameter, estimate, path, save=True
+    col_names, data_sets, parameter, estimate, path, transform=False, save=True
 ):
     """Re-combine parameter estimates
 
@@ -751,6 +751,9 @@ def combine_parameter_estimates(
     path: str
         Path where to store the output
 
+    transform: boolean
+        If True, convert to annual time series
+
     save: boolean
         If True, save to disk
 
@@ -762,6 +765,14 @@ def combine_parameter_estimates(
     overall_data_set = pd.DataFrame(columns=col_names)
     for key, val in data_sets.items():
         overall_data_set.loc[key] = val.loc[estimate]
+
+    if transform:
+        overall_data_set = transform_values_to_annual_time_series(
+            values=overall_data_set,
+            start_year=col_names[0],
+            end_year=col_names[-1],
+            transpose=True,
+        )
 
     if save:
         overall_data_set.to_csv(f"{path}{parameter}_{estimate}_nominal.csv")
