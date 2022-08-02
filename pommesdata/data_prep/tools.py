@@ -592,29 +592,39 @@ def reformat_costs_values(costs, sources_commodity, index="bus"):
     return reformatted_costs
 
 
-def transform_costs_values_to_time_series(costs, end_year=2050):
-    """Transform costs values to time series with annual frequency
+def transform_values_to_annual_time_series(
+    values, start_year=2017, end_year=2050, transpose=True
+):
+    """Transform values to time series with annual frequency
 
     Parameters
     ----------
-    costs: pd.DataFrame
-        Costs to be indexed to a certain year
+    values: pd.DataFrame
+        Values to be indexed to a certain year
+
+    start_year: int
+        First year for which there is data
 
     end_year: int
         Last year for which there is data
+
+    transpose: boolean
+        If True, transpose data set
     """
-    costs_ts = costs.T
+    if transpose:
+        values_ts = values.T
     try:
-        costs_ts["date_index"] = pd.date_range(
-            start="2017", end=str(end_year), freq="AS"
+        values_ts["date_index"] = pd.date_range(
+            start=str(start_year), end=str(end_year), freq="AS"
         )
     except ValueError:
         raise ValueError(
-            f"Time series must range from 2017 to {end_year} (inclusively)!"
+            f"Time series must range from {start_year}"
+            f" to {end_year} (inclusively)!"
         )
-    costs_ts.set_index("date_index", drop=True, inplace=True)
+    values_ts.set_index("date_index", drop=True, inplace=True)
 
-    return costs_ts
+    return values_ts
 
 
 def add_study_to_comparison(parameter_data, study_data):
