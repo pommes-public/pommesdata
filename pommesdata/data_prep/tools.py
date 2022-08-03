@@ -728,7 +728,14 @@ def calculate_summary_statistics(
 
 
 def combine_parameter_estimates(
-    col_names, data_sets, parameter, estimate, path, transform=False, save=True
+    col_names,
+    data_sets,
+    parameter,
+    estimate,
+    path,
+    proxies=None,
+    transform=False,
+    save=True,
 ):
     """Re-combine parameter estimates
 
@@ -754,6 +761,10 @@ def combine_parameter_estimates(
     transform: boolean
         If True, convert to annual time series
 
+    proxies: dict or None
+        Add proxies for given technology-fuel combinations based on existing
+        technology-fuel combinations in the data set
+
     save: boolean
         If True, save to disk
 
@@ -766,6 +777,7 @@ def combine_parameter_estimates(
     for key, val in data_sets.items():
         overall_data_set.loc[key] = val.loc[estimate]
 
+    # Transformation leads to row-wise structured data
     if transform:
         overall_data_set = transform_values_to_annual_time_series(
             values=overall_data_set,
@@ -773,6 +785,19 @@ def combine_parameter_estimates(
             end_year=col_names[-1],
             transpose=True,
         )
+
+        if proxies:
+            for missing_tech_fuel, tech_fuel_proxy in proxies.items():
+                overall_data_set[missing_tech_fuel] = overall_data_set[
+                    tech_fuel_proxy
+                ]
+
+    # Row-wise structured data
+    elif proxies:
+        for missing_tech_fuel, tech_fuel_proxy in proxies.items():
+            overall_data_set.loc[missing_tech_fuel] = overall_data_set.loc[
+                tech_fuel_proxy
+            ]
 
     if save:
         overall_data_set.to_csv(f"{path}{parameter}_{estimate}_nominal.csv")
@@ -909,11 +934,11 @@ def extract_parameter_flexmex(
             & (df["final_energy"].isin(["Electricity", "ElectricityHeat"]))
         ]
 
-        df["fuel_tech"] = df["fuel"] + "_" + df["technology"]
+        df["tech_fuel"] = df["technology"] + "_" + df["fuel"]
     elif mode == "storages":
-        df["fuel_tech"] = (df["fuel"] + "_" + df["technology"]).str.strip("_")
+        df["tech_fuel"] = (df["technology"] + "_" + df["fuel"]).str.strip("_")
 
-    df.set_index("fuel_tech", inplace=True)
+    df.set_index("tech_fuel", inplace=True)
     df = df[["Value"]]
 
     return df
