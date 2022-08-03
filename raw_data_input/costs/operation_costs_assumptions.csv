@@ -11,3 +11,4 @@ lignite;EUR/MWh;7;Assumption based on Kost et al. 2021, p. 12, Pietzcker 2021 et
 hardcoal;EUR/MWh;6;Assumption based on Kost et al. 2021, p. 12, Pietzcker 2021 et al. p. 3, mean value + 1
 natgas;EUR/MWh;4;Assumption based on Kost et al. 2021, p. 12, Pietzcker 2021 et al. p. 3
 oil;EUR/MWh;3;Assumption based on Kost et al. 2021, p. 12
+hydrogen;EUR/MWh;4;Assumption (same as natgas)
