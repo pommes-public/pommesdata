@@ -1,10 +1,10 @@
 labels;country;type;from;to_el;technology;fuel;efficiency_el;max_load_factor;min_load_factor;unit_lifetime;min_invest;max_invest;overall_maximum;overall_minimum;grad_pos;grad_neg
-DE_transformer_gas_GT_new_built;DE;emb;DE_bus_gas;DE_bus_el;GT;natgas;0.43;1;0.29;40;0;3000;30000;0;1;1
-DE_transformer_gas_GT_CHP_new_built;DE;chp;DE_bus_gas;DE_bus_el;GT;natgas;0.43;1;0.29;40;0;3000;30000;0;1;1
-DE_transformer_gas_CC_new_built;DE;emb;DE_bus_gas;DE_bus_el;CC;natgas;0.6;1;0.43;34;0;3000;30000;0;1;1
-DE_transformer_gas_CC_CHP_new_built;DE;chp;DE_bus_gas;DE_bus_el;CC;natgas;0.6;1;0.43;34;0;3000;30000;0;1;1
-DE_transformer_gas_M_new_built;DE;emb;DE_bus_gas;DE_bus_el;M;natgas;0.44;1;0.15;30;0;3000;30000;0;1;1
-DE_transformer_gas_M_CHP_new_built;DE;chp;DE_bus_gas;DE_bus_el;M;natgas;0.44;1;0.15;30;0;3000;30000;0;1;1
+DE_transformer_natgas_GT_new_built;DE;emb;DE_bus_natgas;DE_bus_el;GT;natgas;0.43;1;0.29;40;0;3000;30000;0;1;1
+DE_transformer_natgas_GT_CHP_new_built;DE;chp;DE_bus_natgas;DE_bus_el;GT;natgas;0.43;1;0.29;40;0;3000;30000;0;1;1
+DE_transformer_natgas_CC_new_built;DE;emb;DE_bus_natgas;DE_bus_el;CC;natgas;0.6;1;0.43;34;0;3000;30000;0;1;1
+DE_transformer_natgas_CC_CHP_new_built;DE;chp;DE_bus_natgas;DE_bus_el;CC;natgas;0.6;1;0.43;34;0;3000;30000;0;1;1
+DE_transformer_natgas_M_new_built;DE;emb;DE_bus_natgas;DE_bus_el;M;natgas;0.44;1;0.15;30;0;3000;30000;0;1;1
+DE_transformer_natgas_M_CHP_new_built;DE;chp;DE_bus_natgas;DE_bus_el;M;natgas;0.44;1;0.15;30;0;3000;30000;0;1;1
 DE_transformer_hydrogen_GT_new_built;DE;emb;DE_bus_hydrogen;DE_bus_el;GT;hydrogen;0.43;1;0.29;40;0;3000;30000;0;1;1
 DE_transformer_hydrogen_GT_CHP_new_built;DE;chp;DE_bus_hydrogen;DE_bus_el;GT;hydrogen;0.43;1;0.29;40;0;3000;30000;0;1;1
 DE_transformer_hydrogen_FC_new_built;DE;emb;DE_bus_hydrogen;DE_bus_el;FC;hydrogen;0.6;1;0.29;40;0;3000;30000;0;1;1
