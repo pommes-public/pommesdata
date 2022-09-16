@@ -1,0 +1,9 @@
+,,fixed_costs,installed_cap,interference_duration_neg,interference_duration_pos,interference_duration_pos_shed,maximum_activations_year,maximum_activations_year_shed,potential_neg_overall,potential_pos_overall,potential_pos_overall_shed,regeneration_duration,shifting_duration,specific_investments,variable_costs,variable_costs_shed,max_cap,country,from,year
+hoho_cluster_shift_shed,shift_shed,8.9,2500.0,1.0,2.0,1.0,266.0,365.0,2283.0,250.0,1894.69,1.0,1.0,259.5,0.01,0.01,250.0,DE,DE_bus_el,SQ
+hoho_cluster_shift_shed,shift_shed,7.6,1827.0,1.0,2.0,1.0,266.0,365.0,1522.0,183.0,1384.51,1.0,1.0,222.4,0.01,0.01,183.0,DE,DE_bus_el,2020
+hoho_cluster_shift_shed,shift_shed,7.0661,1154.0,1.0,2.0,1.0,266.0,365.0,761.0,115.0,874.34,1.0,1.0,204.6966,0.011,0.011,115.0,DE,DE_bus_el,2025
+hoho_cluster_shift_shed,shift_shed,6.2169,480.0,1.0,2.0,1.0,266.0,365.0,0.0,48.0,364.16,1.0,1.0,180.7769,0.0122,0.0122,48.0,DE,DE_bus_el,2030
+hoho_cluster_shift_shed,shift_shed,5.1143,484.0,1.0,2.0,1.0,266.0,365.0,0.0,48.0,367.12,1.0,1.0,149.6606,0.0135,0.0135,48.0,DE,DE_bus_el,2035
+hoho_cluster_shift_shed,shift_shed,3.7149,488.0,1.0,2.0,1.0,266.0,365.0,0.0,49.0,370.08,1.0,1.0,110.2573,0.0149,0.0149,49.0,DE,DE_bus_el,2040
+hoho_cluster_shift_shed,shift_shed,2.1328,492.0,1.0,2.0,1.0,266.0,365.0,0.0,49.0,373.04,1.0,1.0,60.8665,0.0164,0.0164,49.0,DE,DE_bus_el,2045
+hoho_cluster_shift_shed,shift_shed,0.0181,496.0,1.0,2.0,1.0,266.0,365.0,0.0,50.0,376.0,1.0,1.0,0.0181,0.0181,0.0181,50.0,DE,DE_bus_el,2050

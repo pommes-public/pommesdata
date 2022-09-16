@@ -1,0 +1,9 @@
+,,fixed_costs,installed_cap,interference_duration_neg,interference_duration_pos,interference_duration_pos_shed,maximum_activations_year,maximum_activations_year_shed,potential_neg_overall,potential_pos_overall,potential_pos_overall_shed,regeneration_duration,shifting_duration,specific_investments,variable_costs,variable_costs_shed,max_cap,country,from,year
+ind_cluster_shed_only,shed_only,5.0,843.0,1.0,1.0,1.0,20.0,0.0,0.0,498.0,498.0,4.0,1.0,6.8,889.5,1753.77,758.0,DE,DE_bus_el,SQ
+ind_cluster_shed_only,shed_only,4.3,1142.0,1.0,1.0,1.0,20.0,0.0,0.0,485.0,485.13,4.0,1.0,5.8,762.4,1503.23,1028.0,DE,DE_bus_el,2020
+ind_cluster_shed_only,shed_only,3.9747,1441.0,1.0,1.0,1.0,20.0,0.0,0.0,472.0,472.25,4.0,1.0,5.2996,701.5329,1383.082,1297.0,DE,DE_bus_el,2025
+ind_cluster_shed_only,shed_only,3.4132,1741.0,1.0,1.0,1.0,20.0,0.0,0.0,459.0,459.38,4.0,1.0,4.7541,619.6149,1221.6274,1567.0,DE,DE_bus_el,2030
+ind_cluster_shed_only,shed_only,2.8263,1604.0,1.0,1.0,1.0,20.0,0.0,0.0,395.0,395.43,4.0,1.0,3.903,513.045,1011.5816,1444.0,DE,DE_bus_el,2035
+ind_cluster_shed_only,shed_only,2.0803,1467.0,1.0,1.0,1.0,20.0,0.0,0.0,331.0,331.47,4.0,1.0,2.8233,377.7278,744.5785,1320.0,DE,DE_bus_el,2040
+ind_cluster_shed_only,shed_only,1.1484,1330.0,1.0,1.0,1.0,20.0,0.0,0.0,268.0,267.52,4.0,1.0,1.6406,208.521,411.0538,1197.0,DE,DE_bus_el,2045
+ind_cluster_shed_only,shed_only,0.0181,1194.0,1.0,1.0,1.0,20.0,0.0,0.0,204.0,203.56,4.0,1.0,0.0181,0.0181,0.0181,1074.0,DE,DE_bus_el,2050
