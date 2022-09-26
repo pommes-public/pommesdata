@@ -1,9 +1,9 @@
 ,,fixed_costs,installed_cap,interference_duration_neg,interference_duration_pos,interference_duration_pos_shed,maximum_activations_year,maximum_activations_year_shed,potential_neg_overall,potential_pos_overall,potential_pos_overall_shed,regeneration_duration,shifting_duration,specific_investments,variable_costs,variable_costs_shed,max_cap,country,from,year
-tcs+hoho_cluster_shift_only,shift_only,75.0,39720.0,2.0,1.0,1.0,308.0,0.0,2790.0,557.0,0.0,1.0,1.0,443.1,7.1,0.01,2795.0,DE,DE_bus_el,SQ
-tcs+hoho_cluster_shift_only,shift_only,64.3,55427.0,2.0,1.0,1.0,308.0,0.0,2583.0,518.0,0.0,1.0,1.0,379.8,6.1,0.01,4025.0,DE,DE_bus_el,2020
-tcs+hoho_cluster_shift_only,shift_only,59.1787,71134.0,2.0,1.0,1.0,308.0,0.0,2377.0,479.0,0.0,1.0,1.0,349.4416,5.6308,0.011,6393.0,DE,DE_bus_el,2025
-tcs+hoho_cluster_shift_only,shift_only,52.2949,86841.0,2.0,1.0,1.0,308.0,0.0,2170.0,440.0,0.0,1.0,1.0,308.6494,4.9979,0.0122,8761.0,DE,DE_bus_el,2030
-tcs+hoho_cluster_shift_only,shift_only,43.337,122690.0,2.0,1.0,1.0,308.0,0.0,1963.0,401.0,0.0,1.0,1.0,255.5804,4.1722,0.0135,13401.0,DE,DE_bus_el,2035
-tcs+hoho_cluster_shift_only,shift_only,31.7993,158538.0,2.0,1.0,1.0,308.0,0.0,1756.0,362.0,0.0,1.0,1.0,188.1209,2.9719,0.0149,18040.0,DE,DE_bus_el,2040
-tcs+hoho_cluster_shift_only,shift_only,17.5545,194387.0,2.0,1.0,1.0,308.0,0.0,1550.0,323.0,0.0,1.0,1.0,103.8504,1.6406,0.0164,22680.0,DE,DE_bus_el,2045
-tcs+hoho_cluster_shift_only,shift_only,0.0181,230236.0,2.0,1.0,1.0,308.0,0.0,1343.0,284.0,0.0,1.0,1.0,0.0181,0.0181,0.0181,27319.0,DE,DE_bus_el,2050
+tcs+hoho_cluster_shift_only,shift_only,75.0,39720.0,2.0,1.0,1.0,308.0,0.0,2981.0,557.0,0.0,1.0,1.0,443.1,7.1,0.01,2795.0,DE,DE_bus_el,SQ
+tcs+hoho_cluster_shift_only,shift_only,64.3,55427.0,2.0,1.0,1.0,308.0,0.0,2761.0,518.0,0.0,1.0,1.0,379.8,6.1,0.01,4025.0,DE,DE_bus_el,2020
+tcs+hoho_cluster_shift_only,shift_only,59.1787,71134.0,2.0,1.0,1.0,308.0,0.0,2540.0,479.0,0.0,1.0,1.0,349.4416,5.6308,0.011,6393.0,DE,DE_bus_el,2025
+tcs+hoho_cluster_shift_only,shift_only,52.2949,86841.0,2.0,1.0,1.0,308.0,0.0,2320.0,440.0,0.0,1.0,1.0,308.6494,4.9979,0.0122,8761.0,DE,DE_bus_el,2030
+tcs+hoho_cluster_shift_only,shift_only,43.337,122690.0,2.0,1.0,1.0,308.0,0.0,2099.0,401.0,0.0,1.0,1.0,255.5804,4.1722,0.0135,13401.0,DE,DE_bus_el,2035
+tcs+hoho_cluster_shift_only,shift_only,31.7993,158538.0,2.0,1.0,1.0,308.0,0.0,1879.0,362.0,0.0,1.0,1.0,188.1209,2.9719,0.0149,18040.0,DE,DE_bus_el,2040
+tcs+hoho_cluster_shift_only,shift_only,17.5545,194387.0,2.0,1.0,1.0,308.0,0.0,1658.0,323.0,0.0,1.0,1.0,103.8504,1.6406,0.0164,22680.0,DE,DE_bus_el,2045
+tcs+hoho_cluster_shift_only,shift_only,0.0181,230236.0,2.0,1.0,1.0,308.0,0.0,1438.0,284.0,0.0,1.0,1.0,0.0181,0.0181,0.0181,27319.0,DE,DE_bus_el,2050
