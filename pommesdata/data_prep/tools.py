@@ -22,11 +22,14 @@ This software is provided under MIT License (see licensing file).
 
 @author: Yannick Werner, Johannes Kochems
 """
-from math import sin, cos, sqrt, atan2
+from math import atan2, cos, sin, sqrt
 
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+import seaborn as sns
+from matplotlib import pyplot as plt
+from statsmodels.tsa.tsatools import rename_trend
 
 
 def load_bidding_zone_shape(country, zone, path_folder):
@@ -112,8 +115,8 @@ def assign_gradients_and_min_loads(pp_df, min_load_dict):
     Gradients are converted from %/min to MW/hour and expressed as relative
     shares of nominal capacity. Minimum loads are determined by fuel.
 
-    Also does some renaming and drops columns not needed anymore ('tech_fuel'
-    and 'load_gradient_relative').
+    Also does some renaming and drops columns not needed anymore (
+    'load_gradient_relative').
 
     Parameters
     ----------
@@ -132,7 +135,7 @@ def assign_gradients_and_min_loads(pp_df, min_load_dict):
     pp_df["grad_pos"] = np.minimum(1, 60 * pp_df["load_grad_relative"])
     pp_df["grad_neg"] = np.minimum(1, 60 * pp_df["load_grad_relative"])
     pp_df = pp_df.rename(columns={"min_load_LP": "min_load_factor"}).drop(
-        columns=["tech_fuel", "load_grad_relative"]
+        columns=["load_grad_relative"]
     )
 
     for fuel in min_load_dict.keys():
@@ -279,8 +282,7 @@ def load_entsoe_generation_data(
         if len(df) == 8760 * 4 + 1 * 4:
             df.drop(
                 index=df.loc[
-                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)"
-                    :"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
+                    "26.03.2017 02:00 - 26.03.2017 02:15 (CET)":"26.03.2017 02:45 - 26.03.2017 03:00 (CET)"
                 ].index,
                 inplace=True,
             )
@@ -536,7 +538,7 @@ def reindex_time_series(df, year):
 
     Returns
     -------
-    df: pd.DataFrame
+    df_reindexed: pd.DataFrame
         the manipulated DataFrame
     """
     df.index = pd.DatetimeIndex(df.index)
@@ -553,14 +555,13 @@ def reindex_time_series(df, year):
     new_index = pd.date_range(
         start=ts_start, periods=df.shape[0], freq=df.index.freq
     )
-    df.index = new_index
+    df_reindexed = df.copy()
+    df_reindexed.index = new_index
 
-    return df
+    return df_reindexed
 
 
-def reformat_costs_values(
-    costs, sources_commodity, index="bus"
-):
+def reformat_costs_values(costs, sources_commodity, index="bus"):
     """Reformat commodity cost values
 
     Parameters
@@ -580,9 +581,7 @@ def reformat_costs_values(
         Combination of historical and predicted costs indexed by
         commodity sources introduced by the model
     """
-    reformatted_costs = costs.loc[
-        sources_commodity["fuel"].values
-    ]
+    reformatted_costs = costs.loc[sources_commodity["fuel"].values]
     if index == "bus":
         reformatted_costs.index = sources_commodity["to"].values
     elif index == "source":
@@ -591,3 +590,532 @@ def reformat_costs_values(
     reformatted_costs = reformatted_costs.astype("float64").round(2)
 
     return reformatted_costs
+
+
+def transform_values_to_annual_time_series(
+    values, start_year=2017, end_year=2050, transpose=True
+):
+    """Transform values to time series with annual frequency
+
+    Parameters
+    ----------
+    values: pd.DataFrame
+        Values to be indexed to a certain year
+
+    start_year: int
+        First year for which there is data
+
+    end_year: int
+        Last year for which there is data
+
+    transpose: boolean
+        If True, transpose data set
+    """
+    if transpose:
+        values_ts = values.T
+    try:
+        values_ts["date_index"] = pd.date_range(
+            start=str(start_year), end=str(end_year), freq="AS"
+        )
+    except ValueError:
+        raise ValueError(
+            f"Time series must range from {start_year}"
+            f" to {end_year} (inclusively)!"
+        )
+    values_ts.set_index("date_index", drop=True, inplace=True)
+
+    return values_ts
+
+
+def add_study_to_comparison(parameter_data, study_data):
+    """Add given study data to parameter comparison
+
+    Parameters
+    ----------
+    parameter_data: pd.DataFrame
+        parameter data collection
+
+    study_data: pd.DataFrame
+        data from study to be appended to parameter data
+
+    Returns
+    -------
+    parameter_data: pd.DataFrame
+        extended parameter data collection
+    """
+    parameter_data = pd.concat([parameter_data, study_data]).astype("float64")
+    parameter_data = parameter_data.interpolate(how="linear", axis=1)
+
+    return parameter_data
+
+
+def plot_parameter_comparison(
+    data, parameter, category, savefig=False, show=True
+):
+    """Create a plot to visually compare parameter distributions
+
+    Parameters
+    ----------
+    data: pd.DataFrame
+        Parameter data (subset per category) to be evaluated
+
+    parameter: str
+        Parameter to be evaluated
+
+    category: str
+        Category for which data shall be evaluated
+
+    savefig: boolean
+        If True, save figure to disk
+
+    show: boolean
+        If True, display the plot
+    """
+    fig, ax = plt.subplots(figsize=(10, 5))
+    _ = sns.boxplot(data=data, ax=ax, color="lightgrey")
+    _ = sns.swarmplot(data=data, ax=ax, color="black")
+    _ = plt.title(f"{parameter} distribution for {category}")
+    _ = plt.xticks(rotation=90)
+    _ = plt.tight_layout()
+    if savefig:
+        plt.savefig(f"../graphics/{parameter}_{category}.png", dpi=300)
+    if show:
+        plt.show()
+    plt.close()
+
+
+def calculate_summary_statistics(
+    data,
+    path,
+    parameter,
+    category,
+    save=True,
+):
+    """Calculate some summary statistics from data
+
+    Parameters
+    ----------
+    data: pd.DataFrame
+        Parameter data (subset per category) to be evaluated
+
+    path: str
+        Path where to store the output
+
+    parameter: str
+        Parameter to be evaluated
+
+    category: str
+        Category for which data shall be evaluated
+
+    save: boolean
+        If True, save to disk
+
+    Returns
+    -------
+    stats_data: pd.DataFrame
+        Data statistics (count, moments, etc.)
+    """
+    stats_data = data.describe()
+    quantiles = {"5%": 0.05, "10%": 0.1, "90%": 0.9, "95%": 0.95}
+
+    for key, val in quantiles.items():
+        stats_data.loc[key] = data.quantile(val).values
+
+    if save:
+        stats_data.to_csv(f"{path}{parameter}_{category}.csv")
+
+    return stats_data
+
+
+def combine_parameter_estimates(
+    col_names,
+    data_sets,
+    parameter,
+    estimate,
+    path,
+    proxies=None,
+    transform=False,
+    save=True,
+):
+    """Re-combine parameter estimates
+
+    Used to create data sets for unsecure future parameters.
+
+    Parameters
+    ----------
+    col_names: list
+        List of column names to be contained in overall DataFrame
+
+    data_sets: dict
+        Dictionary holding data sets (i.e. DataFrames) of each category
+
+    parameter: str
+        Parameter to be evaluated
+
+    estimate: str
+        Estimate to be calculated (one of '5%', '50%', '95%')
+
+    path: str
+        Path where to store the output
+
+    transform: boolean
+        If True, convert to annual time series
+
+    proxies: dict or None
+        Add proxies for given technology-fuel combinations based on existing
+        technology-fuel combinations in the data set
+
+    save: boolean
+        If True, save to disk
+
+    Returns
+    -------
+    overall_data_set: pd.DataFrame
+        Data aggregation for given estimate
+    """
+    overall_data_set = pd.DataFrame(columns=col_names)
+    for key, val in data_sets.items():
+        overall_data_set.loc[key] = val.loc[estimate]
+
+    # Transformation leads to row-wise structured data
+    if transform:
+        overall_data_set = transform_values_to_annual_time_series(
+            values=overall_data_set,
+            start_year=col_names[0],
+            end_year=col_names[-1],
+            transpose=True,
+        )
+
+        if proxies:
+            for missing_tech_fuel, tech_fuel_proxy in proxies.items():
+                overall_data_set[missing_tech_fuel] = overall_data_set[
+                    tech_fuel_proxy
+                ]
+
+    # Row-wise structured data
+    elif proxies:
+        for missing_tech_fuel, tech_fuel_proxy in proxies.items():
+            overall_data_set.loc[missing_tech_fuel] = overall_data_set.loc[
+                tech_fuel_proxy
+            ]
+
+    if save:
+        overall_data_set.to_csv(f"{path}{parameter}_{estimate}_nominal.csv")
+
+    return overall_data_set
+
+
+def extract_parameter_pietzcker(raw_data, parameter, rename_dict):
+    """Extract constant parameter from data set of study Pietzcker 2021
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    Returns
+    -------
+    pandas.DataFrame
+        Data for parameter of interest
+    """
+    return (
+        raw_data[[parameter]]
+        .loc[raw_data[parameter].notna()]
+        .rename(rename_dict)
+    )
+
+
+def extract_parameter_ise(raw_data, parameter, rename_dict, slice=False):
+    """Extract constant parameter from data set of study ISE 2020
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    slice: boolean
+        If True, drop all values that do not appear in rename dict
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    df = raw_data.loc[raw_data.index.get_level_values(1) == parameter]
+    df = df.reset_index(level=[1, 2], drop=True).rename(index=rename_dict)
+    # Values are constant, so we randomly select one column
+    df = df[[2020]]
+    if slice:
+        df = df.loc[df.index.get_level_values(0).isin(rename_dict.values())]
+
+    return df
+
+
+def extract_parameter_dieterpy(raw_data, parameter, rename_dict):
+    """Extract constant parameter from data set of model dieterpy (2021)
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    df = raw_data.loc[raw_data.index.get_level_values(1) == parameter]
+    df = df.reset_index(level=[1, 2], drop=True).rename(index=rename_dict)
+    # Values are constant, so we randomly select one column
+    df = df[[2020]]
+
+    return df
+
+
+def extract_parameter_flexmex(
+    raw_data, conditions, rename_dict, mode="generators"
+):
+    """Extract constant parameter from data set of project FlexMex (2021)
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    conditions: list of str
+        List describing parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    mode: str
+        Selection mode. Options 'generators' or 'storages'
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    if mode == "generators":
+        df = apply_simple_conditions_flexmex(raw_data, conditions)
+    elif mode == "storages":
+        df = apply_complex_conditions_flexmex(raw_data, conditions)
+    else:
+        raise ValueError(
+            "'mode' not supported. Must be one of 'generators' and 'storages'"
+        )
+    df = pd.concat([df, df["Parameter"].str.split("_", expand=True)], axis=1)
+    df.replace(rename_dict, inplace=True)
+    df.rename(
+        columns={2: "final_energy", 3: "fuel", 4: "technology"}, inplace=True
+    )
+
+    if mode == "generators":
+        df = df.loc[
+            (df["fuel"].isin(rename_dict.values()))
+            & (df["final_energy"].isin(["Electricity", "ElectricityHeat"]))
+        ]
+
+        df["tech_fuel"] = df["technology"] + "_" + df["fuel"]
+    elif mode == "storages":
+        df["tech_fuel"] = (df["technology"] + "_" + df["fuel"]).str.strip("_")
+
+    df.set_index("tech_fuel", inplace=True)
+    df = df[["Value"]]
+
+    return df
+
+
+def apply_simple_conditions_flexmex(raw_data, conditions):
+    """Select data based on simple condition and return slice
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    conditions: list of str
+        List describing parameter for which information shall be extracted
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    return raw_data.loc[
+        (raw_data["Parameter"].str.contains(conditions[0]))
+        & (raw_data["Parameter"].str.contains(conditions[1]))
+    ]
+
+
+def apply_complex_conditions_flexmex(raw_data, conditions):
+    """Select data based on complex condition and return slice
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    conditions: list of str
+        List describing parameter for which information shall be extracted
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    return raw_data.loc[
+        (
+            (raw_data["Parameter"].str.contains(conditions[0]))
+            | (raw_data["Parameter"].str.contains(conditions[1]))
+        )
+        & (raw_data["Parameter"].str.contains(conditions[2]))
+        & ~(raw_data["Parameter"].str.contains(conditions[3]))
+    ]
+
+
+def extract_parameter_unseen(
+    main_path, sub_path, input_file, file_name, rename_dict, column
+):
+    """Extract constant parameter from data set of project UNSEEN (2021)
+
+    Parameters
+    ----------
+    main_path: dict
+        Collection of main path folders
+
+    sub_path: dict
+        Collection of sub path folders
+
+    input_file: dict
+        Collection of all input file names
+
+    file_name: str
+        Key of the data file to read in
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    column: str or None
+        Column name to be adjusted
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    raw_data = pd.read_csv(
+        main_path["inputs"] + sub_path["assumptions"] + input_file[file_name],
+        index_col=[0, 1],
+        header=0,
+        sep=";",
+    )
+    raw_data.rename(index=rename_dict, inplace=True)
+    raw_data = raw_data.loc[[idx for idx in rename_dict.values()]]
+
+    df = raw_data.pivot_table(
+        index=raw_data.index, columns="Year", values="Value"
+    )
+    # Since parameters is constant, we randomly select one year
+    df = df[[2020]]
+    df.columns = [column]
+
+    df.index = pd.MultiIndex.from_tuples(df.index)
+    df.reset_index(level=1, inplace=True)
+    df["study_title"] = "UNSEEN_" + df["level_1"]
+    df.set_index("study_title", append=True, inplace=True)
+    df.drop(columns="level_1", inplace=True)
+
+    # Exclude storages for later use
+    df_storages = df.loc[
+        df.index.get_level_values(0).isin(
+            ["storage_el_phes", "storage_el_battery"]
+        )
+    ]
+    df = df.loc[
+        ~df.index.get_level_values(0).isin(
+            df_storages.index.get_level_values(0)
+        )
+    ]
+
+    return df, df_storages
+
+
+def extract_parameter_pypsa_eur(raw_data, parameter, rename_dict):
+    """Extract constant parameter from model PyPSA-Eur
+
+    Parameters
+    ----------
+    raw_data: pd.DataFrame
+        Raw data set from which to extract information
+
+    parameter: str
+        Parameter for which information shall be extracted
+
+    rename_dict: dict
+        Renaming to be made to map POMMES technology names
+
+    Returns
+    -------
+    df: pandas.DataFrame
+        Data for parameter of interest
+    """
+    df = raw_data.loc[raw_data["parameter"] == parameter, ["value"]]
+    df.rename(index=rename_dict, inplace=True)
+    df.drop(
+        index=[el for el in df.index if el not in rename_dict.values()],
+        inplace=True,
+    )
+
+    return df
+
+
+def append_study_title_and_rename_column(df, study_title, column=None):
+    """Append the name of the study to the data set
+
+    Parameters
+    ----------
+    df: pd.DataFrame
+        DataFrame containing parameter information
+
+    study_title: str
+        Title of the study to be appended
+
+    column: str or None
+        Column name to be adjusted (if not None)
+    """
+    df["study_title"] = study_title
+    df.set_index("study_title", append=True, inplace=True)
+    if column:
+        df.columns = [column]
+
+
+def add_hydrogen_cost_assumption(df):
+    """Add hydrogen cost assumption by using natgas cost values"""
+    # Add hydrogen costs
+    natgas_idx = df.loc[
+        df.index.get_level_values(0).str.contains("natgas")
+    ].index
+    for el in natgas_idx:
+        hydrogen_idx = el[0].replace("natgas", "hydrogen")
+        df.loc[(hydrogen_idx, el[1]), :] = df.loc[el].values
+
+    return df
