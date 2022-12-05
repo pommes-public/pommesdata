@@ -477,7 +477,7 @@ def extract_tyndp_capacities(
             "Gas": "natgas",
             "Hard coal": "hardcoal",
             "Hydro-pump": "PHES_capacity_pump",
-            "Hydro-run": "PHES_capacity",
+            "Hydro-run": "ROR",
             "Hydro-turbine": "PHES_capacity_turbine",
             "Lignite": "lignite",
             "Nuclear": "uranium",

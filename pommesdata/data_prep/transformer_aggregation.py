@@ -16,7 +16,6 @@ This software is provided under MIT License (see licensing file).
 @author: Johannes Kochems, Yannick Werner
 """
 import math
-from multiprocessing.dummy import Value
 
 import numpy as np
 import pandas as pd
@@ -93,29 +92,24 @@ def cluster_transformers(
         if (
             n
             > transformers.loc[
-                (grouping_col == group)
-                & (transformers["mode"] == mode),
+                (grouping_col == group) & (transformers["mode"] == mode),
                 by,
             ].nunique()
         ):
             n = transformers.loc[
-                (grouping_col == group)
-                & (transformers["mode"] == mode),
+                (grouping_col == group) & (transformers["mode"] == mode),
                 by,
             ].nunique()
 
         # Exclude the option of zero power plants to be clustered
         if (
             not transformers["cluster"]
-            .loc[
-                (grouping_col == group) & (transformers["mode"] == mode)
-            ]
+            .loc[(grouping_col == group) & (transformers["mode"] == mode)]
             .empty
         ):
             # Do the actual clustering
             transformers.loc[
-                (grouping_col == group)
-                & (transformers["mode"] == mode),
+                (grouping_col == group) & (transformers["mode"] == mode),
                 "cluster",
             ] = (
                 KMeans(n_clusters=n)

@@ -8,6 +8,7 @@ Total renewable energy;Europe;Electricity capacity (MW);488496;513025;537428
 ;France;Electricity capacity (MW);44840;47814;50527
 ;Germany;Electricity capacity (MW);104436;112514;119296
 ;Hungary;Electricity capacity (MW);1048;1194;1599
+;Italy;Electricity capacity (MW);51195.27;52128.454;53160.575
 ;Luxembourg;Electricity capacity (MW);301;318;324
 ;Netherlands;Electricity capacity (MW);7114;7916;9803
 ;Norway;Electricity capacity (MW);32814;33251;33893
@@ -27,6 +28,7 @@ Hydropower;Europe;Electricity capacity (MW);217999;219672;221167
 ;France;Electricity capacity (MW);25621;25707;25793
 ;Germany;Electricity capacity (MW);11207;11120;10940
 ;Hungary;Electricity capacity (MW);57;57;57
+;Italy;Electricity capacity (MW);22298;22426.015;22498.587
 ;Luxembourg;Electricity capacity (MW);1330;1331;1330
 ;Netherlands;Electricity capacity (MW);37;37;37
 ;Norway;Electricity capacity (MW);31817;31912;32530
@@ -46,6 +48,7 @@ Renewable hydropower;Europe;Electricity capacity (MW);189399;191200;192833
 ;France;Electricity capacity (MW);23893;23979;24065
 ;Germany;Electricity capacity (MW);5629;5627;5585
 ;Hungary;Electricity capacity (MW);57;57;57
+;Italy;Electricity capacity (MW);18316;18485.635;18558.207
 ;Luxembourg;Electricity capacity (MW);34;35;34
 ;Netherlands;Electricity capacity (MW);37;37;37
 ;Norway;Electricity capacity (MW);31817;31912;32530
@@ -65,6 +68,7 @@ Pumped storage;Europe;Electricity capacity (MW);28601;28473;28334
 ;France;Electricity capacity (MW);1728;1728;1728
 ;Germany;Electricity capacity (MW);5578;5493;5355
 ;Hungary;Electricity capacity (MW);;;
+;Italy;Electricity capacity (MW);3982;3940.38;3940.38
 ;Luxembourg;Electricity capacity (MW);1296;1296;1296
 ;Netherlands;Electricity capacity (MW);;;
 ;Norway;Electricity capacity (MW);0;0;0
@@ -84,6 +88,7 @@ Marine;Europe;Electricity capacity (MW);241;245;246
 ;France;Electricity capacity (MW);220;219;218
 ;Germany;Electricity capacity (MW);;;
 ;Hungary;Electricity capacity (MW);;;
+;Italy;Electricity capacity (MW);0.2;0.2;0.2
 ;Luxembourg;Electricity capacity (MW);;;
 ;Netherlands;Electricity capacity (MW);2;2;2
 ;Norway;Electricity capacity (MW);0;0;0
@@ -103,6 +108,7 @@ Wind;Europe;Electricity capacity (MW);155756;170633;181385
 ;France;Electricity capacity (MW);11567;13499;14900
 ;Germany;Electricity capacity (MW);49435;55580;58843
 ;Hungary;Electricity capacity (MW);329;329;329
+;Italy;Electricity capacity (MW);9384;9736.578;10230.246
 ;Luxembourg;Electricity capacity (MW);120;120;123
 ;Netherlands;Electricity capacity (MW);4257;4202;4393
 ;Norway;Electricity capacity (MW);883;1207;1207
@@ -122,6 +128,7 @@ Onshore wind energy;Europe;Electricity capacity (MW);143123;154831;162619
 ;France;Electricity capacity (MW);11567;13497;14898
 ;Germany;Electricity capacity (MW);45303;50174;52447
 ;Hungary;Electricity capacity (MW);329;329;329
+;Italy;Electricity capacity (MW);9384;9736.578;10230.246
 ;Luxembourg;Electricity capacity (MW);120;120;123
 ;Netherlands;Electricity capacity (MW);3300;3245;3436
 ;Norway;Electricity capacity (MW);881;1205;1205
@@ -141,6 +148,7 @@ Offshore wind energy;Europe;Electricity capacity (MW);12633;15802;18766
 ;France;Electricity capacity (MW);0;2;2
 ;Germany;Electricity capacity (MW);4132;5406;6396
 ;Hungary;Electricity capacity (MW);;;
+;Italy;Electricity capacity (MW);;;
 ;Luxembourg;Electricity capacity (MW);;;
 ;Netherlands;Electricity capacity (MW);957;957;957
 ;Norway;Electricity capacity (MW);2;2;2
@@ -160,6 +168,7 @@ Solar;Europe;Electricity capacity (MW);106103;112538;121533
 ;France;Electricity capacity (MW);7702;8610;9617
 ;Germany;Electricity capacity (MW);40679;42293;45181
 ;Hungary;Electricity capacity (MW);235;344;726
+;Italy;Electricity capacity (MW);19289.07;19688.363;20113.659
 ;Luxembourg;Electricity capacity (MW);122;128;131
 ;Netherlands;Electricity capacity (MW);2049;2903;4522
 ;Norway;Electricity capacity (MW);27;45;68
@@ -179,6 +188,7 @@ Solar photovoltaic;Europe;Electricity capacity (MW);103782;110212;119207
 ;France;Electricity capacity (MW);7702;8610;9617
 ;Germany;Electricity capacity (MW);40677;42291;45179
 ;Hungary;Electricity capacity (MW);235;344;726
+;Italy;Electricity capacity (MW);19283;19682.293;20107.589
 ;Luxembourg;Electricity capacity (MW);122;128;131
 ;Netherlands;Electricity capacity (MW);2049;2903;4522
 ;Norway;Electricity capacity (MW);27;45;68
@@ -198,6 +208,7 @@ Concentrated solar power;Europe;Electricity capacity (MW);2321;2326;2326
 ;France;Electricity capacity (MW);0;0;0
 ;Germany;Electricity capacity (MW);2;2;2
 ;Hungary;Electricity capacity (MW);;;
+;Italy;Electricity capacity (MW);6.07;6.07;6.07
 ;Luxembourg;Electricity capacity (MW);;;
 ;Netherlands;Electricity capacity (MW);;;
 ;Norway;Electricity capacity (MW);;;
@@ -217,6 +228,7 @@ Bioenergy;Europe;Electricity capacity (MW);35491;36850;39813
 ;France;Electricity capacity (MW);1442;1490;1711
 ;Germany;Electricity capacity (MW);8660;8982;9651
 ;Hungary;Electricity capacity (MW);427;461;484
+;Italy;Electricity capacity (MW);3439;3450.488;3491.073
 ;Luxembourg;Electricity capacity (MW);25;36;36
 ;Netherlands;Electricity capacity (MW);769;772;849
 ;Norway;Electricity capacity (MW);87;87;87
@@ -236,6 +248,7 @@ Solid biofuels;Europe;Electricity capacity (MW);21981;22918;25191
 ;France;Electricity capacity (MW);1035;1052;1253
 ;Germany;Electricity capacity (MW);2579;2605;2667
 ;Hungary;Electricity capacity (MW);351;379;408
+;Italy;Electricity capacity (MW);1094;1092.256;1145.011
 ;Luxembourg;Electricity capacity (MW);13;23;24
 ;Netherlands;Electricity capacity (MW);548;551;622
 ;Norway;Electricity capacity (MW);77;77;77
@@ -255,6 +268,7 @@ Bagasse;Europe;Electricity capacity (MW);2;2;2
 ;France;Electricity capacity (MW);;;
 ;Germany;Electricity capacity (MW);;;
 ;Hungary;Electricity capacity (MW);;;
+;Italy;Electricity capacity (MW);;;
 ;Luxembourg;Electricity capacity (MW);;;
 ;Netherlands;Electricity capacity (MW);;;
 ;Norway;Electricity capacity (MW);;;
@@ -274,6 +288,7 @@ Renewable municipal waste;Europe;Electricity capacity (MW);4568;4701;4860
 ;France;Electricity capacity (MW);424;429;441
 ;Germany;Electricity capacity (MW);979;1004;1059
 ;Hungary;Electricity capacity (MW);29;23;23
+;Italy;Electricity capacity (MW);409;408.148;411.798
 ;Luxembourg;Electricity capacity (MW);9;9;9
 ;Netherlands;Electricity capacity (MW);325;325;400
 ;Norway;Electricity capacity (MW);50;50;50
@@ -293,6 +308,7 @@ Other solid biofuels;Europe;Electricity capacity (MW);17408;18212;20326
 ;France;Electricity capacity (MW);611;623;812
 ;Germany;Electricity capacity (MW);1597;1598;1605
 ;Hungary;Electricity capacity (MW);322;356;385
+;Italy;Electricity capacity (MW);685;684.108;733.213
 ;Luxembourg;Electricity capacity (MW);4;15;15
 ;Netherlands;Electricity capacity (MW);223;226;222
 ;Norway;Electricity capacity (MW);27;27;27
@@ -312,6 +328,7 @@ Liquid biofuels;Europe;Electricity capacity (MW);1792;1813;1791
 ;France;Electricity capacity (MW);4;0;0
 ;Germany;Electricity capacity (MW);231;230;230
 ;Hungary;Electricity capacity (MW);;;
+;Italy;Electricity capacity (MW);993;986.727;970.712
 ;Luxembourg;Electricity capacity (MW);;;
 ;Netherlands;Electricity capacity (MW);0;0;0
 ;Norway;Electricity capacity (MW);0;0;0
@@ -331,6 +348,7 @@ Biogas;Europe;Electricity capacity (MW);11717;12120;12831
 ;France;Electricity capacity (MW);404;438;457
 ;Germany;Electricity capacity (MW);5850;6147;6754
 ;Hungary;Electricity capacity (MW);76;82;76
+;Italy;Electricity capacity (MW);1352;1371.505;1375.35
 ;Luxembourg;Electricity capacity (MW);12;12;12
 ;Netherlands;Electricity capacity (MW);221;221;227
 ;Norway;Electricity capacity (MW);10;10;10
@@ -350,6 +368,7 @@ Geothermal;Europe;Electricity capacity (MW);1506;1558;1618
 ;France;Electricity capacity (MW);16;16;16
 ;Germany;Electricity capacity (MW);33;32;36
 ;Hungary;Electricity capacity (MW);0;3;3
+;Italy;Electricity capacity (MW);767;767.19;767.19
 ;Luxembourg;Electricity capacity (MW);;;
 ;Netherlands;Electricity capacity (MW);;;
 ;Norway;Electricity capacity (MW);;;
