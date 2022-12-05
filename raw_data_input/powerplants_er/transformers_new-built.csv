@@ -1,3 +1,3 @@
-﻿label;country;type;from;to_el;technology;fuel;efficiency_el;max_load_factor;min_load_factor
-DE_transformer_gas_GT_new_built;DE;emb;DE_bus_natgas;DE_bus_el;GT;natgas;0,45;1;0,3
-DE_transformer_gas_CCGT_new_built;DE;emb;DE_bus_natgas;DE_bus_el;CC;natgas;0,62;1;0,3
+﻿label;country;type;from;to_el;technology;fuel;efficiency_el;max_load_factor;min_load_factor;grad_pos;grad_neg
+DE_transformer_gas_GT_new_built;DE;emb;DE_bus_natgas;DE_bus_el;GT;natgas;0,45;1;0,3;1;1
+DE_transformer_gas_CCGT_new_built;DE;emb;DE_bus_natgas;DE_bus_el;CC;natgas;0,62;1;0,3;1;1

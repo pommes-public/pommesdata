@@ -1,0 +1,541 @@
+﻿Technology;Specification;Year;Unit;Value;Source
+Utility PV;Min;2018;2018 €/KWh*a;0;n.a.
+Utility PV;Min;2020;2018 €/KWh*a;0;n.a.
+Utility PV;Min;2030;2018 €/KWh*a;0;n.a.
+Utility PV;Min;2040;2018 €/KWh*a;0;n.a.
+Utility PV;Min;2050;2018 €/KWh*a;0;n.a.
+Utility PV;Max;2018;2018 €/KWh*a;0;n.a.
+Utility PV;Max;2020;2018 €/KWh*a;0;n.a.
+Utility PV;Max;2030;2018 €/KWh*a;0;n.a.
+Utility PV;Max;2040;2018 €/KWh*a;0;n.a.
+Utility PV;Max;2050;2018 €/KWh*a;0;n.a.
+Utility PV;Mean;2018;2018 €/KWh*a;0;
+Utility PV;Mean;2020;2018 €/KWh*a;0;
+Utility PV;Mean;2030;2018 €/KWh*a;0;
+Utility PV;Mean;2040;2018 €/KWh*a;0;
+Utility PV;Mean;2050;2018 €/KWh*a;0;
+Utility PV;Median;2018;2018 €/KWh*a;0;
+Utility PV;Median;2020;2018 €/KWh*a;0;
+Utility PV;Median;2030;2018 €/KWh*a;0;
+Utility PV;Median;2040;2018 €/KWh*a;0;
+Utility PV;Median;2050;2018 €/KWh*a;0;
+Onshore wind;Min;2018;2018 €/KWh*a;0;n.a.
+Onshore wind;Min;2020;2018 €/KWh*a;0;n.a.
+Onshore wind;Min;2030;2018 €/KWh*a;0;n.a.
+Onshore wind;Min;2040;2018 €/KWh*a;0;n.a.
+Onshore wind;Min;2050;2018 €/KWh*a;0;n.a.
+Onshore wind;Max;2018;2018 €/KWh*a;0.02;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Onshore wind;Max;2020;2018 €/KWh*a;0.02;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Onshore wind;Max;2030;2018 €/KWh*a;0.02;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Onshore wind;Max;2040;2018 €/KWh*a;0.02;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Onshore wind;Max;2050;2018 €/KWh*a;0.02;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Onshore wind;Mean;2018;2018 €/KWh*a;0.01;
+Onshore wind;Mean;2020;2018 €/KWh*a;0.01;
+Onshore wind;Mean;2030;2018 €/KWh*a;0.01;
+Onshore wind;Mean;2040;2018 €/KWh*a;0.01;
+Onshore wind;Mean;2050;2018 €/KWh*a;0.01;
+Onshore wind;Median;2018;2018 €/KWh*a;0.02;
+Onshore wind;Median;2020;2018 €/KWh*a;0.02;
+Onshore wind;Median;2030;2018 €/KWh*a;0.02;
+Onshore wind;Median;2040;2018 €/KWh*a;0.01;
+Onshore wind;Median;2050;2018 €/KWh*a;0.01;
+Run of River;Min;2018;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Min;2020;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Min;2030;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Min;2040;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Min;2050;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Max;2018;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Max;2020;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Max;2030;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Max;2040;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Max;2050;2018 €/KWh*a;0;BMU, Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global, 2012., K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019., n.a.
+Run of River;Mean;2018;2018 €/KWh*a;0;
+Run of River;Mean;2020;2018 €/KWh*a;0;
+Run of River;Mean;2030;2018 €/KWh*a;0;
+Run of River;Mean;2040;2018 €/KWh*a;0;
+Run of River;Mean;2050;2018 €/KWh*a;0;
+Run of River;Median;2018;2018 €/KWh*a;0;
+Run of River;Median;2020;2018 €/KWh*a;0;
+Run of River;Median;2030;2018 €/KWh*a;0;
+Run of River;Median;2040;2018 €/KWh*a;0;
+Run of River;Median;2050;2018 €/KWh*a;0;
+Solid Biomass;Min;2018;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Min;2020;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Min;2030;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Min;2040;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Min;2050;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Max;2018;2018 €/KWh*a;0.008;Technology data survey from Energy System 2050 (unpublished).
+Solid Biomass;Max;2020;2018 €/KWh*a;0.008;Technology data survey from Energy System 2050 (unpublished).
+Solid Biomass;Max;2030;2018 €/KWh*a;0.008;Technology data survey from Energy System 2050 (unpublished).
+Solid Biomass;Max;2040;2018 €/KWh*a;0.008;Technology data survey from Energy System 2050 (unpublished).
+Solid Biomass;Max;2050;2018 €/KWh*a;0.008;Technology data survey from Energy System 2050 (unpublished).
+Solid Biomass;Mean;2018;2018 €/KWh*a;0.005;
+Solid Biomass;Mean;2020;2018 €/KWh*a;0.005;
+Solid Biomass;Mean;2030;2018 €/KWh*a;0.005;
+Solid Biomass;Mean;2040;2018 €/KWh*a;0.005;
+Solid Biomass;Mean;2050;2018 €/KWh*a;0.005;
+Solid Biomass;Median;2018;2018 €/KWh*a;0.004;
+Solid Biomass;Median;2020;2018 €/KWh*a;0.004;
+Solid Biomass;Median;2030;2018 €/KWh*a;0.004;
+Solid Biomass;Median;2040;2018 €/KWh*a;0.004;
+Solid Biomass;Median;2050;2018 €/KWh*a;0.004;
+Biogas;Min;2018;2018 €/KWh*a;NA;
+Biogas;Min;2020;2018 €/KWh*a;NA;
+Biogas;Min;2030;2018 €/KWh*a;NA;
+Biogas;Min;2040;2018 €/KWh*a;NA;
+Biogas;Min;2050;2018 €/KWh*a;NA;
+Biogas;Max;2018;2018 €/KWh*a;NA;
+Biogas;Max;2020;2018 €/KWh*a;NA;
+Biogas;Max;2030;2018 €/KWh*a;NA;
+Biogas;Max;2040;2018 €/KWh*a;NA;
+Biogas;Max;2050;2018 €/KWh*a;NA;
+Biogas;Mean;2018;2018 €/KWh*a;NA;
+Biogas;Mean;2020;2018 €/KWh*a;NA;
+Biogas;Mean;2030;2018 €/KWh*a;NA;
+Biogas;Mean;2040;2018 €/KWh*a;NA;
+Biogas;Mean;2050;2018 €/KWh*a;NA;
+Biogas;Median;2018;2018 €/KWh*a;NA;
+Biogas;Median;2020;2018 €/KWh*a;NA;
+Biogas;Median;2030;2018 €/KWh*a;NA;
+Biogas;Median;2040;2018 €/KWh*a;NA;
+Biogas;Median;2050;2018 €/KWh*a;NA;
+Offshore wind;Min;2018;2018 €/KWh*a;0;n.a.
+Offshore wind;Min;2020;2018 €/KWh*a;0;n.a.
+Offshore wind;Min;2030;2018 €/KWh*a;0;n.a.
+Offshore wind;Min;2040;2018 €/KWh*a;0;n.a.
+Offshore wind;Min;2050;2018 €/KWh*a;0;n.a.
+Offshore wind;Max;2018;2018 €/KWh*a;0.03;Nitsch, J., Pregger, T., Naegler, T., Dominik Heide, Tena, D. L. d., Trieb, F., . . . Wenzel, B. (2012). Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global. Retrieved from Stuttgart, Kassel, Teltow
+Offshore wind;Max;2020;2018 €/KWh*a;0.02;Nitsch, J., Pregger, T., Naegler, T., Dominik Heide, Tena, D. L. d., Trieb, F., . . . Wenzel, B. (2012). Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global. Retrieved from Stuttgart, Kassel, Teltow
+Offshore wind;Max;2030;2018 €/KWh*a;0.02;Nitsch, J., Pregger, T., Naegler, T., Dominik Heide, Tena, D. L. d., Trieb, F., . . . Wenzel, B. (2012). Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global. Retrieved from Stuttgart, Kassel, Teltow
+Offshore wind;Max;2040;2018 €/KWh*a;0.02;Nitsch, J., Pregger, T., Naegler, T., Dominik Heide, Tena, D. L. d., Trieb, F., . . . Wenzel, B. (2012). Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global. Retrieved from Stuttgart, Kassel, Teltow
+Offshore wind;Max;2050;2018 €/KWh*a;0.02;Nitsch, J., Pregger, T., Naegler, T., Dominik Heide, Tena, D. L. d., Trieb, F., . . . Wenzel, B. (2012). Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global. Retrieved from Stuttgart, Kassel, Teltow
+Offshore wind;Mean;2018;2018 €/KWh*a;0.02;
+Offshore wind;Mean;2020;2018 €/KWh*a;0.01;
+Offshore wind;Mean;2030;2018 €/KWh*a;0.01;
+Offshore wind;Mean;2040;2018 €/KWh*a;0.01;
+Offshore wind;Mean;2050;2018 €/KWh*a;0.01;
+Offshore wind;Median;2018;2018 €/KWh*a;0.02;
+Offshore wind;Median;2020;2018 €/KWh*a;0.02;
+Offshore wind;Median;2030;2018 €/KWh*a;0.01;
+Offshore wind;Median;2040;2018 €/KWh*a;0.01;
+Offshore wind;Median;2050;2018 €/KWh*a;0.01;
+Pumped hydro;Min;2018;2018 €/KWh*a;0.001;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Min;2020;2018 €/KWh*a;0.001;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Min;2030;2018 €/KWh*a;0.001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Min;2040;2018 €/KWh*a;0.001;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Min;2050;2018 €/KWh*a;0.001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2018;2018 €/KWh*a;0.001;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2020;2018 €/KWh*a;0.001;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2030;2018 €/KWh*a;0.001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2040;2018 €/KWh*a;0.001;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2050;2018 €/KWh*a;0.001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Mean;2018;2018 €/KWh*a;0.001;
+Pumped hydro;Mean;2020;2018 €/KWh*a;0.001;
+Pumped hydro;Mean;2030;2018 €/KWh*a;0.001;
+Pumped hydro;Mean;2040;2018 €/KWh*a;0.001;
+Pumped hydro;Mean;2050;2018 €/KWh*a;0.001;
+Pumped hydro;Median;2018;2018 €/KWh*a;0.001;
+Pumped hydro;Median;2020;2018 €/KWh*a;0.001;
+Pumped hydro;Median;2030;2018 €/KWh*a;0.001;
+Pumped hydro;Median;2040;2018 €/KWh*a;0.001;
+Pumped hydro;Median;2050;2018 €/KWh*a;0.001;
+Electrolyzers;Min;2018;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Min;2020;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Min;2030;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Min;2040;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Min;2050;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Max;2018;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Max;2020;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Max;2030;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Max;2040;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Max;2050;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Mean;2018;2018 €/KWh*a;0.001;
+Electrolyzers;Mean;2020;2018 €/KWh*a;0.001;
+Electrolyzers;Mean;2030;2018 €/KWh*a;0.001;
+Electrolyzers;Mean;2040;2018 €/KWh*a;0.001;
+Electrolyzers;Mean;2050;2018 €/KWh*a;0.001;
+Electrolyzers;Median;2018;2018 €/KWh*a;0.001;
+Electrolyzers;Median;2020;2018 €/KWh*a;0.001;
+Electrolyzers;Median;2030;2018 €/KWh*a;0.001;
+Electrolyzers;Median;2040;2018 €/KWh*a;0.001;
+Electrolyzers;Median;2050;2018 €/KWh*a;0.001;
+Fuel cells;Min;2018;2018 €/KWh*a;NA;
+Fuel cells;Min;2020;2018 €/KWh*a;NA;
+Fuel cells;Min;2030;2018 €/KWh*a;NA;
+Fuel cells;Min;2040;2018 €/KWh*a;NA;
+Fuel cells;Min;2050;2018 €/KWh*a;NA;
+Fuel cells;Max;2018;2018 €/KWh*a;NA;
+Fuel cells;Max;2020;2018 €/KWh*a;NA;
+Fuel cells;Max;2030;2018 €/KWh*a;NA;
+Fuel cells;Max;2040;2018 €/KWh*a;NA;
+Fuel cells;Max;2050;2018 €/KWh*a;NA;
+Fuel cells;Mean;2018;2018 €/KWh*a;NA;
+Fuel cells;Mean;2020;2018 €/KWh*a;NA;
+Fuel cells;Mean;2030;2018 €/KWh*a;NA;
+Fuel cells;Mean;2040;2018 €/KWh*a;NA;
+Fuel cells;Mean;2050;2018 €/KWh*a;NA;
+Fuel cells;Median;2018;2018 €/KWh*a;NA;
+Fuel cells;Median;2020;2018 €/KWh*a;NA;
+Fuel cells;Median;2030;2018 €/KWh*a;NA;
+Fuel cells;Median;2040;2018 €/KWh*a;NA;
+Fuel cells;Median;2050;2018 €/KWh*a;NA;
+CCS;Min;2018;2018 €/KWh*a;NA;
+CCS;Min;2020;2018 €/KWh*a;NA;
+CCS;Min;2030;2018 €/KWh*a;NA;
+CCS;Min;2040;2018 €/KWh*a;NA;
+CCS;Min;2050;2018 €/KWh*a;NA;
+CCS;Max;2018;2018 €/KWh*a;NA;
+CCS;Max;2020;2018 €/KWh*a;NA;
+CCS;Max;2030;2018 €/KWh*a;NA;
+CCS;Max;2040;2018 €/KWh*a;NA;
+CCS;Max;2050;2018 €/KWh*a;NA;
+CCS;Mean;2018;2018 €/KWh*a;NA;
+CCS;Mean;2020;2018 €/KWh*a;NA;
+CCS;Mean;2030;2018 €/KWh*a;NA;
+CCS;Mean;2040;2018 €/KWh*a;NA;
+CCS;Mean;2050;2018 €/KWh*a;NA;
+CCS;Median;2018;2018 €/KWh*a;NA;
+CCS;Median;2020;2018 €/KWh*a;NA;
+CCS;Median;2030;2018 €/KWh*a;NA;
+CCS;Median;2040;2018 €/KWh*a;NA;
+CCS;Median;2050;2018 €/KWh*a;NA;
+Open cycle gas turbines;Min;2018;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Min;2020;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Min;2030;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Min;2040;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Min;2050;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Open cycle gas turbines;Max;2018;2018 €/KWh*a;0.0010;n.a.
+Open cycle gas turbines;Max;2020;2018 €/KWh*a;0.0010;n.a.
+Open cycle gas turbines;Max;2030;2018 €/KWh*a;0.0010;n.a.
+Open cycle gas turbines;Max;2040;2018 €/KWh*a;0.0010;n.a.
+Open cycle gas turbines;Max;2050;2018 €/KWh*a;0.0010;n.a.
+Open cycle gas turbines;Mean;2018;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Mean;2020;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Mean;2030;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Mean;2040;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Mean;2050;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Median;2018;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Median;2020;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Median;2030;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Median;2040;2018 €/KWh*a;0.0007;
+Open cycle gas turbines;Median;2050;2018 €/KWh*a;0.0007;
+Combinded-cycle gas turbines;Min;2018;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Min;2020;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Min;2030;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Min;2040;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Min;2050;2018 €/KWh*a;0.0003;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Combinded-cycle gas turbines;Max;2018;2018 €/KWh*a;0.0509;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Combinded-cycle gas turbines;Max;2020;2018 €/KWh*a;0.0509;Assumption based on IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Combinded-cycle gas turbines;Max;2030;2018 €/KWh*a;0.0509;Assumption based on IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Combinded-cycle gas turbines;Max;2040;2018 €/KWh*a;0.0594;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Combinded-cycle gas turbines;Max;2050;2018 €/KWh*a;0.0594;Assumption based on IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Combinded-cycle gas turbines;Mean;2018;2018 €/KWh*a;0.0178;
+Combinded-cycle gas turbines;Mean;2020;2018 €/KWh*a;0.0178;
+Combinded-cycle gas turbines;Mean;2030;2018 €/KWh*a;0.0178;
+Combinded-cycle gas turbines;Mean;2040;2018 €/KWh*a;0.0206;
+Combinded-cycle gas turbines;Mean;2050;2018 €/KWh*a;0.0206;
+Combinded-cycle gas turbines;Median;2018;2018 €/KWh*a;0.0021;
+Combinded-cycle gas turbines;Median;2020;2018 €/KWh*a;0.0021;
+Combinded-cycle gas turbines;Median;2030;2018 €/KWh*a;0.0021;
+Combinded-cycle gas turbines;Median;2040;2018 €/KWh*a;0.0021;
+Combinded-cycle gas turbines;Median;2050;2018 €/KWh*a;0.0021;
+Nuclear power plants;Min;2018;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2020;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2030;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2040;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Min;2050;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2018;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2020;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2030;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2040;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Max;2050;2018 €/KWh*a;0.003;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Nuclear power plants;Mean;2018;2018 €/KWh*a;0.003;
+Nuclear power plants;Mean;2020;2018 €/KWh*a;0.003;
+Nuclear power plants;Mean;2030;2018 €/KWh*a;0.003;
+Nuclear power plants;Mean;2040;2018 €/KWh*a;0.003;
+Nuclear power plants;Mean;2050;2018 €/KWh*a;0.003;
+Nuclear power plants;Median;2018;2018 €/KWh*a;0.003;
+Nuclear power plants;Median;2020;2018 €/KWh*a;0.003;
+Nuclear power plants;Median;2030;2018 €/KWh*a;0.003;
+Nuclear power plants;Median;2040;2018 €/KWh*a;0.003;
+Nuclear power plants;Median;2050;2018 €/KWh*a;0.003;
+Hard coal power plants;Min;2018;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Min;2020;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Min;2030;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Min;2040;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Min;2050;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Max;2018;2018 €/KWh*a;0.0382;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2020;2018 €/KWh*a;0.0382;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2030;2018 €/KWh*a;0.0382;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2040;2018 €/KWh*a;0.0382;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2050;2018 €/KWh*a;0.0382;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Mean;2018;2018 €/KWh*a;0.0133;
+Hard coal power plants;Mean;2020;2018 €/KWh*a;0.0133;
+Hard coal power plants;Mean;2030;2018 €/KWh*a;0.0133;
+Hard coal power plants;Mean;2040;2018 €/KWh*a;0.0133;
+Hard coal power plants;Mean;2050;2018 €/KWh*a;0.0133;
+Hard coal power plants;Median;2018;2018 €/KWh*a;0.0016;
+Hard coal power plants;Median;2020;2018 €/KWh*a;0.0016;
+Hard coal power plants;Median;2030;2018 €/KWh*a;0.0016;
+Hard coal power plants;Median;2040;2018 €/KWh*a;0.0016;
+Hard coal power plants;Median;2050;2018 €/KWh*a;0.0016;
+Lignite power plants;Min;2018;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Min;2020;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Min;2030;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Min;2040;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Min;2050;2018 €/KWh*a;0.0001;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Lignite power plants;Max;2018;2018 €/KWh*a;0.0047;n.a.
+Lignite power plants;Max;2020;2018 €/KWh*a;0.0047;n.a.
+Lignite power plants;Max;2030;2018 €/KWh*a;0.0047;n.a.
+Lignite power plants;Max;2040;2018 €/KWh*a;0.0047;n.a.
+Lignite power plants;Max;2050;2018 €/KWh*a;0.0047;n.a.
+Lignite power plants;Mean;2018;2018 €/KWh*a;0.0024;
+Lignite power plants;Mean;2020;2018 €/KWh*a;0.0024;
+Lignite power plants;Mean;2030;2018 €/KWh*a;0.0024;
+Lignite power plants;Mean;2040;2018 €/KWh*a;0.0024;
+Lignite power plants;Mean;2050;2018 €/KWh*a;0.0024;
+Lignite power plants;Median;2018;2018 €/KWh*a;0.0024;
+Lignite power plants;Median;2020;2018 €/KWh*a;0.0024;
+Lignite power plants;Median;2030;2018 €/KWh*a;0.0024;
+Lignite power plants;Median;2040;2018 €/KWh*a;0.0024;
+Lignite power plants;Median;2050;2018 €/KWh*a;0.0024;
+HVAC overhead transmission;Min;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2050;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2050;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2050;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2050;2018 €/KWh*a;NA;
+HVAC underground cables;Min;2018;2018 €/KWh*a;NA;
+HVAC underground cables;Min;2020;2018 €/KWh*a;NA;
+HVAC underground cables;Min;2030;2018 €/KWh*a;NA;
+HVAC underground cables;Min;2040;2018 €/KWh*a;NA;
+HVAC underground cables;Min;2050;2018 €/KWh*a;NA;
+HVAC underground cables;Max;2018;2018 €/KWh*a;NA;
+HVAC underground cables;Max;2020;2018 €/KWh*a;NA;
+HVAC underground cables;Max;2030;2018 €/KWh*a;NA;
+HVAC underground cables;Max;2040;2018 €/KWh*a;NA;
+HVAC underground cables;Max;2050;2018 €/KWh*a;NA;
+HVAC underground cables;Mean;2018;2018 €/KWh*a;NA;
+HVAC underground cables;Mean;2020;2018 €/KWh*a;NA;
+HVAC underground cables;Mean;2030;2018 €/KWh*a;NA;
+HVAC underground cables;Mean;2040;2018 €/KWh*a;NA;
+HVAC underground cables;Mean;2050;2018 €/KWh*a;NA;
+HVAC underground cables;Median;2018;2018 €/KWh*a;NA;
+HVAC underground cables;Median;2020;2018 €/KWh*a;NA;
+HVAC underground cables;Median;2030;2018 €/KWh*a;NA;
+HVAC underground cables;Median;2040;2018 €/KWh*a;NA;
+HVAC underground cables;Median;2050;2018 €/KWh*a;NA;
+HVDC underground cables;Min;2018;2018 €/KWh*a;NA;
+HVDC underground cables;Min;2020;2018 €/KWh*a;NA;
+HVDC underground cables;Min;2030;2018 €/KWh*a;NA;
+HVDC underground cables;Min;2040;2018 €/KWh*a;NA;
+HVDC underground cables;Min;2050;2018 €/KWh*a;NA;
+HVDC underground cables;Max;2018;2018 €/KWh*a;NA;
+HVDC underground cables;Max;2020;2018 €/KWh*a;NA;
+HVDC underground cables;Max;2030;2018 €/KWh*a;NA;
+HVDC underground cables;Max;2040;2018 €/KWh*a;NA;
+HVDC underground cables;Max;2050;2018 €/KWh*a;NA;
+HVDC underground cables;Mean;2018;2018 €/KWh*a;NA;
+HVDC underground cables;Mean;2020;2018 €/KWh*a;NA;
+HVDC underground cables;Mean;2030;2018 €/KWh*a;NA;
+HVDC underground cables;Mean;2040;2018 €/KWh*a;NA;
+HVDC underground cables;Mean;2050;2018 €/KWh*a;NA;
+HVDC underground cables;Median;2018;2018 €/KWh*a;NA;
+HVDC underground cables;Median;2020;2018 €/KWh*a;NA;
+HVDC underground cables;Median;2030;2018 €/KWh*a;NA;
+HVDC underground cables;Median;2040;2018 €/KWh*a;NA;
+HVDC underground cables;Median;2050;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Min;2050;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Max;2050;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Mean;2050;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2018;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2020;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2030;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2040;2018 €/KWh*a;NA;
+HVAC overhead transmission;Median;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Min;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Max;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Mean;2050;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2018;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2020;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2030;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2040;2018 €/KWh*a;NA;
+HVDC overhead transmission;Median;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Min;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Max;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Mean;2050;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2018;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2020;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2030;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2040;2018 €/KWh*a;NA;
+Vanadium redox flow batteries;Median;2050;2018 €/KWh*a;NA;
+Compressed air;Min;2018;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2020;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2030;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2040;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Min;2050;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Max;2018;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Max;2020;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Max;2030;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Max;2040;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Max;2050;2018 €/KWh*a;0.001;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Compressed air;Mean;2018;2018 €/KWh*a;0.001;
+Compressed air;Mean;2020;2018 €/KWh*a;0.001;
+Compressed air;Mean;2030;2018 €/KWh*a;0.001;
+Compressed air;Mean;2040;2018 €/KWh*a;0.001;
+Compressed air;Mean;2050;2018 €/KWh*a;0.001;
+Compressed air;Median;2018;2018 €/KWh*a;0.001;
+Compressed air;Median;2020;2018 €/KWh*a;0.001;
+Compressed air;Median;2030;2018 €/KWh*a;0.001;
+Compressed air;Median;2040;2018 €/KWh*a;0.001;
+Compressed air;Median;2050;2018 €/KWh*a;0.001;
+Compressed air;Min;2018;2018 €/KWh*a;NA;
+Compressed air;Min;2020;2018 €/KWh*a;NA;
+Compressed air;Min;2030;2018 €/KWh*a;NA;
+Compressed air;Min;2040;2018 €/KWh*a;NA;
+Compressed air;Min;2050;2018 €/KWh*a;NA;
+Compressed air;Max;2018;2018 €/KWh*a;NA;
+Compressed air;Max;2020;2018 €/KWh*a;NA;
+Compressed air;Max;2030;2018 €/KWh*a;NA;
+Compressed air;Max;2040;2018 €/KWh*a;NA;
+Compressed air;Max;2050;2018 €/KWh*a;NA;
+Compressed air;Mean;2018;2018 €/KWh*a;NA;
+Compressed air;Mean;2020;2018 €/KWh*a;NA;
+Compressed air;Mean;2030;2018 €/KWh*a;NA;
+Compressed air;Mean;2040;2018 €/KWh*a;NA;
+Compressed air;Mean;2050;2018 €/KWh*a;NA;
+Compressed air;Median;2018;2018 €/KWh*a;NA;
+Compressed air;Median;2020;2018 €/KWh*a;NA;
+Compressed air;Median;2030;2018 €/KWh*a;NA;
+Compressed air;Median;2040;2018 €/KWh*a;NA;
+Compressed air;Median;2050;2018 €/KWh*a;NA;
+Lithium batteries;Min;2018;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Min;2020;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Min;2030;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Min;2040;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Min;2050;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2018;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2020;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2030;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2040;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Max;2050;2018 €/KWh*a;0.0002;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Lithium batteries;Mean;2018;2018 €/KWh*a;0.0002;
+Lithium batteries;Mean;2020;2018 €/KWh*a;0.0002;
+Lithium batteries;Mean;2030;2018 €/KWh*a;0.0002;
+Lithium batteries;Mean;2040;2018 €/KWh*a;0.0002;
+Lithium batteries;Mean;2050;2018 €/KWh*a;0.0002;
+Lithium batteries;Median;2018;2018 €/KWh*a;0.0002;
+Lithium batteries;Median;2020;2018 €/KWh*a;0.0002;
+Lithium batteries;Median;2030;2018 €/KWh*a;0.0002;
+Lithium batteries;Median;2040;2018 €/KWh*a;0.0002;
+Lithium batteries;Median;2050;2018 €/KWh*a;0.0002;
+Lithium batteries;Min;2018;2018 €/KWh*a;NA;
+Lithium batteries;Min;2020;2018 €/KWh*a;NA;
+Lithium batteries;Min;2030;2018 €/KWh*a;NA;
+Lithium batteries;Min;2040;2018 €/KWh*a;NA;
+Lithium batteries;Min;2050;2018 €/KWh*a;NA;
+Lithium batteries;Max;2018;2018 €/KWh*a;NA;
+Lithium batteries;Max;2020;2018 €/KWh*a;NA;
+Lithium batteries;Max;2030;2018 €/KWh*a;NA;
+Lithium batteries;Max;2040;2018 €/KWh*a;NA;
+Lithium batteries;Max;2050;2018 €/KWh*a;NA;
+Lithium batteries;Mean;2018;2018 €/KWh*a;NA;
+Lithium batteries;Mean;2020;2018 €/KWh*a;NA;
+Lithium batteries;Mean;2030;2018 €/KWh*a;NA;
+Lithium batteries;Mean;2040;2018 €/KWh*a;NA;
+Lithium batteries;Mean;2050;2018 €/KWh*a;NA;
+Lithium batteries;Median;2018;2018 €/KWh*a;NA;
+Lithium batteries;Median;2020;2018 €/KWh*a;NA;
+Lithium batteries;Median;2030;2018 €/KWh*a;NA;
+Lithium batteries;Median;2040;2018 €/KWh*a;NA;
+Lithium batteries;Median;2050;2018 €/KWh*a;NA;

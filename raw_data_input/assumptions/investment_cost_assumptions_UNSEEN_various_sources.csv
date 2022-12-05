@@ -1,0 +1,241 @@
+﻿Technology;Specification;Year;Unit;Value;Source
+Solid Biomass;Min;2018;2018 €/kW;2906;IRENA, Renewable Power Generation Costs in 2018, International Renewable Energy Agency, 2019.
+Solid Biomass;Min;2020;2018 €/kW;2933;n.a.
+Solid Biomass;Min;2030;2018 €/kW;2589;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Min;2040;2018 €/kW;2278;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Min;2050;2018 €/kW;2071;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Solid Biomass;Max;2018;2018 €/kW;8009;n.a.
+Solid Biomass;Max;2020;2018 €/kW;7770;n.a.
+Solid Biomass;Max;2030;2018 €/kW;7412;n.a.
+Solid Biomass;Max;2040;2018 €/kW;7292;n.a.
+Solid Biomass;Max;2050;2018 €/kW;7597;n.a.
+Solid Biomass;Mean;2018;2018 €/kW;4688;
+Solid Biomass;Mean;2020;2018 €/kW;4701;
+Solid Biomass;Mean;2030;2018 €/kW;4520;
+Solid Biomass;Mean;2040;2018 €/kW;4403;
+Solid Biomass;Mean;2050;2018 €/kW;4289;
+Solid Biomass;Median;2018;2018 €/kW;4264;
+Solid Biomass;Median;2020;2018 €/kW;4351;
+Solid Biomass;Median;2030;2018 €/kW;4161;
+Solid Biomass;Median;2040;2018 €/kW;3982;
+Solid Biomass;Median;2050;2018 €/kW;4005;
+Biogas;Min;2018;2018 €/kW;352;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Biogas;Min;2020;2018 €/kW;300;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Biogas;Min;2030;2018 €/kW;300;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Biogas;Min;2040;2018 €/kW;259;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Biogas;Min;2050;2018 €/kW;228;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Biogas;Max;2018;2018 €/kW;3764;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Max;2020;2018 €/kW;3654;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Max;2030;2018 €/kW;3547;E. Billig, “Bewertung technischer und wirtschaftlicher Entwicklungspotenziale künftiger und bestehender Biomasse-zu-Methan-Konversionsprozesse,” Universität Leipzig, 2016.
+Biogas;Max;2040;2018 €/kW;3107;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Biogas;Max;2050;2018 €/kW;3076;Z.A. TARVYDAS Dalius TSIROPOULOS Ioannis, Cost development of low carbon energy technologies: Scenario-based cost trajectories to 2050, 2017 edition, Publications Office of the European Union, 2018.
+Biogas;Mean;2018;2018 €/kW;1975;
+Biogas;Mean;2020;2018 €/kW;1763;
+Biogas;Mean;2030;2018 €/kW;1711;
+Biogas;Mean;2040;2018 €/kW;1128;
+Biogas;Mean;2050;2018 €/kW;1081;
+Biogas;Median;2018;2018 €/kW;2123;
+Biogas;Median;2020;2018 €/kW;1862;
+Biogas;Median;2030;2018 €/kW;1801;
+Biogas;Median;2040;2018 €/kW;397;
+Biogas;Median;2050;2018 €/kW;418;
+Pumped hydro;Min;2018;2018 €/kWh;5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2020;2018 €/kWh;5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2030;2018 €/kWh;5;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2040;2018 €/kWh;5;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2050;2018 €/kWh;5;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Max;2018;2018 €/kWh;97;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Max;2020;2018 €/kWh;97;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Max;2030;2018 €/kWh;97;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Max;2040;2018 €/kWh;97;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Max;2050;2018 €/kWh;97;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Mean;2018;2018 €/kWh;29;
+Pumped hydro;Mean;2020;2018 €/kWh;29;
+Pumped hydro;Mean;2030;2018 €/kWh;29;
+Pumped hydro;Mean;2040;2018 €/kWh;29;
+Pumped hydro;Mean;2050;2018 €/kWh;29;
+Pumped hydro;Median;2018;2018 €/kWh;13;
+Pumped hydro;Median;2020;2018 €/kWh;13;
+Pumped hydro;Median;2030;2018 €/kWh;13;
+Pumped hydro;Median;2040;2018 €/kWh;13;
+Pumped hydro;Median;2050;2018 €/kWh;13;
+Pumped hydro;Min;2018;2018 €/kW;71;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2020;2018 €/kW;58;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2030;2018 €/kW;34;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2040;2018 €/kW;34;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Min;2050;2018 €/kW;34;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Pumped hydro;Max;2018;2018 €/kW;1036;Vorbereitung und Begleitung bei der Erstellung eines Erfahrungsberichts gemäß §97 Erneuerbare-Energien-Gesetz, Teilvorhaben II e): Wind an Land, Deutsche WindGuard, 2019.
+Pumped hydro;Max;2020;2018 €/kW;663;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2030;2018 €/kW;663;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2040;2018 €/kW;663;Assumption based on K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Max;2050;2018 €/kW;663;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Pumped hydro;Mean;2018;2018 €/kW;442;
+Pumped hydro;Mean;2020;2018 €/kW;368;
+Pumped hydro;Mean;2030;2018 €/kW;356;
+Pumped hydro;Mean;2040;2018 €/kW;356;
+Pumped hydro;Mean;2050;2018 €/kW;356;
+Pumped hydro;Median;2018;2018 €/kW;454;
+Pumped hydro;Median;2020;2018 €/kW;402;
+Pumped hydro;Median;2030;2018 €/kW;402;
+Pumped hydro;Median;2040;2018 €/kW;402;
+Pumped hydro;Median;2050;2018 €/kW;402;
+Electrolyzers;Min;2018;2018 €/kW;700;Technology data survey from Energy System 2050 (unpublished).
+Electrolyzers;Min;2020;2018 €/kW;681;Multi - Annual Implementation Plan 2008 - 2013., FUEL CELLS AND HYDROGEN JOINT UNDERTAKING (FCH JU), 2011.
+Electrolyzers;Min;2030;2018 €/kW;450;Technology data survey from Energy System 2050 (unpublished).
+Electrolyzers;Min;2040;2018 €/kW;350;"Assumption based on Ruiz, P., A. Sgobbi, W. Nijs, C. Thiel, F. Dalla Longa, T. Kober, B. Elbersen and G. Hengeveld (2015). ""The JRC-EU-TIMES model. Bioenergy potentials for EU and neighbouring countries."" European Commission Joint Research Centre."
+Electrolyzers;Min;2050;2018 €/kW;230;"Ruiz, P., A. Sgobbi, W. Nijs, C. Thiel, F. Dalla Longa, T. Kober, B. Elbersen and G. Hengeveld (2015). ""The JRC-EU-TIMES model. Bioenergy potentials for EU and neighbouring countries."" European Commission Joint Research Centre."
+Electrolyzers;Max;2018;2018 €/kW;2589;"M. C.; Blesl M.; Borggrefe F.; Brand H.; Buchmann T.; Fahl U.; Fuchs A.-L.; Gils H. C.; Hufendiek K.; Münkel A.; Püttner A.; Rosenberg M.; Scheben H.; Scheel O.; Scheele R.; Schmidt M.; Steurer M.; Wetzel M.; Wiesmeth Schick, Energiesystemanalyse Baden-Württemberg, 2018."
+Electrolyzers;Max;2020;2018 €/kW;2159;BMWi, Entwurf des integrierten nationalen Energie- und Klimaplans, Bundesministerium für Wirtschaft und Energie, 2019.
+Electrolyzers;Max;2030;2018 €/kW;2061;BMWi, Entwurf des integrierten nationalen Energie- und Klimaplans, Bundesministerium für Wirtschaft und Energie, 2019.
+Electrolyzers;Max;2040;2018 €/kW;929;n.a.
+Electrolyzers;Max;2050;2018 €/kW;783;M. Child, C. Kemfert, D. Bogdanov, and C. Breyer, “Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe,” Renewable Energy, vol. 139, 2019, pp. 80–101.
+Electrolyzers;Mean;2018;2018 €/kW;1583;
+Electrolyzers;Mean;2020;2018 €/kW;1333;
+Electrolyzers;Mean;2030;2018 €/kW;948;
+Electrolyzers;Mean;2040;2018 €/kW;682;
+Electrolyzers;Mean;2050;2018 €/kW;555;
+Electrolyzers;Median;2018;2018 €/kW;1550;
+Electrolyzers;Median;2020;2018 €/kW;1198;
+Electrolyzers;Median;2030;2018 €/kW;849;
+Electrolyzers;Median;2040;2018 €/kW;741;
+Electrolyzers;Median;2050;2018 €/kW;544;
+Fuel cells;Min;2018;2018 €/kW;3626;K. Stolzenburg, R. Hamelmann, M. Wietschel, F. Genoese, J. Michaelis, J. Lehmann, A. Miege, S. Krause, C. Sponholz, S. Donadei, F. Crotogino, A. Acht, and P.-L. Horvath, Integration von Wind-Wasserstoff-Systemen in das Energiesystem, Bundesministerium fÃ¼r Verkehr und digitale Infrastruktur (BMVI), 2014.
+Fuel cells;Min;2020;2018 €/kW;2271;K. Stolzenburg, R. Hamelmann, M. Wietschel, F. Genoese, J. Michaelis, J. Lehmann, A. Miege, S. Krause, C. Sponholz, S. Donadei, F. Crotogino, A. Acht, and P.-L. Horvath, Integration von Wind-Wasserstoff-Systemen in das Energiesystem, Bundesministerium fÃ¼r Verkehr und digitale Infrastruktur (BMVI), 2014.
+Fuel cells;Min;2030;2018 €/kW;917;K. Stolzenburg, R. Hamelmann, M. Wietschel, F. Genoese, J. Michaelis, J. Lehmann, A. Miege, S. Krause, C. Sponholz, S. Donadei, F. Crotogino, A. Acht, and P.-L. Horvath, Integration von Wind-Wasserstoff-Systemen in das Energiesystem, Bundesministerium fÃ¼r Verkehr und digitale Infrastruktur (BMVI), 2014.
+Fuel cells;Min;2040;2018 €/kW;917;K. Stolzenburg, R. Hamelmann, M. Wietschel, F. Genoese, J. Michaelis, J. Lehmann, A. Miege, S. Krause, C. Sponholz, S. Donadei, F. Crotogino, A. Acht, and P.-L. Horvath, Integration von Wind-Wasserstoff-Systemen in das Energiesystem, Bundesministerium fÃ¼r Verkehr und digitale Infrastruktur (BMVI), 2014.
+Fuel cells;Min;2050;2018 €/kW;917;K. Stolzenburg, R. Hamelmann, M. Wietschel, F. Genoese, J. Michaelis, J. Lehmann, A. Miege, S. Krause, C. Sponholz, S. Donadei, F. Crotogino, A. Acht, and P.-L. Horvath, Integration von Wind-Wasserstoff-Systemen in das Energiesystem, Bundesministerium fÃ¼r Verkehr und digitale Infrastruktur (BMVI), 2014.
+Fuel cells;Max;2018;2018 €/kW;21254;n.a.
+Fuel cells;Max;2020;2018 €/kW;16647;n.a.
+Fuel cells;Max;2030;2018 €/kW;12485;n.a.
+Fuel cells;Max;2040;2018 €/kW;8323;n.a.
+Fuel cells;Max;2050;2018 €/kW;8323;n.a.
+Fuel cells;Mean;2018;2018 €/kW;10483;
+Fuel cells;Mean;2020;2018 €/kW;4584;
+Fuel cells;Mean;2030;2018 €/kW;3068;
+Fuel cells;Mean;2040;2018 €/kW;2121;
+Fuel cells;Mean;2050;2018 €/kW;1852;
+Fuel cells;Median;2018;2018 €/kW;9489;
+Fuel cells;Median;2020;2018 €/kW;3454;
+Fuel cells;Median;2030;2018 €/kW;2137;
+Fuel cells;Median;2040;2018 €/kW;1431;
+Fuel cells;Median;2050;2018 €/kW;1254;
+Open cycle gas turbines;Min;2018;2018 €/kW;300;Technology data survey from Energy System 2050 (unpublished).
+Open cycle gas turbines;Min;2020;2018 €/kW;300;Technology data survey from Energy System 2050 (unpublished).
+Open cycle gas turbines;Min;2030;2018 €/kW;300;Technology data survey from Energy System 2050 (unpublished).
+Open cycle gas turbines;Min;2040;2018 €/kW;300;Technology data survey from Energy System 2050 (unpublished).
+Open cycle gas turbines;Min;2050;2018 €/kW;300;Technology data survey from Energy System 2050 (unpublished).
+Open cycle gas turbines;Max;2018;2018 €/kW;543;BMWi, Entwurf des integrierten nationalen Energie- und Klimaplans, Bundesministerium für Wirtschaft und Energie, 2019.
+Open cycle gas turbines;Max;2020;2018 €/kW;568;BMWi, Entwurf des integrierten nationalen Energie- und Klimaplans, Bundesministerium für Wirtschaft und Energie, 2019.
+Open cycle gas turbines;Max;2030;2018 €/kW;568;BMWi, Entwurf des integrierten nationalen Energie- und Klimaplans, Bundesministerium für Wirtschaft und Energie, 2019.
+Open cycle gas turbines;Max;2040;2018 €/kW;543;BMWi, Entwurf des integrierten nationalen Energie- und Klimaplans, Bundesministerium für Wirtschaft und Energie, 2019.
+Open cycle gas turbines;Max;2050;2018 €/kW;543;BMWi, Entwurf des integrierten nationalen Energie- und Klimaplans, Bundesministerium für Wirtschaft und Energie, 2019.
+Open cycle gas turbines;Mean;2018;2018 €/kW;434;
+Open cycle gas turbines;Mean;2020;2018 €/kW;453;
+Open cycle gas turbines;Mean;2030;2018 €/kW;453;
+Open cycle gas turbines;Mean;2040;2018 €/kW;434;
+Open cycle gas turbines;Mean;2050;2018 €/kW;422;
+Open cycle gas turbines;Median;2018;2018 €/kW;434;
+Open cycle gas turbines;Median;2020;2018 €/kW;453;
+Open cycle gas turbines;Median;2030;2018 €/kW;453;
+Open cycle gas turbines;Median;2040;2018 €/kW;434;
+Open cycle gas turbines;Median;2050;2018 €/kW;422;
+Combinded-cycle gas turbines;Min;2018;2018 €/kW;574;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Min;2020;2018 €/kW;574;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Min;2030;2018 €/kW;574;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Min;2040;2018 €/kW;574;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Min;2050;2018 €/kW;574;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Max;2018;2018 €/kW;1195;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Max;2020;2018 €/kW;1195;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Max;2030;2018 €/kW;1195;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Max;2040;2018 €/kW;1195;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Max;2050;2018 €/kW;1195;Technology data survey from Energy System 2050 (unpublished).
+Combinded-cycle gas turbines;Mean;2018;2018 €/kW;799;
+Combinded-cycle gas turbines;Mean;2020;2018 €/kW;832;
+Combinded-cycle gas turbines;Mean;2030;2018 €/kW;832;
+Combinded-cycle gas turbines;Mean;2040;2018 €/kW;799;
+Combinded-cycle gas turbines;Mean;2050;2018 €/kW;780;
+Combinded-cycle gas turbines;Median;2018;2018 €/kW;741;
+Combinded-cycle gas turbines;Median;2020;2018 €/kW;757;
+Combinded-cycle gas turbines;Median;2030;2018 €/kW;757;
+Combinded-cycle gas turbines;Median;2040;2018 €/kW;741;
+Combinded-cycle gas turbines;Median;2050;2018 €/kW;741;
+Hard coal power plants;Min;2018;2018 €/kW;1268;Technology data survey from Energy System 2050 (unpublished).
+Hard coal power plants;Min;2020;2018 €/kW;1268;Technology data survey from Energy System 2050 (unpublished).
+Hard coal power plants;Min;2030;2018 €/kW;1317;Technology data survey from Energy System 2050 (unpublished).
+Hard coal power plants;Min;2040;2018 €/kW;1346;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Min;2050;2018 €/kW;1346;K.-K. Cao, T. Pregger, Y. Scholz, H.C. Gils, K. Nienhaus, M. Deissenroth, C. Schimeczek, N. Krämer, B. Schober, H. Lens, T. Kneiske, and B. Idlbi, Analysis of infrastructural options to integrate renewable energies in Germany and Europe considering security of supply (INTEEVER), Federal Ministry for Economic Affairs and Energy, 2019.
+Hard coal power plants;Max;2018;2018 €/kW;1696;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2020;2018 €/kW;1696;Assumption based on IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2030;2018 €/kW;1696;Assumption based on IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2040;2018 €/kW;1696;IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Max;2050;2018 €/kW;1696;Assumption based on IEA, World Energy Outlook 2019, International Energy Agency, 2019.
+Hard coal power plants;Mean;2018;2018 €/kW;1442;
+Hard coal power plants;Mean;2020;2018 €/kW;1514;
+Hard coal power plants;Mean;2030;2018 €/kW;1533;
+Hard coal power plants;Mean;2040;2018 €/kW;1551;
+Hard coal power plants;Mean;2050;2018 €/kW;1559;
+Hard coal power plants;Median;2018;2018 €/kW;1395;
+Hard coal power plants;Median;2020;2018 €/kW;1421;
+Hard coal power plants;Median;2030;2018 €/kW;1449;
+Hard coal power plants;Median;2040;2018 €/kW;1457;
+Hard coal power plants;Median;2050;2018 €/kW;1479;
+Lignite power plants;Min;2018;2018 €/kW;1248;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Min;2020;2018 €/kW;1248;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Min;2030;2018 €/kW;1304;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Min;2040;2018 €/kW;1359;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Min;2050;2018 €/kW;1415;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Max;2018;2018 €/kW;1873;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Max;2020;2018 €/kW;1873;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Max;2030;2018 €/kW;1956;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Max;2040;2018 €/kW;2039;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Max;2050;2018 €/kW;2122;Technology data survey from Energy System 2050 (unpublished).
+Lignite power plants;Mean;2018;2018 €/kW;1559;
+Lignite power plants;Mean;2020;2018 €/kW;1619;
+Lignite power plants;Mean;2030;2018 €/kW;1654;
+Lignite power plants;Mean;2040;2018 €/kW;1654;
+Lignite power plants;Mean;2050;2018 €/kW;1724;
+Lignite power plants;Median;2018;2018 €/kW;1557;
+Lignite power plants;Median;2020;2018 €/kW;1591;
+Lignite power plants;Median;2030;2018 €/kW;1626;
+Lignite power plants;Median;2040;2018 €/kW;1621;
+Lignite power plants;Median;2050;2018 €/kW;1695;
+Lithium batteries;Min;2018;2018 €/kW;194;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2020;2018 €/kW;148;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2030;2018 €/kW;75;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2040;2018 €/kW;75;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2050;2018 €/kW;75;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2018;2018 €/kW;1224;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2020;2018 €/kW;977;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2030;2018 €/kW;557;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2040;2018 €/kW;557;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2050;2018 €/kW;557;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Mean;2018;2018 €/kW;587;
+Lithium batteries;Mean;2020;2018 €/kW;458;
+Lithium batteries;Mean;2030;2018 €/kW;247;
+Lithium batteries;Mean;2040;2018 €/kW;247;
+Lithium batteries;Mean;2050;2018 €/kW;247;
+Lithium batteries;Median;2018;2018 €/kW;510;
+Lithium batteries;Median;2020;2018 €/kW;397;
+Lithium batteries;Median;2030;2018 €/kW;213;
+Lithium batteries;Median;2040;2018 €/kW;213;
+Lithium batteries;Median;2050;2018 €/kW;213;
+Lithium batteries;Min;2018;2018 €/kW;10;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2020;2018 €/kW;12;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2030;2018 €/kW;17;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2040;2018 €/kW;17;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Min;2050;2018 €/kW;17;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2018;2018 €/kW;26;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2020;2018 €/kW;26;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2030;2018 €/kW;26;IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2040;2018 €/kW;26;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Max;2050;2018 €/kW;26;Assumption based on IRENA, Electricity storage and renewables: Costs and markets to 2030, International Renewable Energy Agency, 2017.
+Lithium batteries;Mean;2018;2018 €/kW;17;
+Lithium batteries;Mean;2020;2018 €/kW;16;
+Lithium batteries;Mean;2030;2018 €/kW;24;
+Lithium batteries;Mean;2040;2018 €/kW;24;
+Lithium batteries;Mean;2050;2018 €/kW;24;
+Lithium batteries;Median;2018;2018 €/kW;16;
+Lithium batteries;Median;2020;2018 €/kW;14;
+Lithium batteries;Median;2030;2018 €/kW;26;
+Lithium batteries;Median;2040;2018 €/kW;26;
+Lithium batteries;Median;2050;2018 €/kW;26;
