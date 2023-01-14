@@ -736,6 +736,7 @@ def combine_parameter_estimates(
     proxies=None,
     transform=False,
     save=True,
+    inflation_rate=1.02,
 ):
     """Re-combine parameter estimates
 
@@ -768,6 +769,9 @@ def combine_parameter_estimates(
     save: boolean
         If True, save to disk
 
+    inflation_rate: float
+        Inflation rate to apply when appending data set
+
     Returns
     -------
     overall_data_set: pd.DataFrame
@@ -798,6 +802,14 @@ def combine_parameter_estimates(
             overall_data_set.loc[missing_tech_fuel] = overall_data_set.loc[
                 tech_fuel_proxy
             ]
+
+    # Data needs to be appended at the end
+    if not isinstance(col_names[-1], str):
+        if col_names[-1] > 2050:
+            for iter_year in range(2050, col_names[-1] + 1):
+                overall_data_set.loc[pd.to_datetime(f"{iter_year}-01-01")] = (
+                    overall_data_set.loc[pd.to_datetime(f"2050-01-01")]
+                ) * inflation_rate ** (iter_year - 2050)
 
     if save:
         overall_data_set.to_csv(f"{path}{parameter}_{estimate}_nominal.csv")
