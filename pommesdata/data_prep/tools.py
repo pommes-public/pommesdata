@@ -1131,3 +1131,41 @@ def add_hydrogen_cost_assumption(df):
         df.loc[(hydrogen_idx, el[1]), :] = df.loc[el].values
 
     return df
+
+
+def cut_outliers(df, cols, quantile=0.999, multiplier=1.1):
+    """Cut outliers lying above certain threshold
+
+    Use mean from value before and value after outlier to replace outlier
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        data set
+
+    cols : list of str
+        columns for which to cut values above threshold
+
+    quantile : float
+        quantile used for cutting; defaults to 0.999
+
+    multiplier : float
+        multiplier used as tolerance band around quantile
+
+    Returns
+    -------
+    df : pd.DataFrame
+        modified data set
+    """
+    for col in cols:
+        indices = df.index.get_indexer(
+            df[col]
+            .loc[df[col] > multiplier * df[col].quantile(quantile)]
+            .index
+        )
+        for idx in indices:
+            df[col].iloc[idx] = np.mean(
+                [df[col].iloc[idx - 1], df[col].iloc[idx + 1]]
+            )
+
+    return df
