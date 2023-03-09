@@ -17,6 +17,7 @@ dependencies:
   - nodejs
   - scikit-learn
   - statsmodels
+  - seaborn
   - pip:
     - oemof.solph==0.4.4
 
