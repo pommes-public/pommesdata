@@ -1164,8 +1164,11 @@ def cut_outliers(df, cols, quantile=0.999, multiplier=1.1):
             .index
         )
         for idx in indices:
-            df[col].iloc[idx] = np.mean(
-                [df[col].iloc[idx - 1], df[col].iloc[idx + 1]]
-            )
+            try:
+                df[col].iloc[idx] = np.mean(
+                    [df[col].iloc[idx - i] for i in range(-12, 13) if i != 0]
+                )
+            except IndexError:
+                raise
 
     return df
