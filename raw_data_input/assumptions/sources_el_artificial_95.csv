@@ -1,0 +1,14 @@
+label,to,maximum
+AT_source_el_shortage_artificial,AT_bus_el,7213.63
+BE_source_el_shortage_artificial,BE_bus_el,6884.82
+CH_source_el_shortage_artificial,CH_bus_el,8582.52
+CZ_source_el_shortage_artificial,CZ_bus_el,3613.57
+DK1_source_el_shortage_artificial,DK1_bus_el,1288.05
+DK2_source_el_shortage_artificial,DK2_bus_el,1929.78
+FR_source_el_shortage_artificial,FR_bus_el,41040.56
+IT_source_el_shortage_artificial,IT_bus_el,20815.91
+NL_source_el_shortage_artificial,NL_bus_el,4584.65
+PL_source_el_shortage_artificial,PL_bus_el,2325.18
+SE2_source_el_shortage_artificial,SE2_bus_el,564.51
+SE3_source_el_shortage_artificial,SE3_bus_el,8998.02
+SE4_source_el_shortage_artificial,SE4_bus_el,4180.39
