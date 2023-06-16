@@ -32,7 +32,7 @@ from sklearn.cluster import KMeans
 def create_ee_transformers(
     eeg_power_plants=None,
     cluster_no=20,
-    value_exogenous=500,
+    value_exogenous=50,
 ):
     """Creates renewable transformers from ee power plant data
 
