@@ -30,7 +30,7 @@ from sklearn.cluster import KMeans
 
 
 def create_ee_transformers(
-    eeg_power_plants=None, energy_source_dict=None, cluster_no=20
+    eeg_power_plants=None, cluster_no=20
 ):
     """Creates renewable transformers from ee power plant data
 
@@ -42,9 +42,6 @@ def create_ee_transformers(
     eeg_power_plants : pandas.DataFrame
         EEG power plant raw data
 
-    energy_source_dict : dict
-        Mapping for energy source names between raw data and names in POMMES
-
     cluster_no : int
         Number of clusters for each renewable energy source to be generated
 
@@ -55,12 +52,6 @@ def create_ee_transformers(
         second entry is total capacity not aggregated
     """
     ee = eeg_power_plants.copy()
-
-    #    if energy_source_dict is None:
-    #        energy_source_dict = dict(
-    #            wind_onshore="windonshore",
-    #            wind_offshore="windoffshore",
-    #            solar="solarPV")
 
     energy_sources = ["windonshore", "windoffshore", "solarPV"]
     for source in energy_sources:
@@ -74,8 +65,6 @@ def create_ee_transformers(
     ee.drop(
         index=ee[~ee["energy_source"].isin(energy_sources)].index, inplace=True
     )
-    #  ee.loc[:, "energy_source"] = ee.loc[:, "energy_source"].replace(
-    #     energy_source_dict)
 
     # Convert capacity unit and calculate total capacity (needed later)
     ee.loc[:, "capacity"] /= 1000
