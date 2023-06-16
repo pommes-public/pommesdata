@@ -30,7 +30,9 @@ from sklearn.cluster import KMeans
 
 
 def create_ee_transformers(
-    eeg_power_plants=None, cluster_no=20
+    eeg_power_plants=None,
+    cluster_no=20,
+    value_exogenous=500,
 ):
     """Creates renewable transformers from ee power plant data
 
@@ -45,6 +47,9 @@ def create_ee_transformers(
     cluster_no : int
         Number of clusters for each renewable energy source to be generated
 
+    value_exogenous : float
+        Opportunity costs for exogenous RES plants
+
     Returns
     -------
     ee_agg : tuple
@@ -55,9 +60,7 @@ def create_ee_transformers(
 
     energy_sources = ["windonshore", "windoffshore", "solarPV"]
     for source in energy_sources:
-        if source in ee["energy_source"].unique():
-            pass
-        else:
+        if source not in ee["energy_source"].unique():
             raise ValueError(
                 source + " is not an energy source in the RES data."
             )
@@ -119,7 +122,7 @@ def create_ee_transformers(
         .astype(int)["capacity"]
         .to_frame()
     )
-    cap_exogen["value_applied"] = 0
+    cap_exogen["value_applied"] = value_exogenous
     cap_exogen["number"] = "exogenous"
     cap_exogen["fixed"] = 1
     ee_agg = pd.concat([ee_agg, cap_exogen])
