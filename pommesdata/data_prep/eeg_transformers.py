@@ -48,7 +48,7 @@ def create_ee_transformers(
         Number of clusters for each renewable energy source to be generated
 
     value_exogenous : float
-        Opportunity costs for exogenous RES plants
+        Opportunity costs for exogenous RES plants in ct/kWh
 
     Returns
     -------
