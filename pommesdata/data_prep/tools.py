@@ -1172,3 +1172,103 @@ def cut_outliers(df, cols, quantile=0.999, multiplier=1.1):
                 raise
 
     return df
+
+
+def preprocess_ev_profile(profile):
+    """Preprocess a given EV profile
+
+    Parameters
+    ----------
+    profile : pd.DataFrame
+        EV profile to be preprocessed
+
+    Returns
+    -------
+    profile : pd.DataFrame
+        preprocessed version of EV profile
+    """
+    profile.rename(
+        columns={"Unnamed: 0": "tech", "Unnamed: 1": "timestamp"}, inplace=True
+    )
+    # Filter for BEV and choose one (random) federal state of Germany
+    # since profiles are identical
+    profile = profile.loc[profile["tech"] == "BEV", ["DE_BadenWue"]]
+    profile.set_index(
+        pd.date_range(
+            start="2017-01-01 00:00", end="2017-12-31 23:00", freq="H"
+        ),
+        inplace=True,
+    )
+
+    return profile
+
+
+def prepare_ev_profile(
+    profile, assumptions, column, other_profile_for_normalization=None
+):
+    """Prepare given ev profile by expanding, normalizing and extracting max.
+
+    Comprises the following steps:
+    - Create a synthetic time series from 2020 to 2050 by repeating profile and
+      indexing accordingly.
+    - Extract absolute maximum value
+    - Normalize to create relative series with max of 1
+
+    Parameters
+    ----------
+    profile : pd.DataFrame
+        Single column DataFrame with profile
+
+    assumptions : pd.DataFrame
+        data set containing assumptions on number of EVs
+
+    column : pd.DataFrame
+        column name of column with respective EV number
+
+    other_profile_for_normalization : pd.DataFrame or None
+        Other profile used for normalization if not None
+
+    Returns
+    -------
+    max_value : float
+        Maximum value of absolute profile considering number of EVs
+
+    profile_long : pd.DataFrame
+        Relative series for time frame 2020 to 2050 (ignoring leap days)
+    """
+    to_concat = []
+    profile_2017 = profile.copy()
+
+    if other_profile_for_normalization is not None:
+        to_concat_other = []
+        profile_2017_other = other_profile_for_normalization.copy()
+
+    for iter_year in range(2020, 2051):
+        rel_profile_iter_year = reindex_time_series(profile_2017, iter_year)
+        abs_profile_iter_year = (
+            rel_profile_iter_year * assumptions.at[iter_year, column] * 1e6
+        )
+        to_concat.append(abs_profile_iter_year)
+
+        if other_profile_for_normalization is not None:
+            rel_profile_iter_year_other = reindex_time_series(
+                profile_2017_other, iter_year
+            )
+            abs_profile_iter_year_other = (
+                rel_profile_iter_year_other
+                * assumptions.at[iter_year, column]
+                * 1e6
+            )
+            to_concat_other.append(abs_profile_iter_year_other)
+
+    profile_long = pd.concat(to_concat)
+    if other_profile_for_normalization is None:
+        max_value = profile_long.max().item()
+        profile_long = profile_long.div(max_value)
+    else:
+        other_profile_for_normalization_long = pd.concat(to_concat_other)
+        normalization_value = other_profile_for_normalization_long.max().item()
+        max_value = profile_long.max().item()
+        profile_long = profile_long.div(normalization_value)
+
+    return max_value, profile_long
