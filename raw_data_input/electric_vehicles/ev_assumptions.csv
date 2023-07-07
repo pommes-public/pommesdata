@@ -1,0 +1,5 @@
+﻿year;number of Evs in mio.;flexible share low;flexible share high;sources
+2020;1;0.49;0.78;"flex share: Baily & Axsen (2020), http://dx.doi.org/10.1016/j.tra.2015.09.004; number: KBA, Bestand an Kraftfahrzeugen und Kraftfahrzeuganhängern nach Zulassungsbezirken, 1. Januar 2023 (FZ 1), https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/Motorisierung/motorisierung_node.html, accessed 07.07.2023.
+"
+2030;12.25;0.49;0.78;"flex share: Baily & Axsen (2020), http://dx.doi.org/10.1016/j.tra.2015.09.004; number: mean of Vergleich der ""Big 5"" Klimaszenarien, p. 32"
+2045;39.625;0.49;0.78;"flex share: Baily & Axsen (2020), http://dx.doi.org/10.1016/j.tra.2015.09.004; number: mean of Vergleich der ""Big 5"" Klimaszenarien, p.32"
