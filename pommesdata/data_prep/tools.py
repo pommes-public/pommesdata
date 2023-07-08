@@ -1209,6 +1209,7 @@ def prepare_ev_profile(
     column,
     other_profile_for_normalization=None,
     scaling_factor=1e6,
+    unit_conversion_factor=1e-3,
 ):
     """Prepare given ev profile by expanding, normalizing and extracting max.
 
@@ -1235,6 +1236,10 @@ def prepare_ev_profile(
     scaling_factor : numeric
         Used for scaling up according to dimension of EV numbers (thousands,
         millions, ...)
+
+    unit_conversion_factor : numeric
+        For converting from given unit (defaults to kW resp. kWh/h) to MW resp.
+        MWh/h
 
     Returns
     -------
@@ -1280,4 +1285,4 @@ def prepare_ev_profile(
         max_value = other_profile_for_normalization_long.max().item()
     profile_long = profile_long.div(max_value)
 
-    return max_value, profile_long
+    return max_value * unit_conversion_factor, profile_long
