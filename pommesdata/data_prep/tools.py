@@ -1204,7 +1204,11 @@ def preprocess_ev_profile(profile):
 
 
 def prepare_ev_profile(
-    profile, assumptions, column, other_profile_for_normalization=None
+    profile,
+    assumptions,
+    column,
+    other_profile_for_normalization=None,
+    scaling_factor=1e6,
 ):
     """Prepare given ev profile by expanding, normalizing and extracting max.
 
@@ -1228,10 +1232,15 @@ def prepare_ev_profile(
     other_profile_for_normalization : pd.DataFrame or None
         Other profile used for normalization if not None
 
+    scaling_factor : numeric
+        Used for scaling up according to dimension of EV numbers (thousands,
+        millions, ...)
+
     Returns
     -------
     max_value : float
-        Maximum value of absolute profile considering number of EVs
+        Maximum value of absolute profile considering number of EVs resp.
+        of other profile used for normalization (if not None)
 
     profile_long : pd.DataFrame
         Relative series for time frame 2020 to 2050 (ignoring leap days)
@@ -1246,7 +1255,9 @@ def prepare_ev_profile(
     for iter_year in range(2020, 2051):
         rel_profile_iter_year = reindex_time_series(profile_2017, iter_year)
         abs_profile_iter_year = (
-            rel_profile_iter_year * assumptions.at[iter_year, column] * 1e6
+            rel_profile_iter_year
+            * assumptions.at[iter_year, column]
+            * scaling_factor
         )
         to_concat.append(abs_profile_iter_year)
 
@@ -1257,18 +1268,16 @@ def prepare_ev_profile(
             abs_profile_iter_year_other = (
                 rel_profile_iter_year_other
                 * assumptions.at[iter_year, column]
-                * 1e6
+                * scaling_factor
             )
             to_concat_other.append(abs_profile_iter_year_other)
 
     profile_long = pd.concat(to_concat)
     if other_profile_for_normalization is None:
         max_value = profile_long.max().item()
-        profile_long = profile_long.div(max_value)
     else:
         other_profile_for_normalization_long = pd.concat(to_concat_other)
-        normalization_value = other_profile_for_normalization_long.max().item()
-        max_value = profile_long.max().item()
-        profile_long = profile_long.div(normalization_value)
+        max_value = other_profile_for_normalization_long.max().item()
+    profile_long = profile_long.div(max_value)
 
     return max_value, profile_long
