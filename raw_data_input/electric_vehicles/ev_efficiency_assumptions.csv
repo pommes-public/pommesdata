@@ -1,5 +1,4 @@
-from;to;efficiency assumption;source
-transformer_ev_cc;bus_ev_cc;0.975;REMix / VencoPy Tutorial (charging)
-bus_ev_cc;transformer_ev_cc;0.975;REMix / VencoPy Tutorial (discharging)
-bus_ev_cc;sink_ev_cc_driving;0.95;REMix / VencoPy Tutorial (engine)
-transformer_ev_uc;bus_ev_uc;0.975;REMix / VencoPy Tutorial (charging)
+kind;efficiency assumption;source
+charging;0.975;REMix / VencoPy Tutorial
+discharging;0.975;REMix / VencoPy Tutorial
+car_engine_to_wheel;0.95;REMix / VencoPy Tutorial
