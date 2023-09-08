@@ -1,5 +1,4 @@
-from;to;efficiency assumption;source;
-transformer_ev_cc;bus_ev;0.975;REMix / VencoPy Tutorial;
-bus_ev;transformer_ev_cc;0.975;REMix / VencoPy Tutorial;
-bus_ev;transformer_ev_driving;0.926;REMix / VencoPy Tutorial;= 0.95 (engine) * 0.975 (storage discharging)
-transformer_ev_uc;bus_ev;0.975;REMix / VencoPy Tutorial;
+kind;efficiency assumption;source
+charging;0.975;REMix / VencoPy Tutorial
+discharging;0.975;REMix / VencoPy Tutorial
+car_engine_to_wheel;0.95;REMix / VencoPy Tutorial
