@@ -1286,3 +1286,52 @@ def prepare_ev_profile(
     profile_long = profile_long.div(max_value)
 
     return max_value * unit_conversion_factor, profile_long
+
+
+def prepare_ev_uc_consumption_profile(
+    profile,
+    assumptions,
+    column,
+):
+    """Prepare, i.e. scale the EV consumption profile
+
+    Comprises the following steps:
+    - Create a synthetic time series from 2020 to 2050 by repeating profile and
+      indexing accordingly.
+    - Extract absolute maximum value
+    - Scale according to consumption pattern
+
+    Parameters
+    ----------
+    profile : pd.DataFrame
+        Single column DataFrame with profile
+
+    assumptions : pd.DataFrame
+        data set containing assumptions on number of EVs
+
+    column : pd.DataFrame
+        column name of column with respective EV number
+
+    Returns
+    -------
+    max_value : float
+        Maximum value of absolute profile considering number of EVs resp.
+        of other profile used for normalization (if not None)
+
+    profile_long : pd.DataFrame
+        Relative series for time frame 2020 to 2050 (ignoring leap days)
+    """
+    to_concat = []
+    profile_2017 = profile.div(profile.sum())
+
+    for iter_year in range(2020, 2051):
+        rel_profile_iter_year = reindex_time_series(profile_2017, iter_year)
+        abs_profile_iter_year = (
+            rel_profile_iter_year * assumptions.at[iter_year, column]
+        )
+        to_concat.append(abs_profile_iter_year)
+    profile_long = pd.concat(to_concat)
+    max_value = profile_long.max().item()
+    profile_long = profile_long.div(max_value)
+
+    return max_value, profile_long
