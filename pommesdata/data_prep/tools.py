@@ -1310,13 +1310,12 @@ def prepare_ev_consumption_profile(
         data set containing assumptions on EVs' energy consumption
 
     column : pd.DataFrame
-        column name of column with respective EV number
+        column name of column with respective EV consumption
 
     Returns
     -------
     max_value : float
-        Maximum value of absolute profile considering number of EVs resp.
-        of other profile used for normalization (if not None)
+        Maximum value of absolute consumption
 
     profile_long : pd.DataFrame
         Relative series for time frame 2020 to 2050 (ignoring leap days)
