@@ -1307,7 +1307,7 @@ def prepare_ev_consumption_profile(
         Single column DataFrame with profile
 
     assumptions : pd.DataFrame
-        data set containing assumptions on number of EVs
+        data set containing assumptions on EVs' energy consumption
 
     column : pd.DataFrame
         column name of column with respective EV number
