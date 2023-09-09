@@ -1288,12 +1288,12 @@ def prepare_ev_profile(
     return max_value * unit_conversion_factor, profile_long
 
 
-def prepare_ev_uc_consumption_profile(
+def prepare_ev_consumption_profile(
     profile,
     assumptions,
     column,
 ):
-    """Prepare, i.e. scale the EV consumption profile
+    """Prepare, i.e. scale given EV consumption profile
 
     Comprises the following steps:
     - Create a synthetic time series from 2020 to 2050 by repeating profile and
