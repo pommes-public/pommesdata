@@ -20,7 +20,7 @@ Licensing information and Disclaimer
 ------------------------------------
 This software is provided under MIT License (see licensing file).
 
-@author: Yannick Werner, Johannes Kochems
+@author: Johannes Kochems, Yannick Werner
 """
 from math import atan2, cos, sin, sqrt
 
@@ -29,7 +29,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
-from statsmodels.tsa.tsatools import rename_trend
 
 
 def load_bidding_zone_shape(country, zone, path_folder):
@@ -613,6 +612,8 @@ def transform_values_to_annual_time_series(
     """
     if transpose:
         values_ts = values.T
+    else:
+        values_ts = pd.DataFrame()
     try:
         values_ts["date_index"] = pd.date_range(
             start=str(start_year), end=str(end_year), freq="AS"
@@ -1250,32 +1251,13 @@ def prepare_ev_profile(
     profile_long : pd.DataFrame
         Relative series for time frame 2020 to 2050 (ignoring leap days)
     """
-    to_concat = []
-    profile_2017 = profile.copy()
-
-    if other_profile_for_normalization is not None:
-        to_concat_other = []
-        profile_2017_other = other_profile_for_normalization.copy()
-
-    for iter_year in range(2020, 2051):
-        rel_profile_iter_year = reindex_time_series(profile_2017, iter_year)
-        abs_profile_iter_year = (
-            rel_profile_iter_year
-            * assumptions.at[iter_year, column]
-            * scaling_factor
-        )
-        to_concat.append(abs_profile_iter_year)
-
-        if other_profile_for_normalization is not None:
-            rel_profile_iter_year_other = reindex_time_series(
-                profile_2017_other, iter_year
-            )
-            abs_profile_iter_year_other = (
-                rel_profile_iter_year_other
-                * assumptions.at[iter_year, column]
-                * scaling_factor
-            )
-            to_concat_other.append(abs_profile_iter_year_other)
+    to_concat, to_concat_other = extract_from_profiles(
+        profile,
+        assumptions,
+        column,
+        other_profile_for_normalization,
+        scaling_factor,
+    )
 
     profile_long = pd.concat(to_concat)
     if other_profile_for_normalization is None:
@@ -1286,6 +1268,75 @@ def prepare_ev_profile(
     profile_long = profile_long.div(max_value)
 
     return max_value * unit_conversion_factor, profile_long
+
+
+def extract_from_profiles(
+    profile,
+    assumptions,
+    column,
+    other_profile_for_normalization,
+    scaling_factor,
+):
+    """Extract profile information from annual data
+
+    Parameters
+    ----------
+    profile : pd.DataFrame
+        Single column DataFrame with profile
+
+    assumptions : pd.DataFrame
+        data set containing assumptions on number of EVs
+
+    column : pd.DataFrame
+        column name of column with respective EV number
+
+    other_profile_for_normalization : pd.DataFrame or None
+        Other profile used for normalization if not None
+
+    scaling_factor : numeric
+        Used for scaling up according to dimension of EV numbers (thousands,
+        millions, ...)
+
+    Returns
+    -------
+    to_concat : list
+        Annual values for profile to be concatenated
+
+    to_concat_other : pd.DataFrame
+        Annual values for other_profile to be concatenated
+    """
+    to_concat = []
+    to_concat_other = []
+    profile_2017 = profile.copy()
+    if other_profile_for_normalization is not None:
+        profile_2017_other = other_profile_for_normalization.copy()
+
+    for iter_year in range(2020, 2051):
+        if isinstance(assumptions.index, pd.RangeIndex):
+            idx_loc = iter_year
+        else:
+            idx_loc = str(iter_year)
+
+        rel_profile_iter_year = reindex_time_series(profile_2017, iter_year)
+        abs_profile_iter_year = (
+            rel_profile_iter_year["DE_BadenWue"]
+            * assumptions.loc[idx_loc, column]
+            * scaling_factor
+        )
+        to_concat.append(abs_profile_iter_year)
+
+        if other_profile_for_normalization is not None:
+            rel_profile_iter_year_other = reindex_time_series(
+                profile_2017_other, iter_year
+            )
+            abs_profile_iter_year_other = (
+                rel_profile_iter_year_other["DE_BadenWue"]
+                * assumptions.loc[idx_loc, column]
+                * scaling_factor
+            )
+            to_concat_other.append(abs_profile_iter_year_other)
+
+    return to_concat, to_concat_other
 
 
 def prepare_ev_consumption_profile(
@@ -1324,9 +1375,15 @@ def prepare_ev_consumption_profile(
     profile_2017 = profile.div(profile.sum())
 
     for iter_year in range(2020, 2051):
+        if isinstance(assumptions.index, pd.RangeIndex):
+            idx_loc = iter_year
+        else:
+            idx_loc = str(iter_year)
+
         rel_profile_iter_year = reindex_time_series(profile_2017, iter_year)
         abs_profile_iter_year = (
-            rel_profile_iter_year * assumptions.at[iter_year, column]
+            rel_profile_iter_year["DE_BadenWue"]
+            * assumptions.loc[idx_loc, column]
         )
         to_concat.append(abs_profile_iter_year)
     profile_long = pd.concat(to_concat)
