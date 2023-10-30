@@ -14,7 +14,7 @@ Please navigate to the section of interest to find out more.
 * [License](#license)
 
 ## Introduction
-*POMMES* itself is a cosmos consisting of a **dispatch model**, a **data preparation routine** (stored in this repository and described here) and an **investment model** for the German wholesale power market. The model was originally developed by a group of researchers and students at the [chair of Energy and Resources Management of TU Berlin](https://www.er.tu-berlin.de/menue/home/) and is now maintained by a group of alumni and open for other contributions.
+*POMMES* itself is a cosmos consisting of a [**dispatch model**](https://github.com/pommes-public/pommesdispatch/), a **data preparation routine** (stored in this repository and described here) and an [**investment model**](https://github.com/pommes-public/pommesinvest) for the German wholesale power market. The model was originally developed by a group of researchers and students at the [chair of Energy and Resources Management of TU Berlin](https://www.er.tu-berlin.de/menue/home/) and is now maintained by a group of alumni and open for other contributions.
 
 If you are interested in the actual dispatch or investment model, please find more information here:
 - [pommesdispatch](https://github.com/pommes-public/pommesdispatch): A bottom-up fundamental power market model for the German electricity sector
@@ -23,8 +23,6 @@ If you are interested in the actual dispatch or investment model, please find mo
 ## Documentation
 The data preparation is mainly carried out in this **[jupyter notebook](https://github.com/pommes-public/pommesdata/blob/dev/pommesdata/data_preparation.ipynb)**.
 The data sources used as well as the calculation and transformation steps applied are described in a transparent manner.
-In addition to that, there is a **[documentation of pommesdata](https://pommesdata.readthedocs.io/)** on readthedocs.
-This in turn contains a documentation of the functions and classes used for data preparation. 
 
 ## Installation and usage
 There are **two use cases** for using `pommesdata`:
@@ -55,6 +53,20 @@ Activate your environment by typing
 ```
 conda activate pommes_data
 ```
+
+Create the result folder:
+
+`mkdir prepared_data`
+
+Download the when2heat.csv file from here:
+
+`wget -O raw_data_input/timeseries/when2heat.csv https://data.open-power-system-data.org/when2heat/2022-02-22/when2heat.csv`
+
+Switch to the pommesdata directory:
+
+`cd pommesdata`
+
+And execute the `data_preparation.ipynb` in jupyterlab or vscode with your newly created conda environment.
 
 ## Contributing
 Every kind of contribution or feedback is warmly welcome.<br>

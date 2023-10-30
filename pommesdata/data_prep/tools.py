@@ -291,7 +291,7 @@ def load_entsoe_generation_data(
                 end="2017-12-31 23:45:00",
                 freq="15min",
             )
-            df = df.resample("H").mean()
+            df = df.resample("H").mean(numeric_only=True)
 
         elif len(df) == 8760 + 1:
             df.drop(
@@ -344,7 +344,7 @@ def load_entsoe_german_generation_data(
         end=f"{year}-12-31 23:45:00",
         freq="15min",
     )
-    generation = generation.resample("H").mean()
+    generation = generation.resample("H").mean(numeric_only=True)
 
     generation = generation[
         [
