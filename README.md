@@ -49,12 +49,15 @@ If not, you can download it [here](https://www.anaconda.com/).
 Open a command shell and navigate to the folder where you copied the environment to. Use the following command to install dependencies
 
 ```
-conda env create -f environment.yml
+conda env create -f pommesdata_explicit.yml
 ```
 Activate your environment by typing
 ```
-conda activate pommes_data
+conda activate pommesdata_explicit
 ```
+
+*Note: Dependencies have not been regularly updated. Thus, use the listed explicit
+dependencies from `pommesdata_explicit.yml` for now and not the `environment.yml` file.*
 
 ## Contributing
 Every kind of contribution or feedback is warmly welcome.<br>
@@ -67,23 +70,24 @@ meet PEP8 standards, though readability should be made sure.
 
 The following people have contributed in the following manner to `pommesdata`:
 
-| Name | Contribution | Status |
-| ---- | ---- | ---- |
-| Yannick Werner | major development & conceptualization<br>conceptualization, main data preparation routines (status quo data for all components, detailed RES, interconnector and hydro data), architecture | coordinator & maintainer,<br>developer & corresponding author |
+| Name | Contribution | Status                                                           |
+| ---- | ---- |------------------------------------------------------------------|
+| Yannick Werner | major development & conceptualization<br>conceptualization, main data preparation routines (status quo data for all components, detailed RES, interconnector and hydro data), architecture | coordinator & maintainer,<br>developer & corresponding author    |
 | Johannes Kochems | major development & conceptualization<br>conceptualization, co-development of main data preparation routines (esp. future projection for all components, RES tender data and LCOE estimates, documentation), architecture publishing process | coordinator & co-maintainer,<br>developer & corresponding author |
-| Leticia Encinas Rosa | development<br>early-stage contributions to conventional power plant data collection for Germany (technical data, data processing routines) | former developer (research associate) |
-| Carla Spiller | development<br>early-stage contributions to conventional power plant data collection for Germany (technical data, data processing routines) | former developer (student assistant) |
-| Sophie Westphal | development<br>contributions to cost data collection for conventional plants (data bundling and processing routines) | former developer (student assistant) |
-| Julian Endres | development<br>early-stage contributions to conventional power plant data collection for Germany (location, technical data) | former developer (student assistant) |
-| Julien Faist | development<br>contributions to conventional power plant data collection for Germany (shutdowns, new constructions) | former developer (master's student) |
-| Timona Ghosh | development<br>early-stage development of interconnector exchange (approach and data) | former developer (master's student) |
-| Johannes Giehl | development<br>conceptualization and data licensing information | developer |
-| Christian Fraatz | development<br>early-stage contributions to European conventional power plant data (location and data processing) | former developer (bachelor's student) |
-| Robin Claus | development<br>early-stage contributions to German conventional power plant data (efficiencies) | former developer (student assistant) |
-| Daniel Peschel | development<br>early-stage input data contribution to German conventional power plant data (CHP information) | former developer (master's student) |
-| Conrad Nicklisch | development<br>early-stage contribution to RES cost information | former developer (bachelor's student) |
-| Benjamin Grosse | development<br>early-stage contributions to conventional power plants data & support | developer |
-| Joachim Müller-Kirchenbauer | support & conceptualization<br>early-stage conceptualization, funding | supporter (university professor) |
+| Leticia Encinas Rosa | development<br>early-stage contributions to conventional power plant data collection for Germany (technical data, data processing routines) | former developer (research associate)                            |
+| Carla Spiller | development<br>early-stage contributions to conventional power plant data collection for Germany (technical data, data processing routines) | former developer (student assistant)                             |
+| Sophie Westphal | development<br>contributions to cost data collection for conventional plants (data bundling and processing routines) | former developer (student assistant)                             |
+| Julian Endres | development<br>early-stage contributions to conventional power plant data collection for Germany (location, technical data) | former developer (student assistant)                             |
+| Julien Faist | development<br>contributions to conventional power plant data collection for Germany (shutdowns, new constructions) | former developer (master's student)                              |
+| Timona Ghosh | development<br>early-stage development of interconnector exchange (approach and data) | former developer (master's student)                              |
+| Johannes Giehl | development<br>conceptualization and data licensing information | developer                                                        |
+| Christian Fraatz | development<br>early-stage contributions to European conventional power plant data (location and data processing) | former developer (bachelor's student)                            |
+| Robin Claus | development<br>early-stage contributions to German conventional power plant data (efficiencies) | former developer (student assistant)                             |
+| Daniel Peschel | development<br>early-stage input data contribution to German conventional power plant data (CHP information) | former developer (master's student)                              |
+| Conrad Nicklisch | development<br>early-stage contribution to RES cost information | former developer (bachelor's student)                            |
+| Benjamin Grosse | development<br>early-stage contributions to conventional power plants data & support | developer                                                        |
+| Joachim Müller-Kirchenbauer | support & conceptualization<br>early-stage conceptualization, funding | supporter (university professor)                                 |
+| Florian Maurer | support with / fix for python dependencies | supporter (external researcher)                                  |
 
 *Note: Not every single contribution is reflected in the current version of
 `pommesdata`. This is especially true for those marked as early-stage 
@@ -101,7 +105,7 @@ Data sets created with `pommesdata` are shared at [zenodo](https://zenodo.org).
 If you use these, please refer to the citation information given at zenodo.
 
 If you are using `pommesdata` for your own analyses, we recommend citing as:<br>
-*Werner, Y.; Kochems, J. et al. (2021): pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD.*
+*Werner, Y.; Kochems, J. et al. (2023): pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD.*
 
 We furthermore recommend naming the version tag or the commit hash used for the sake of transparency and reproducibility.
 
@@ -116,7 +120,7 @@ please see the detailed list of data sets below.
 
 ### Software (code)
 
-Copyright 2021 pommes developer group
+Copyright 2023 pommes developer group
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
