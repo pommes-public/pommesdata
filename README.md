@@ -105,7 +105,7 @@ Data sets created with `pommesdata` are shared at [zenodo](https://zenodo.org).
 If you use these, please refer to the citation information given at zenodo.
 
 If you are using `pommesdata` for your own analyses, we recommend citing as:<br>
-*Werner, Y.; Kochems, J. et al. (2021): pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD.*
+*Werner, Y.; Kochems, J. et al. (2023): pommesdata. A full-featured transparent data preparation routine from raw data to POMMES model inputs. https://github.com/pommes-public/pommesdata, accessed YYYY-MM-DD.*
 
 We furthermore recommend naming the version tag or the commit hash used for the sake of transparency and reproducibility.
 
