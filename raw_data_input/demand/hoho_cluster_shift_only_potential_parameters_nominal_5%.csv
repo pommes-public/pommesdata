@@ -1,9 +1,9 @@
 ,,fixed_costs,installed_cap,interference_duration_neg,interference_duration_pos,interference_duration_pos_shed,maximum_activations_year,maximum_activations_year_shed,potential_neg_overall,potential_pos_overall,potential_pos_overall_shed,regeneration_duration,shifting_duration,specific_investments,variable_costs,variable_costs_shed,max_cap,country,from,unit_lifetime,efficiency,year
-hoho_cluster_shift_only,shift_only,16.6,160114.0,1.0,1.0,1.0,626.0,0.0,500.0,1457.0,0.0,1.0,1.0,830.9,0.01,0.01,16011.0,DE,DE_bus_el,15,1.0,SQ
-hoho_cluster_shift_only,shift_only,14.9,143416.0,1.0,1.0,1.0,626.0,0.0,500.0,1452.0,0.0,1.0,1.0,743.7,0.01,0.01,14342.0,DE,DE_bus_el,15,1.0,2020
-hoho_cluster_shift_only,shift_only,14.4635,126717.0,1.0,1.0,1.0,626.0,0.0,500.0,1448.0,0.0,1.0,1.0,724.9395,0.011,0.011,12672.0,DE,DE_bus_el,15,1.0,2025
-hoho_cluster_shift_only,shift_only,13.8965,110019.0,1.0,1.0,1.0,626.0,0.0,500.0,1444.0,0.0,1.0,1.0,694.0954,0.0122,0.0122,11002.0,DE,DE_bus_el,15,1.0,2030
-hoho_cluster_shift_only,shift_only,12.9203,103953.0,1.0,1.0,1.0,626.0,0.0,500.0,1407.0,0.0,1.0,1.0,648.9777,0.0135,0.0135,10395.0,DE,DE_bus_el,15,1.0,2035
-hoho_cluster_shift_only,shift_only,11.739,97887.0,1.0,1.0,1.0,626.0,0.0,500.0,1370.0,0.0,1.0,1.0,586.9492,0.0149,0.0149,9789.0,DE,DE_bus_el,15,1.0,2040
-hoho_cluster_shift_only,shift_only,10.1718,91821.0,1.0,1.0,1.0,626.0,0.0,500.0,1332.0,0.0,1.0,1.0,504.9785,0.0164,0.0164,9182.0,DE,DE_bus_el,15,1.0,2045
-hoho_cluster_shift_only,shift_only,7.97,85755.0,1.0,1.0,1.0,626.0,0.0,500.0,1295.0,0.0,1.0,1.0,399.5864,0.0181,0.0181,8576.0,DE,DE_bus_el,15,1.0,2050
+hoho_cluster_shift_only,shift_only,17.1,146908.0,1.0,1.0,1.0,626.0,0.0,500.0,1457.0,0.0,1.0,1.0,854.9,0.01,0.01,14691.0,DE,DE_bus_el,15,1.0,SQ
+hoho_cluster_shift_only,shift_only,15.3,131573.0,1.0,1.0,1.0,626.0,0.0,500.0,1452.0,0.0,1.0,1.0,765.4,0.01,0.01,13157.0,DE,DE_bus_el,15,1.0,2020
+hoho_cluster_shift_only,shift_only,14.9051,116239.0,1.0,1.0,1.0,626.0,0.0,500.0,1448.0,0.0,1.0,1.0,746.3586,0.011,0.011,11624.0,DE,DE_bus_el,15,1.0,2025
+hoho_cluster_shift_only,shift_only,14.2622,100905.0,1.0,1.0,1.0,626.0,0.0,500.0,1444.0,0.0,1.0,1.0,714.9402,0.0122,0.0122,10090.0,DE,DE_bus_el,15,1.0,2030
+hoho_cluster_shift_only,shift_only,13.3241,97117.0,1.0,1.0,1.0,626.0,0.0,500.0,1407.0,0.0,1.0,1.0,668.8966,0.0135,0.0135,9712.0,DE,DE_bus_el,15,1.0,2035
+hoho_cluster_shift_only,shift_only,12.1848,93330.0,1.0,1.0,1.0,626.0,0.0,500.0,1370.0,0.0,1.0,1.0,605.6722,0.0149,0.0149,9333.0,DE,DE_bus_el,15,1.0,2040
+hoho_cluster_shift_only,shift_only,10.4999,89543.0,1.0,1.0,1.0,626.0,0.0,500.0,1332.0,0.0,1.0,1.0,521.8768,0.0164,0.0164,8954.0,DE,DE_bus_el,15,1.0,2045
+hoho_cluster_shift_only,shift_only,8.3323,85755.0,1.0,1.0,1.0,626.0,0.0,500.0,1295.0,0.0,1.0,1.0,414.0773,0.0181,0.0181,8576.0,DE,DE_bus_el,15,1.0,2050
