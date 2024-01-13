@@ -650,8 +650,22 @@ def add_study_to_comparison(parameter_data, study_data):
     return parameter_data
 
 
+from matplotlib.ticker import FuncFormatter
+
+
 def plot_parameter_comparison(
-    data, parameter, category, savefig=False, show=True
+    data,
+    parameter,
+    category,
+    parameter_name,
+    savefig=False,
+    show=True,
+    show_title=False,
+    language="German",
+    use_real_data=True,
+    inflation_rate=1.02,
+    division=None,
+    format_axis=False,
 ):
     """Create a plot to visually compare parameter distributions
 
@@ -666,20 +680,103 @@ def plot_parameter_comparison(
     category: str
         Category for which data shall be evaluated
 
+    parameter_name : str
+        Name of visualized parameter; one of "investment_expenses",
+        "fixed_costs" and "variable_opex"
+
     savefig: boolean
         If True, save figure to disk
 
     show: boolean
         If True, display the plot
+
+    show_title : boolean
+        Display a title if True
+
+    language : str
+        Language to use for plot labels; one of "German" and "English"
+
+    use_real_data : boolean
+        If True, convert given nominal to real data using inflation rate
+
+    inflation_rate : float
+        Inflation rate to apply for discounting
+
+    division: None or int
+        Number to divide values by
+
+    format_axis : boolean
+        If True, format thousands
     """
+    plot_labels = {
+        "German": {
+            "investment_expenses": (
+                "spezifische Investitionsausgaben\nin $T€_{2020}/MW$"
+            ),
+            "fixed_costs": "fixe Kosten in % p.a.",
+            "variable_opex": "variable Betriebskosten\nin $€_{2020}/MWh$",
+            "x_axis": "Jahr",
+        },
+        "English": {
+            "investment_expenses": "specific investment expenses",
+            "fixed_costs": "fixed costs",
+            "variable_opex": "variable operational expenditures",
+            "x_axis": "year",
+        },
+    }
+    to_plot = data.copy()
+    if division:
+        to_plot = to_plot / division
+    if use_real_data:
+        for col in to_plot.columns:
+            to_plot[col] = to_plot[col] / inflation_rate ** (int(col) - 2020)
+
+    # Limit to actually modelled time frame
+    try:
+        to_plot.drop(columns=list(range(2046, 2051)), inplace=True)
+    except KeyError:
+        pass
+
     fig, ax = plt.subplots(figsize=(10, 5))
-    _ = sns.boxplot(data=data, ax=ax, color="lightgrey")
-    _ = sns.swarmplot(data=data, ax=ax, color="black")
-    _ = plt.title(f"{parameter} distribution for {category}")
+    _ = sns.boxplot(data=to_plot, ax=ax, color="lightgrey")
+    _ = sns.swarmplot(data=to_plot, ax=ax, color="black")
+    _ = ax.plot(
+        to_plot.quantile(0.05).values,
+        marker="_",
+        linestyle="",
+        color="#a14242",
+        markersize=15,
+    )
+    _ = ax.plot(
+        to_plot.quantile(0.5).values,
+        marker="_",
+        linestyle="",
+        color="#a14242",
+        markersize=15,
+    )
+    _ = ax.plot(
+        to_plot.quantile(0.95).values,
+        marker="_",
+        linestyle="",
+        color="#a14242",
+        markersize=15,
+    )
+    if show_title:
+        _ = plt.title(f"{parameter} distribution for {category}")
+    _ = plt.xlabel(plot_labels[language]["x_axis"], labelpad=10)
+    _ = plt.ylabel(plot_labels[language][parameter_name], labelpad=10)
     _ = plt.xticks(rotation=90)
     _ = plt.tight_layout()
+    if format_axis:
+        _ = ax.get_yaxis().set_major_formatter(
+            FuncFormatter(lambda x, p: format(int(x), ","))
+        )
     if savefig:
-        plt.savefig(f"../graphics/{parameter}_{category}.png", dpi=300)
+        plt.savefig(
+            f"../graphics/{parameter}_{category}.png",
+            dpi=300,
+            bbox_inches="tight",
+        )
     if show:
         plt.show()
     plt.close()
@@ -1391,3 +1488,16 @@ def prepare_ev_consumption_profile(
     profile_long = profile_long.div(max_value)
 
     return max_value, profile_long
+
+
+def update_matplotlib_params(
+    small_size: int, medium_size: int, large_size: int
+):
+    """Update matplotlib font size params according to given specification"""
+    plt.rc("font", size=small_size)  # controls default text sizes
+    plt.rc("axes", titlesize=large_size)  # fontsize of the axes title
+    plt.rc("axes", labelsize=medium_size)  # fontsize of the x and y labels
+    plt.rc("xtick", labelsize=small_size)  # fontsize of the tick labels
+    plt.rc("ytick", labelsize=small_size)  # fontsize of the tick labels
+    plt.rc("legend", fontsize=small_size)  # legend fontsize
+    plt.rc("figure", titlesize=large_size)  # fontsize of the figure title
