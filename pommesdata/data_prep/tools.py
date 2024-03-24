@@ -711,10 +711,10 @@ def plot_parameter_comparison(
     plot_labels = {
         "German": {
             "investment_expenses": (
-                "spezifische Investitionsausgaben\nin $T€_{2020}/MW$"
+                "Spezifische Investitionsausgaben\nin $T€_{2020}/MW$"
             ),
-            "fixed_costs": "fixe Kosten in % p.a.",
-            "variable_opex": "variable Betriebskosten\nin $€_{2020}/MWh$",
+            "fixed_costs": "Fixe Kosten in % p.a.",
+            "variable_opex": "Variable Betriebskosten\nin $€_{2020}/MWh$",
             "x_axis": "Jahr",
         },
         "English": {
